@@ -1,0 +1,153 @@
+//@import "./../../../../assets/scss/abstracts/variables";
+@import "./../../../../assets/scss/abstracts/mixins";
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+@import "./PanelLayouts/PanelNavi/PanelNavi.scss";
+@import "./PanelLayouts/PanelNavi/PanelNavi-rtl.scss";
+
+@import "./PanelLayouts/MobileBack.scss";
+
+@import "./PanelPages/Profile/Profile.scss";
+@import "./PanelPages/Profile/Profile-rtl.scss";
+
+@import "./PanelPages/Orders/Orders.scss";
+@import "./PanelPages/Orders/Orders-rtl.scss";
+
+@import "./PanelPages/Addresses/Addresses.scss";
+@import "./PanelPages/Addresses/Addresses-rtl.scss";
+
+@import "./PanelPages/Claims/Claims.scss";
+
+@import "./PanelPages/Credits/Credits.scss";
+@import "./PanelPages/Credits/Credits-rtl.scss";
+
+@import "./PanelPages/Returns/Returns.scss";
+@import "./PanelPages/Returns/Returns-rtl.scss";
+
+@import "./PanelPages/Returns/Returns.scss";
+@import "./PanelPages/Returns/Returns-rtl.scss";
+
+@import "./PanelPages/Payment/Payment.scss";
+
+@import "./PanelPages/Preference/Preference.scss";
+
+@import "./PanelPages/ProfileMenu/ProfileMenu.scss";
+@import "./PanelPages/ProfileMenu/ProfileMenu-rtl.scss";
+
+$userPanelHight: 534px;
+
+.col-2-5 {
+  flex-basis: 18.5%;
+}
+.container-home-profile {
+  background-color: #fcfcfc;
+}
+
+.disable-boxStyle {
+  .boxStyle1,
+  .boxStyle2 {
+    box-shadow: none !important;
+  }
+  .boxStyle1__header {
+    border-radius: 0px !important;
+  }
+  .boxStyle1__border {
+    display: none;
+  }
+
+  .boxStyle2 {
+    margin-top: 0px !important;
+  }
+}
+
+.user-panel {
+  &__box-header {
+    padding: 15px 30px 20px 30px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  &__container {
+    position: relative;
+    // @extend %d-flex;
+    // flex-direction: column;
+    // justify-content: center;
+    min-height: $userPanelHight - 50px;
+  }
+
+  .boxStyle1,
+  .boxStyle2 {
+    padding-bottom: 10px;
+    min-height: $userPanelHight;
+    margin-bottom: -11px;
+    @include respond-bs(desktops) {
+      &:first-child {
+        margin-top: 68px;
+      }
+    }
+
+    @include respond-bs(tablets) {
+      &:first-child {
+        margin-top: 60px;
+      }
+    }
+
+    @include respond-bs(portrait-phones) {
+      margin-left: 0;
+      margin-right: 0;
+      border-radius: 0;
+      // padding-left: 20px!important;
+      // padding-right: 20px!important;
+      &:first-child {
+        margin-top: 55px;
+      }
+    }
+  }
+  .boxStyle1 {
+    position: relative;
+    // @include respond-bs(landscape-phones) {
+    //   padding: 22px 15px;
+    // }
+  }
+  .boxStyle2 {
+    padding: 22px;
+    @include respond-bs(landscape-phones) {
+      padding: 22px 15px;
+    }
+  }
+
+  .boxStyle1 > div > div {
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__routes {
+    &-enter,
+    &-appear,
+    &-exit {
+      transition: opacity 200ms ease-out;
+    }
+
+    &-exit {
+      opacity: 1;
+
+      width: 100%;
+      height: 100%;
+      &-active {
+        opacity: 0;
+      }
+    }
+
+    &-enter,
+    &-appear {
+      opacity: 0;
+
+      width: 100%;
+      height: 100%;
+      &-active {
+        opacity: 1;
+      }
+    }
+  }
+}

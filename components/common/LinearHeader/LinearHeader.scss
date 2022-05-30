@@ -1,0 +1,38 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.linearHeader {
+  @extend %d-flex;
+  justify-content: center;
+  margin: 15px 0px;
+  margin-bottom: 2px;
+
+  &__h3 {
+    position: relative;
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      border: 1px solid $color-line;
+      border-radius: 10px;
+      width: 30px;
+      @extend %vertical-center;
+    }
+
+    &::after {
+      right: 100%;
+    }
+
+    &::before {
+      left: 100%;
+    }
+  }
+  &__text {
+    font-size: 18px;
+    color: $color-primary;
+    padding: 0px 20px;
+    font-weight: 457;
+  }
+}

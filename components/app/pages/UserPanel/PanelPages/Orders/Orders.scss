@@ -1,0 +1,561 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "./../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+.orders {
+  padding: 5px 15px;
+  &__order-cnt {
+    @extend %d-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    @include respond-bs(landscape-phones) {
+      flex-wrap: wrap;
+    }
+    // flex-wrap: wrap;
+    & > div:first-child {
+      margin-right: 20px;
+
+      @include respond-bs(landscape-phones) {
+        margin-right: 0px;
+      }
+    }
+  }
+  &__item-cnt {
+    &:not(:last-child) {
+      border-bottom: 1px solid #ececec;
+    }
+    padding: 15px 15px;
+    @include respond-bs(landscape-phones) {
+      padding: 15px 0px;
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+  }
+
+  &__right-cnt {
+    @extend %d-flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    // flex-basis: 20%;
+    & > * {
+      text-align: right;
+      // margin-top: 10px;
+    }
+
+    @include respond-bs(landscape-phones) {
+      // flex-basis: 100%;
+      // justify-content: flex-start;;
+    }
+  }
+  &__order-item {
+    padding: 0 15px !important;
+    display: inline-block;
+    width: 150px;
+  }
+  &__right-items {
+    margin-bottom: 10px;
+    & > * {
+      margin-top: 10px;
+    }
+  }
+  &__orders-list {
+    // @extend %d-flex;
+    // flex-direction: row;
+    // flex-basis: 20%;
+    // flex-grow: 1;
+    // flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 5px;
+    white-space: nowrap;
+  }
+
+  &__item-header {
+    @extend %d-flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+
+  &__mobile-arrow {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 25px;
+  }
+  &__item-cnt-header {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $color-primary;
+    margin: 0;
+  }
+  &__header-gray-text {
+    margin-left: 10px;
+    font-size: 14px;
+    color: $color-primary-gray;
+    @include respond-bs(landscape-phones) {
+      margin-left: 0;
+      margin-top: 2px;
+    }
+  }
+
+  &__text-bold {
+    font-size: 15px;
+    font-weight: bold;
+    color: $color-primary;
+    @include respond-bs(landscape-phones) {
+      text-align: left;
+    }
+  }
+
+  &__text-small {
+    font-weight: normal;
+    font-size: 13px;
+    color: $color-primary-gray;
+    margin-left: 10px;
+  }
+  &__btn {
+    position: relative;
+    font-size: 15px;
+    width: 190px;
+    padding: 9px 10px;
+    text-align: center;
+    @include respond-bs(landscape-phones) {
+      font-size: 13px;
+      width: 130px;
+      text-align: left !important;
+      padding-left: 15px;
+    }
+
+    &--mobile {
+      @include respond-bs(landscape-phones) {
+        text-align: center !important;
+        padding: 2px 10px;
+      }
+    }
+  }
+
+  &__btn-arrow-icon {
+    position: absolute;
+    right: 10px;
+    transform: rotate(-90deg);
+    top: 16px;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    // max-width: 140px;
+  }
+  &__img-fig {
+    // max-width: 100px;
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+
+  &__fig-cap {
+    margin-top: 5px;
+  }
+}
+
+.orderDetail {
+  &__backlink {
+    @extend %d-flex;
+    align-items: center;
+  }
+
+  &__header-top {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__addr-icon {
+    float: left;
+    height: 100%;
+  }
+
+  &__header-text {
+    font-size: 14.5px;
+    color: $color-primary;
+    &--margin {
+      margin-left: 29px;
+      margin-top: 3px;
+    }
+  }
+  &__header-text-gray {
+    font-size: 1.2rem;
+    color: $color-gray5 !important;
+    display: block;
+    &:not(:first-child) {
+      margin-top: 5px;
+    }
+    // margin-left: 5px;
+  }
+
+  &__header-gray-icon {
+    margin-right: 5px;
+  }
+
+  &__cancel-btn {
+    margin-top: 10px;
+  }
+}
+
+.order-item {
+  @include respond-bs(landscape-phones) {
+    flex-wrap: wrap !important;
+  }
+  min-height: auto;
+  border: none;
+  border-top: 1px solid #ebebeb;
+  margin: 0;
+  &__small-text {
+    font-size: 13px;
+    color: $color-gray7;
+    margin-right: 15px;
+  }
+
+  &__small-value {
+    color: $color-primary-gray;
+    font-size: 14px;
+  }
+
+  &__item-small-text {
+    color: $color-primary-gray;
+    font-size: 13px;
+    &--bold {
+      font-weight: bold;
+      margin-left: 5px;
+    }
+  }
+
+  &__detail-cnt {
+    @extend %d-flex;
+    flex-direction: row;
+    margin-top: 14px;
+  }
+
+  &__detail-cnt-mobile {
+    margin-top: 0;
+  }
+
+  &__detail-text {
+    font-size: 13px;
+    color: $color-primary-gray;
+    margin-bottom: 0;
+    margin-top: 5px;
+    @include respond-bs(portrait-phones) {
+      font-size: 15px;
+    }
+    &--good {
+      @include respond-bs(portrait-phones) {
+        font-size: 12px;
+      }
+    }
+    &--margin {
+      margin-left: 5px;
+      margin-top: 0;
+    }
+  }
+  .sky-text-link {
+    font-size: 14px;
+    color: $color-primary2;
+  }
+
+  .goodItem-s2 {
+    // border-bottom: none;
+    &__name {
+      @include respond-bs(portrait-phones) {
+        font-size: 13px;
+      }
+    }
+    &__ns-con {
+      margin-top: 5px;
+    }
+
+    &__right-ft {
+      margin-top: -5px;
+      @include respond-bs(portrait-phones) {
+        margin-top: -6px;
+      }
+    }
+
+    &__currency {
+      @include respond-bs(portrait-phones) {
+        font-weight: normal;
+        font-size: 13px;
+      }
+    }
+
+    &__number {
+      @include respond-bs(portrait-phones) {
+        font-size: 14px;
+      }
+    }
+
+    &__decimal {
+      @include respond-bs(portrait-phones) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .cart-item {
+    &__right {
+      flex-basis: 18.8% !important;
+      @include respond-bs(landscape-phones) {
+        flex-basis: 100% !important;
+        flex-direction: row;
+      }
+      @include respond-bs(desktops) {
+        align-items: flex-start;
+        flex-direction: row;
+      }
+    }
+
+    &__model-container {
+      @include respond-bs(portrait-phones) {
+        margin-top: 2px;
+      }
+    }
+  }
+
+  .goodsitua {
+    justify-content: flex-start;
+  }
+}
+
+.order-cart {
+  min-height: auto !important;
+  margin-top: 25px;
+  padding: 20px 30px !important;
+  @include respond-bs(landscape-phones) {
+    padding: 20px 15px !important;
+  }
+  // &__cnt{
+  //   padding: 0px 20px;
+  // }
+  &__credit-num {
+    font-size: 14px;
+    color: $color-primary;
+  }
+
+  &__credit-text {
+    font-size: 14px;
+    color: $color-gray7;
+  }
+  &__credit-cnt {
+    margin: 25px 0px;
+    @extend %d-flex;
+    align-items: center;
+    & > * {
+      margin-right: 15px;
+    }
+  }
+  &__header {
+    font-size: 15px;
+  }
+}
+
+.order-review {
+  .dv-star-rating {
+    @include respond-bs(landscape-phones) {
+      margin-right: -25px;
+    }
+  }
+  .SelectBox2 {
+    @extend %d-flex;
+    flex-direction: row;
+    @include respond-bs(landscape-phones) {
+      flex-direction: column;
+    }
+    &__item {
+      margin-right: 80px;
+      margin-top: 0;
+      @include respond-bs(landscape-phones) {
+        margin: 0;
+        margin-top: 5px;
+        &:not(:first-child) {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  &__ques {
+    margin-top: 60px;
+  }
+
+  &__ques-item {
+    margin-top: 40px;
+  }
+  &__label {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  .orders__item-cnt-header {
+    text-transform: none;
+  }
+  .order-item {
+    border: none;
+  }
+  &__text-area {
+    margin-top: 25px;
+    @include respond-bs(portrait-phones) {
+      margin-top: 10px;
+    }
+    @include respond-bs(landscape-phones) {
+      min-height: 180px;
+    }
+  }
+  &__text {
+    font-size: 15px;
+    color: $color-primary;
+    &--mobile-center {
+      @include respond-bs(landscape-phones) {
+        text-align: center!important;
+      }
+    }
+  }
+
+  &__submit-btn {
+    margin-top: 60px;
+  }
+  .goodItem-s2 {
+    &__left-right {
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__star {
+      padding-right: 12px;
+      width: 38px;
+    }
+
+    &__ns-con {
+      margin: 0;
+    }
+    &__star-container {
+      @include respond-bs(landscape-phones) {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.order-cancel {
+  .goodItem-s2__fig {
+    flex-shrink: 0;
+  }
+  .order-cart {
+    &__credit-cnt {
+      margin-bottom: 10px;
+    }
+  }
+  .orders {
+    &__item-cnt-header {
+      text-transform: none;
+    }
+  }
+  &__btn-cnt {
+    @extend %d-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    & > * {
+      margin-right: 5px;
+    }
+  }
+  &__card {
+    font-size: 1.4rem;
+    color: $color-primary;
+  }
+  &__text {
+    color: $color-primary;
+    font-size: 13.5px;
+  }
+  &__link {
+    margin-left: 2px;
+  }
+
+  &__que {
+    flex-basis: 35%;
+    @include respond-bs(landscape-phones) {
+      flex-grow: 1;
+    }
+  }
+
+  .SelectBox2__item {
+    padding: 20px 20px 15px 20px;
+    border-top: 1px solid #ebebeb;
+    @include respond-bs(landscape-phones) {
+      padding: 5px 0px;
+      &:first-child {
+        border-top: none;
+      }
+    }
+  }
+  .SelectBox2__img {
+    @include respond-bs(landscape-phones) {
+      margin-right: 2px;
+      width: 26px;
+      flex-shrink: 0;
+    }
+  }
+
+  &__slide-cnt {
+    padding: 0 20px;
+    @extend %d-flex;
+    flex-direction: row;
+    backface-visibility: hidden;
+    align-items: center;
+    & > * {
+      margin-right: 30px;
+      @include respond-bs(landscape-phones) {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .goodItem-s2 {
+    border: none;
+    padding: 0px;
+  }
+}
+
+.cancel-result {
+  &:first-child {
+    @include respond-bs(landscape-phones) {
+      justify-content: center;
+    }
+  }
+  &:not(:first-child) {
+    margin-top: 24px;
+  }
+  min-height: auto !important;
+  padding: 20px;
+  @extend %d-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  &__icon {
+    margin-right: 20px;
+    @include respond-bs(landscape-phones) {
+      margin-bottom: 14px;
+      margin-right: 0;
+    }
+  }
+  &__text {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    @include respond-bs(landscape-phones) {
+      text-align: center;
+    }
+  }
+  .cart-item {
+    border: none;
+    padding: 0;
+  }
+}

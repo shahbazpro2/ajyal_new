@@ -1,0 +1,54 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .payment {
+    &__switch {
+      margin-left: 10px;
+      margin-right: 0px;
+    }
+
+    .SelectBox2 {
+      &__content {
+        text-align: right;
+      }
+    }
+
+    &__text4 {
+      &--margin {
+        margin-left: 0;
+        margin-right: 20px;
+      }
+    }
+
+    &__aside {
+      .shipto {
+        margin-top: 25px;
+      }
+    }
+
+    &__cartType-list {
+      padding-left: 0px;
+      padding-right: 30px;
+    }
+    &__cartType-item {
+      input {
+        margin-right: 0px;
+        margin-left: 10px;
+      }
+    }
+    &__payment-method {
+      text-align: right;
+      .date-input-month {
+        margin-left: 0.5rem;
+        margin-right: 0;
+      }
+      .date-input-year {
+        margin-right: 0.5rem;
+        margin-left: 0;
+
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+@import "./../../../../assets/scss/abstracts/variables";
+@import "../../../../assets/scss/abstracts/mixins";
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+.category-page {
+  display: flex;
+  @include respond-bs(desktops) {
+    flex-direction: column;
+    padding-top: 6.5rem;
+  }
+
+  .seemore__link-brands{
+    margin-left: 25px;
+    font-size: 13px;
+    margin-right: 25px;
+  }
+
+  &__left {
+    width: 19%;
+    padding-right: 1.3rem;
+    .categories {
+      box-shadow: 0 0 6px 0 $color-primary-black-16;
+      margin-top: 15px;
+      border-radius: 11px;
+      padding-right: 0;
+      //test
+      $padding: 25px;
+      padding-bottom: 20px;
+      overflow: hidden;
+      background-color: white;
+
+      &__top-link {
+        position: relative;
+        background-color: $color-gray-lighter;
+        color: $color-primary;
+        font-size: 1.5rem;
+        padding: 13px $padding;
+        font-weight: bold;
+
+        &::before {
+          content: "";
+          border: 12px solid #f0b440;
+          position: absolute;
+          height: 114%;
+          border-radius: 9px;
+          left: -15px;
+          top: -4px;
+        }
+      }
+
+      &__list {
+        padding: 0px $padding;
+        margin-top: 20px;
+        &.brandsScroll {
+          .ReactVirtualized__List {
+            &::-webkit-scrollbar {
+              width: 5px;
+            }
+
+            &::-webkit-scrollbar-track {
+              background: #f1f1f1;
+            }
+
+            &::-webkit-scrollbar-thumb {
+              background: #b0b0b0;
+              border-radius: 0.5rem;
+            }
+
+            &::-webkit-scrollbar-thumb:hover {
+              background: #555;
+            }
+          }
+        }
+      }
+
+      &__list-link {
+        color: $color-primary-gray;
+        font-size: 1.4rem;
+      }
+
+      &__list-item {
+        margin-bottom: 15px;
+      }
+    }
+
+    @include respond-bs(desktops) {
+      display: none;
+    }
+  }
+
+  &__right {
+    width: 81%;
+    @include respond-bs(desktops) {
+      width: 100%;
+    }
+  }
+}
+
+.imgCols_big-desktop {
+  @include respond-bs(tablets) {
+    display: none;
+  }
+}
+
+.imgCols_mobile {
+  display: none;
+
+  @include respond-bs(tablets) {
+    display: block;
+  }
+}

@@ -1,0 +1,55 @@
+@import "../../../assets/scss/abstracts/variables";
+@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.multiaddinput{
+    &__input-cnt{
+        position: relative;
+    }
+    &__icon-cnt{
+        position: absolute;
+        right: 4px;
+        background-color: #0288d1;
+        padding: 8px 10px;
+        top: 8px;
+        border-radius: 5px;
+        cursor: pointer;
+        @include respond-bs(landscape-phones){
+            top: 10px;
+        }
+    }
+    &__input{
+        padding-right: 38px!important;
+    }
+
+    &__list-item{
+        padding:5px 10px;
+        font-size: 15px;
+        margin-top: 8px;
+        border-radius: 5px;
+    }
+
+    &__close-icon{
+        float: right;
+        margin-top: 7px;
+        cursor: pointer;
+    }
+}
+
+.rtl{
+    .multiaddinput{
+        &__input{
+            padding: 9px 15px 9px 38px!important;
+        }
+        &__icon-cnt{
+            right: initial;
+            left: 4px;
+            @include respond-bs(landscape-phones){
+                top: 10px;
+            }
+        }
+        &__close-icon{
+            float: left;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="lipstick" width="9.871" height="27.673" viewBox="0 0 9.871 27.673">
+    <defs>
+        <style>
+            .cls-1{fill:#f0b440}
+        </style>
+    </defs>
+    <g id="Group_550" data-name="Group 550" transform="translate(0 11.974)">
+        <g id="Group_549" data-name="Group 549">
+            <path id="Path_443" d="M171.554 221.539h-8.312a.789.789 0 0 0-.779.8v10.377h9.871v-10.379a.789.789 0 0 0-.78-.798z" class="cls-1" data-name="Path 443" transform="translate(-162.462 -221.539)"/>
+        </g>
+    </g>
+    <g id="Group_552" data-name="Group 552" transform="translate(0 24.746)">
+        <g id="Group_551" data-name="Group 551">
+            <path id="Path_444" d="M162.462 457.846v2.129a.789.789 0 0 0 .779.8h8.312a.789.789 0 0 0 .779-.8v-2.129z" class="cls-1" data-name="Path 444" transform="translate(-162.462 -457.846)"/>
+        </g>
+    </g>
+    <g id="Group_554" data-name="Group 554" transform="translate(1.039)">
+        <g id="Group_553" data-name="Group 553">
+            <path id="Path_445" d="M189.168 8.781h-.26V.8a.8.8 0 0 0-.318-.643.764.764 0 0 0-.69-.121l-3.427 1.1a1.85 1.85 0 0 0-1.276 1.778v5.87h-.26a.789.789 0 0 0-.779.8v.8h7.793v-.8a.789.789 0 0 0-.783-.803z" class="cls-1" data-name="Path 445" transform="translate(-182.154)"/>
+        </g>
+    </g>
+</svg>

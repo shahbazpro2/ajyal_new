@@ -1,0 +1,40 @@
+@mixin respond-bs($breakpoint) {
+  // Extra small devices (portrait phones, less than 576px)
+  @if $breakpoint == portrait-phones {
+    @media (max-width: 575.98px) {
+      @content;
+    }
+  }
+
+  // Small devices (landscape phones, less than 768px)
+  @if $breakpoint == landscape-phones {
+    @media (max-width: 767.98px) {
+      @content;
+    }
+  }
+
+  // Medium devices (tablets, less than 992px)
+  @if $breakpoint == tablets {
+    @media (max-width: 991.98px) {
+      @content;
+    }
+  }
+
+  // Large devices (desktops, less than 1200px)
+  @if $breakpoint == desktops {
+    @media (max-width: 1199.98px) {
+      @content;
+    }
+  }
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 1800px) {
+      @content;
+    } //1800
+  }
+
+//   @if $breakpoint == min-desktops {
+//     @media (min-width: 1199.98px) {
+//       @content;
+//     } //1800
+//   }
+}

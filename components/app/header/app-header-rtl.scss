@@ -1,0 +1,126 @@
+@import "../../../assets/scss/abstracts/variables";
+@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  $search-btn-width: 84px;
+
+  .header-top {
+    &__badge {
+      // position: absolute;
+      // border-radius: 100%;
+      // top: 0.4rem;
+      // color: white;
+      // width: 2rem;
+      // height: 2rem;
+      // right: -1.1rem;
+      // font-size: 1.3rem;
+      // background-color: $color-nav-badge-bg;
+      @include respond-bs(desktops) {
+        right: initial;
+        left: 10px;
+        top: 8px;
+      }
+    }
+
+    &__search-input {
+      padding-right: 10px;
+      padding-left: $search-btn-width + 10px;
+    }
+    $search-raduis: 0.5rem;
+
+    &__search-btn {
+      right: auto;
+      left: 0px;
+      border-radius: $search-raduis 0  0 $search-raduis;
+    }
+
+    &__search-icon {
+      float: right;
+      margin-left: initial;
+      // margin-right: 10px;
+    }
+
+    &__item-drop-container {
+      margin-right: 20px;
+      margin-left: initial;
+    }
+
+    &__item-container {
+      direction: ltr;
+    }
+
+    &__item {
+      &--left-padding {
+        padding: 0 40px;
+      }
+
+      &--icon-margin {
+        margin-right: initial;
+        margin-left: 50px;
+      }
+    }
+
+    &__search-sugestion {
+      &__triangle {
+        left: unset;
+        right: 1rem;
+      }
+      &__body {
+        &__goods {
+          &__items {
+            text-align: right;
+
+            &:hover {
+              cursor: pointer;
+              background-color: #f8f8f8;
+            }
+          }
+        }
+
+        &__matches {
+          display: flex;
+          flex-direction: column;
+
+          &__items {
+            text-align: right;
+          }
+        }
+      }
+    }
+
+
+
+  }
+
+
+  .header__mobileMenu--search {
+
+    input {
+      padding-right: 10px;
+
+    &::placeholder {
+      padding: 0 0 0 25px;
+    }
+  
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      padding: 0 0 0 25px;
+    }
+  
+    &::-ms-input-placeholder {
+      /* Microsoft Edge */
+      padding: 0 0 0 25px;
+    }
+    }
+  
+  
+    .mobile-search-input-icon {
+      right: unset;
+      left: 8px;
+    }
+  
+  }
+
+
+}

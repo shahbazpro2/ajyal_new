@@ -1,0 +1,80 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .goodItem-s2 {
+    a,
+    span,
+    li {
+      text-align: right;
+    }
+    &__footer {
+      @extend %d-rtl;
+    }
+
+    &__footer-left-div {
+      @extend %d-rtl;
+    }
+    &__star {
+      padding-right: 0px;
+      padding-left: 5px;
+    }
+    &__exp {
+      margin-right: 0;
+      margin-left: 13px;
+    }
+
+    &__off-percentage-container {
+      @extend %d-ltr;
+    }
+
+    &__star-container {
+      text-align: right;
+    }
+
+    &___start-count {
+      @extend %d-rtl;
+    }
+
+    &__price-off {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+
+    &__currency {
+      font-size: 1.6rem;
+      margin-right: 4px;
+    }
+    &__sticky {
+      right: 0;
+      left: initial;
+      border-radius: 6px 0px 0px 6px;
+    }
+    &__heart-icon {
+      left: 0;
+      right: initial;
+    }
+    &__start-count {
+      margin-right: 5px;
+    }
+
+    &__right-ft-con {
+      text-align: right;
+    }
+
+    &__wishlist-text {
+      margin-left: 0;
+      margin-right: 13px;
+    }
+    &__off-percentage-container {
+      margin-right: 10px;
+    }
+
+    &__left-right {
+      text-align: right;
+      margin-left: 0;
+      margin-right: 10px;
+    }
+  }
+}

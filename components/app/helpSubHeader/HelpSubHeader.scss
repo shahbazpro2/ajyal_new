@@ -1,0 +1,144 @@
+@import "../../../assets/scss/abstracts/variables";
+@import "../../../assets/scss/abstracts/mixins";
+@import "../../../assets/scss/abstracts/placeholders";
+
+.subheader {
+  position: relative;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+  @include respond-bs(tablets) {
+    margin-bottom: 30px;
+  }
+  &__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  &__content {
+    width: 50%;
+    margin-top: -10px;
+    @include respond-bs(tablets) {
+      width: 80%;
+      margin-top: 0;
+    }
+  }
+
+  &__header {
+    width: 100%;
+    text-align: left;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;
+    @include respond-bs(tablets) {
+      font-size: 30px;
+    }
+  }
+
+  &__form-lable {
+    width: 100%;
+    position: relative;
+  }
+
+  &__form-cnt {
+    position: relative;
+  }
+
+  &__result-cnt {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+
+  &__subject {
+    font-size: 14px;
+  }
+
+  &__topic {
+    font-size: 12px;
+    color: silver;
+  }
+
+  &__list {
+    width: 70%;
+    box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    @include respond-bs(tablets) {
+      width: 100%;
+    }
+    border-radius: 0.25rem;
+    max-height: 30rem;
+    min-height: 15rem;
+    overflow: auto;
+  }
+
+  &__item {
+    &:hover {
+      background-color: #f4f8ff;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    color: $color-primary;
+  }
+
+  &__search-input {
+    &::-webkit-input-placeholder {
+      /* Edge */
+      color: white;
+    }
+
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: white;
+    }
+
+    &::placeholder {
+      color: white;
+    }
+    color: white;
+    width: 100%;
+    //  padding: 12px 10px;
+    height: 45px;
+    font-size: 14px;
+    border-radius: 9px;
+    padding-left: 41px;
+    border: 1px solid white !important;
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+
+  &__search-icon {
+    position: absolute;
+    left: 14px;
+    top: 14px;
+  }
+}
+
+.rtl {
+  .subheader {
+    &__header {
+      text-align: right;
+    }
+    &__search-icon {
+      left: initial;
+      right: 14px;
+      top: 14px;
+    }
+    &__search-input {
+      padding-left: 0;
+      padding-right: 41px;
+    }
+  }
+}

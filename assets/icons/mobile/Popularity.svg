@@ -1,0 +1,20 @@
+<svg id="Component_83_9" data-name="Component 83 – 9" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .pop-cls-1 {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .pop-cls-2 {
+        fill: #acb1b8;
+      }
+    </style>
+  </defs>
+  <path id="Path_900" data-name="Path 900" class="pop-cls-1" d="M0,0H24V24H0Z" transform="translate(0 24) rotate(-90)"/>
+  <g id="Group_2397" data-name="Group 2397" transform="translate(3.328 6)">
+    <rect id="Rectangle_280" data-name="Rectangle 280" class="pop-cls-2" width="12" height="2" rx="1" transform="translate(-0.328 5)"/>
+    <rect id="Rectangle_283" data-name="Rectangle 283" class="pop-cls-2" width="18" height="2" rx="1" transform="translate(-0.328)"/>
+    <rect id="Rectangle_281" data-name="Rectangle 281" class="pop-cls-2" width="8" height="2" rx="1" transform="translate(-0.328 10)"/>
+  </g>
+</svg>

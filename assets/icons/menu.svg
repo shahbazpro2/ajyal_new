@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.901" height="18.072" viewBox="0 0 18.901 18.072">
+    <defs>
+        <style>
+            .cls-5{fill:#acb1b8}
+        </style>
+    </defs>
+    <g id="menu" transform="translate(-6.514 -1.872)">
+        <g id="Group_2163" data-name="Group 2163" transform="translate(6.612 1.534)">
+            <g id="Group_2162" data-name="Group 2162">
+                <path id="Path_920" d="M257.8 256h-17.922a.454.454 0 0 0-.49.407v3.257a.454.454 0 0 0 .49.407H257.8a.454.454 0 0 0 .49-.407v-3.257a.454.454 0 0 0-.49-.407z" class="cls-5" data-name="Path 920" transform="translate(-239.486 -248.662)"/>
+                <path id="Path_922" d="M257.8 256h-17.922a.454.454 0 0 0-.49.407v3.257a.454.454 0 0 0 .49.407H257.8a.454.454 0 0 0 .49-.407v-3.257a.454.454 0 0 0-.49-.407z" class="cls-5" data-name="Path 922" transform="translate(-239.486 -241.662)"/>
+                <path id="Path_921" d="M257.8 256h-17.922a.454.454 0 0 0-.49.407v3.257a.454.454 0 0 0 .49.407H257.8a.454.454 0 0 0 .49-.407v-3.257a.454.454 0 0 0-.49-.407z" class="cls-5" data-name="Path 921" transform="translate(-239.486 -255.662)"/>
+            </g>
+        </g>
+    </g>
+</svg>

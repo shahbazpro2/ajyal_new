@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "ProximaNovaT-Thin";
+  src: url("./fonts/ProximaNovaThin.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/ProximaNovaThin.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/ProximaNovaThin.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/ProximaNovaThin.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/ProximaNovaThin.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/ProximaNovaThin.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/ProximaNovaThin.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

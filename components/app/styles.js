@@ -1,0 +1,10 @@
+import './header/app-header.scss';
+import './header/app-header-rtl.scss';
+import './HomeSlider/HomeSlider.scss';
+import './HomeSlider/HomeSlider-rtl.scss';
+import './ImgCols/ImgCols.scss';
+import './ImgCols/ImgCols-rtl.scss';
+import './pages/styles.js';
+import './footer/app-footer.scss';
+import './footer/app-footer-rtl.scss';
+import './helpSubHeader/HelpSubHeader.scss'

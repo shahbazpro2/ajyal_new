@@ -1,0 +1,32 @@
+{
+  "@helpcenterTitle": [
+    "ajyal.bh | help center",
+    "ajyal.bh | مركز المساعدة",
+    "ajyal.bh | مرکز راهنمایی"
+  ],
+  "help-center-title": [
+    "How can we help?",
+    "كيف يمكن أن نساعدك؟",
+    "راهنمایی میخواهید؟"
+  ],
+  
+  "help-center-search-placeholder": [
+    "Search the help center",
+    "ابحث في مركز المساعدة",
+    "جستجو در مرکز راهنمایی"
+  ],
+  "browse-topics": ["Browse Topics", "تصفح الموضوعات", "مشاهده عناوین"],
+  "articles": ["articles", "مقالات", "مطالب"],
+  "articles-in-section": [
+    "Articles in this section",
+    "مقالات في هذا القسم",
+    "مطالب این بخش"
+  ],
+  "article-ques": [
+    "Was this article helpful?",
+    "هل كان المقال مفيداً",
+    "آیا این مطالب مفید بود؟"
+  ],
+  "yes": ["Yes", "نعم", "بله"],
+  "no": ["No", "لا", "خیر"]
+}

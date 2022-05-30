@@ -1,0 +1,45 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .categorySlider {
+    direction: ltr;
+    &__nav-icon {
+      &--next {
+        right: 9px;
+        top: 39%;
+        transform: rotate(180deg);
+      }
+  
+      &--prev {
+        right: initial;
+        left: 4px;
+        top: 39%;
+        transform: rotate(180deg);
+      }
+    }
+
+    &__nav-container {
+        &--next {
+          border-radius: 0px 7px 7px 0px;
+          border: 3px solid white;
+          border-left: none;
+        }
+        &--prev {
+          border-radius: 7px 0px 0px 7px;
+          border: 3px solid white;
+          border-right: none;
+        }
+      }
+  }
+  .owl-prev {
+    left: initial;
+    right: 0;
+  }
+  .owl-next {
+    right: initial;
+    left: 0;
+  }
+}
+

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="23" viewBox="0 0 38 23">
+    <defs>
+        <style>
+            .credit-2{fill:#3a9bd6}.credit-5{fill:#fff}.credit-6{fill:#8bd5ec}.credit-7{fill:#daeff6}
+        </style>
+    </defs>
+    <g id="credit-card" transform="translate(0 -164.792)">
+        <path id="Path_811" fill="#4b9fd8" d="M35.312 187.792H2.687A2.551 2.551 0 0 1 0 185.4v-18.218a2.552 2.552 0 0 1 2.687-2.39h32.625a2.552 2.552 0 0 1 2.688 2.39V185.4a2.552 2.552 0 0 1-2.688 2.392z" data-name="Path 811"/>
+        <g id="Group_1878" data-name="Group 1878" transform="translate(0 164.792)">
+            <path id="Path_812" d="M15.144 164.792A44.239 44.239 0 0 0 .023 185.679a2.382 2.382 0 0 1-.023-.3v-18.252a2.38 2.38 0 0 1 1.817-2.335z" class="credit-2" data-name="Path 812" transform="translate(0 -164.792)"/>
+            <path id="Path_813" d="M245.9 214.527a44.239 44.239 0 0 0 15.121-20.887 2.383 2.383 0 0 1 .023.3v18.252a2.38 2.38 0 0 1-1.817 2.335z" class="credit-2" data-name="Path 813" transform="translate(-223.048 -191.527)"/>
+        </g>
+        <circle id="Ellipse_25" cx="2.855" cy="2.855" r="2.855" fill="#fee218" data-name="Ellipse 25" transform="translate(23.329 168.401)"/>
+        <circle id="Ellipse_26" cx="2.855" cy="2.855" r="2.855" fill="#cd494c" data-name="Ellipse 26" transform="translate(28.773 168.401)"/>
+        <g id="Group_1879" data-name="Group 1879" transform="translate(3.093 170.154)">
+            <path id="Path_814" d="M48.942 320.224H43.4a1.172 1.172 0 0 1 0-2.344h5.546a1.172 1.172 0 0 1 0 2.344z" class="credit-5" data-name="Path 814" transform="translate(-42.224 -311.864)"/>
+            <path id="Path_815" d="M53.9 238.112H43.4a1.172 1.172 0 0 1 0-2.344h10.5a1.172 1.172 0 0 1 0 2.344z" class="credit-5" data-name="Path 815" transform="translate(-42.224 -235.768)"/>
+        </g>
+        <path id="Path_816" d="M46.815 402.336H43.38a1.172 1.172 0 0 1 0-2.344h3.434a1.172 1.172 0 0 1 0 2.344z" class="credit-6" data-name="Path 816" transform="translate(-39.116 -217.525)"/>
+        <path id="Path_817" d="M143.263 402.336h-3.434a1.172 1.172 0 0 1 0-2.344h3.434a1.172 1.172 0 1 1 0 2.344z" class="credit-7" data-name="Path 817" transform="translate(-126.702 -217.525)"/>
+        <path id="Path_818" d="M239.695 402.336h-3.435a1.172 1.172 0 0 1 0-2.344h3.434a1.172 1.172 0 0 1 0 2.344z" class="credit-6" data-name="Path 818" transform="translate(-214.821 -217.525)"/>
+        <path id="Path_819" d="M336.127 402.336h-3.434a1.172 1.172 0 1 1 0-2.344h3.434a1.172 1.172 0 1 1 0 2.344z" class="credit-7" data-name="Path 819" transform="translate(-302.392 -217.525)"/>
+    </g>
+</svg>

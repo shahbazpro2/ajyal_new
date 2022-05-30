@@ -1,0 +1,508 @@
+{
+  "@userpanelTitle": [
+    "ajyal.bh | user profile",
+    "ajyal.bh | ملف تعريفي للمستخدم",
+    "ajyal.bh | پروفایل کاربری"
+  ],
+  "nav": {
+    "profile": ["Profile", "حسابك", "پروفایل"],
+    "orders": ["Orders", "الطلبيات", "سفارش ها"],
+    "address": ["Addresses", "العناوين", "آدرس ها"],
+    "payment": ["Payment", "عمليات الدفع", "پرداخت"],
+    "credit": ["Ajyal Credits", "محفظة أجيال", "حساب اجیال"],
+    "return": ["Returns", "الإرجاع", "بازگشتی ها"],
+    "preference": ["Preference", "تفضيلات", "اولویت ها"],
+    "claims": ["Claims", "طلبات الضمان", "ضمانت ها"],
+    "signout": ["Sign Out", "تسجيل الخروج", "خروج از سیستم"]
+  },
+  "profile": {
+    "country-name": ["Country name", "اسم الدولة", "نام کشور"],
+    "city-name": ["City name", "اسم المدينة", "نام شهر"],
+    "birthdate": ["Birthday date", "تاريخ الولادة", "تاریخ تولد"],
+    "national-code": ["National Code", "رمز دولي", "کد ملی"],
+    "national-code-placeholder": [
+      "Enter national code",
+      "أدخل رقم الهوية الوطنية",
+      "کد ملی خود را وارد کنید"
+    ],
+    "birthday-date": ["Birthday date", "تاريخ الميلاد", "تاریخ تولد"],
+    "send-new-email": [
+      "resend email",
+      "إعادة إرسال البريد الإلكتروني",
+      "ارسال مجدد ایمیل"
+    ],
+    "fullname": ["Full name", "اسم العائلة", "نام کامل"],
+    "fullname-placeholder": [
+      "Enter your full name",
+      "أدخل اسم العائلة",
+      "نام کامل خود را وارد کنید"
+    ],
+    "password": ["Password", "كلمة المرور", "رمز عبور"],
+    "prelang": ["Preferred language", "اللغة المفضلة", "زبان انتخابی"],
+    "email1": ["Email address", "البريد الإلكتروني", "آدرس ایمیل"],
+    "editprofile": ["Edit Profile", "تعديل الملف الشخصي", "ویرایش پروفایل"],
+    "manageprofile": [
+      "Manage your profile details",
+      "إدارة ملفك الشخصي",
+      "مدیریت پروفایل"
+    ],
+    "email-placeholder": ["info@ajyal.bh", "info@ajyal.bh", "info@ajyal.bh"],
+    "cantchange": [
+      "You cannot change your email",
+      "لا يمكنك تغيير بريدك الإلكتروني",
+      "امکان تغییر ایمیل وجود ندارد"
+    ],
+    "save": ["Save", "حفظ", "ذخیره"],
+    "changepass": ["Change password", "تغيير كلمة المرور", "تغییر رمزعبور"],
+    "des-changepass": [
+      "Enter your current password and new password to change the password",
+      "أدخل كلمة المرور الحالية وكلمة السر الجديدة لتغيير كلمة المرور",
+      "برای تغییر رمز عبور،رمز عبور فعلی و جدید را وارد کنید"
+    ],
+    "cur-pass": ["Current Password", "كلمة المرور الحالية", "رمز عبور فعلی"],
+    "cur-pass-placeholder": [
+      "Enter current password",
+      "أدخل كلمة المرور الحالية",
+      "رمز عبور فعلی را وارد کنید"
+    ],
+    "new-pass": ["New Password", "كلمة المرور  الجديدة", "رمز عبور جدید"],
+    "new-pass-placeholder": [
+      "Enter new password",
+      "أدخل كلمة المرور الجديدة",
+      "رمز عبور جدبد را وارد کنید"
+    ],
+    "con-pass": ["Confirm password", "تأكيد كلمة المرور ", "تایید رمز عبور"],
+    "con-pass-placeholder": [
+      "Confirm your password",
+      "أدخل كلمة المرور مرة أخرى",
+      "رمز عبور خود را تایید کنید"
+    ],
+    "save-pass": ["Save password", "حسناً", "ذخیره رمز عبور"],
+    "cancel": ["Cancel", "إلغاء", "لغو"],
+    "firstname": ["First name", "الاسم الأول", "نام"],
+    "lastname": ["Last name", "اسم العائلة", "نام خانوادگی"],
+    "mobile-number": ["Mobile number", "رقم الجواّل", "شماره موبایل"]
+  },
+  "addresses": {
+    "addresses": ["Addresses", "العناوين", "آدرس ها"],
+    "empty-des": [
+      "Where are your saved addresses?",
+      "العناوين المحفوظة",
+      "آدرس منتخب شما کجاست؟"
+    ],
+    "empty-des2": [
+      "Add an address so we can get cracking on the delivery!",
+      "!عنوانك بقى عشان نعرف نوصلك الطلب",
+      "برای تحویل کالا یک آدرس اضافه کنید"
+    ],
+    "addadress": ["Add an address", "إضافة عنوان جديد", "افزودن آدرس"],
+    "setmap": ["Set from map:", "تعيين من الخريطة:", "انتخاب از نقشه"],
+    "addnewadd": [
+      "Add a new addresses",
+      "إضافة عنوان جديد",
+      "افزودن آدرس جدید"
+    ],
+    "addi-address": [
+      "Additional address details",
+      "تفاصيل العنوان الإضافية",
+      " افزودن جزییات آدرس اضافه شده"
+    ],
+    "addi-address-placeholder": [
+      "Enter address details",
+      "أدخل تفاصيل العنوان الإضافية",
+      "جزییات آدرس را وارد کنید"
+    ],
+    "firstname": ["First name", "الاسم الأول", "نام"],
+    "firstname-placeholder": [
+      "Enter your first name",
+      "أدخل الاسم الأول",
+      "نام خود را وارد کنید"
+    ],
+    "mobile-number": ["Mobile number", "رقم الجواّل", "شماره موبایل"],
+    "mobile-number-placeholder": [
+      "Enter mobile number",
+      "أدخل رقم الجواّل",
+      "شماره موبایل را وارد کنید"
+    ],
+    "add-label": [
+      "Address Label (Optional)",
+      "تسمية العنوان (اختياري)",
+      "برچسب آدرس(اختیاری)"
+    ],
+    "lastname": ["Last name", "اسم العائلة", "نام خانوادگی"],
+    "lastname-placeholder": [
+      "Enter your last name",
+      "أدخل الاسم العائلة",
+      "نام خانوادگی خود را وارد کنید"
+    ],
+    "save": ["Save address", "حفظ العنوان", "ذخیره آدرس"],
+    "verify": [
+      "Please verify your mobile number to continue",
+      "يرجى تأكيد رقم هاتفك المحمول للمتابعة",
+      "لطفاً شماره موبایل خود را برای ادامه ثبت کنید"
+    ],
+    "verify-des": [
+      "To proceed to checkout, use the OTP & verify your mobile number. We’ve sent the OTP to",
+      "لمتابعة إتمام الشراء، استخدم كود OTP وقم بتأكيد رقم جوّالك. لقد قمنا بإرسال كود OTP إلى",
+      "کد تایید برای شما ارسال شد برای ادامه ثبت نام کد ارسال شده به شماره موبایل خود را وارد کنید"
+    ],
+    "changephone": ["Change Phone Number", "تغيير الرقم", "تغییر شماره موبایل"],
+    "changephone-btn": [
+      "Submit & verify phone",
+      "إرسال الرمز",
+      "ثبت و تایید شماره موبایل"
+    ],
+    "skip": ["Skip", "تخطى", "رد شدن"],
+    "dontreceive": [
+      "Didn't receive OTP?",
+      "لم يصلك رمز OTP?",
+      "کد تایید دریافت نشد؟"
+    ],
+    "resendnow": ["Resend now", "إعادة إرسال الآن", "ارسال مجدد"],
+    "cancel": ["Cancel", "إلغاء", "لغو"],
+    "entermobile": [
+      "Please enter your new mobile number and we’ll send you a new OTP.",
+      "الرجاء إدخال رقم جوّالك وسنقوم بإرسال كود OTP جديد لك.",
+      "برای دریافت کد تایید ،شماره موبایل جدید خود را وارد کنید "
+    ],
+    "send-new-code": ["Send new code", "عايز كود جديد", "ارسال کد جدید"],
+    "name": ["Name", "الاسم", "نام"],
+    "phone": ["Phone", "رقم التليفون", "شماره تماس"],
+    "default": ["Set as default", "تعيين كافتراضي", "انتخاب پیش فرض"],
+    "delete": ["Delete address", "حذف العنوان", "حذف آدرس "],
+    "edit": ["Edit", "تعدیل", "ویرایش"],
+    "notvery": ["not verified", "لم يتم التحقق", "ثبت نشد"],
+    "pri-add": ["Primary address", "العنوان الرئيسي", "آدرس منتخب"],
+    "confirm-loc": ["Confirm Location", "تأكيد الموقع", "تایید مکان"],
+    "search-loc-placeholder": [
+      "Search for your location",
+      "بحث عن موقعك",
+      "جستجوی مکان شما"
+    ],
+    "set-default-add": [
+      "Set as default address",
+      "تعيين كعنوان افتراضي",
+      "انتخاب به عنوان آدرس منتخب"
+    ],
+    "postal-code": ["Postal code", "الرمز البريدي", "کد پستی"],
+    "empty-address-error": [
+      "The address should be selected",
+      "ادرس باید انتخاب شود"
+    ],
+    "postal-code-placeholder": [
+      "Enter Postal code",
+      "أدخل الرمز البريدي",
+      "کد پستی را وارد کنید"
+    ],
+    "country": ["Country", "الدولة", "کشور"],
+    "country-placeholder": [
+      "Please select the country",
+      "الرجاء تحديد الدولة",
+      "کشور را انتخاب کنید"
+    ],
+    "city": ["City", "المدينة", "شهر"],
+    "province": ["Province", "المحافظة", "استان"],
+    "city-placeholder": [
+      "Please select the city",
+      "الرجاء تحديد المدينة",
+      "شهر را انتخاب کنید"
+    ],
+    "province-placeholder": [
+      "Please select the province",
+      "الرجاء تحديد المحافظة",
+      "لطفا استان را انتخاب کنید"
+    ]
+  },
+  "orders": {
+    "orders": ["Orders", "الطلبيات", "سفارش ها"],
+    "Show orders from": [
+      "Show orders from",
+      "عرض الطلبات من",
+      "نمایش سفارش ها"
+    ],
+    "empty-msg1": [
+      "You don't have any orders yet",
+      "ليس لديك أي طلبات حتى الآن",
+      "شما فعلاً هیچ سفارشی ندارید"
+    ],
+    "empty-msg2": [
+      "What are you waiting for? Start shopping!",
+      "تحتاج إلى تقديم طلب؟ فقط اضغط على الزر أدناه",
+      "منتظر چی هستی؟ خریدتو شروع کن"
+    ],
+    "con-shopping": ["Continue Shopping", "متابعة التسوق", "ادامه خرید"],
+    "placed-on": ["Places on", "تم الطلب في", "در محل"],
+    "item": ["item", "منتج", "گزینه"],
+    "detail-view": ["View Details", "عرض التفاصيل", "نمایش جزییات"],
+    "orders-des1": [
+      "See how your orders are managed and check the latest status on your order",
+      "تعرف على كيفية إدارة طلبياتك وتحقق من حالة طلبك أولأ بأول",
+      "آخرین وضعیت سفارش خود را مشاهده کنید"
+    ],
+    "inSum": ["Invoice Summary", "ملخص الفاتورة", "خلاصه صورتحساب"],
+    "taxInvo": ["Tax Invoices", "الفواتير الضريبية", "مالیات صورتحساب"],
+    "model-num": ["Model number:", "رقم الموديل:", "شماره مدل"],
+    "sold-by": ["Sold by:", "البائع:", "فروخته شد"],
+    "msg1": [
+      "This item cannot be exchanged or returned",
+      "لا يمكن استبدال أو إرجاع هذا المنتج",
+      "این گزینه امکان تغییر یا بازگشت ندارد"
+    ],
+    "review": ["Review", "راجع هذا المنتج", "نظرات"],
+    "download": ["Download", "Download", "Download"],
+    "on": ["on", "علی", "بر"],
+    "order-sum": ["Order Summary", "ملخص الطلبية", "مجموع صورتحساب"],
+    "subtotal": ["Subtotal", "المجموع الفرعي", "جمع کل"],
+    "shipping": ["Shipping", "الشحن", "ارسال"],
+    "total": ["Total", "المجموع", "جمع"],
+    "free": ["Free", "مجاناً", "رایگان"],
+    "inciusive": [
+      "(Inclusive of VAT)",
+      "(شامل ضريبة القيمة المضافة VAT)",
+      "شامل ارزش افزوده"
+    ],
+    "apply": ["Apply", "تطبيق", "تایید"],
+    "coupon": [
+      "Coupon Code or Gift Card",
+      "كوبون أو كود على كارت الهدية",
+      "کارت هدیه یا کد تخفیف"
+    ],
+    "con-shop": ["Continue Shopping", "متابعة التسوق", "ادامه خرید"],
+    "checkout": ["Checkout Now", "إتمام الشراء دلوقتي", "اکنون پرداخت کنید"],
+    "items": ["items", "منتج", "گزینه ها"],
+    "discount": ["Discount", "خصم", "تخفیف"],
+    "coupon2": ["Coupon", "قسيمة", "کد تخفیف"],
+    "pay-method": ["Payment Method", "طريقة الدفع او السداد", "روش پرداخت"],
+    "order-det": ["Order details", "تفاصيل الطلبية", "جزییات سفارش"],
+    "rate-this": [
+      "Please rate this product",
+      "يرجى تقييم هذا المنتج",
+      "به این محصول امتیاز دهید"
+    ],
+    "comment-placeholder": [
+      "Type your comment here...",
+      "...اكتب تعليقك هنا",
+      "نظر خود را در اینجا بنویسید"
+    ],
+    "pros": ["Pros", "الايجابيات", "نقاط قوت"],
+    "cons": ["Cons", "السلبيات", "نقاط ضعف"],
+    "pros-placeholder": [
+      "Enter product pros",
+      "أدخل إيجابيات المنتج",
+      "نقاط قوت کالا را وارد کنید"
+    ],
+    "cons-placeholder": [
+      "Enter product cons",
+      "أدخل سلبيات المنتج",
+      "نقاط ضعف را وارد کنید "
+    ],
+    "submit-review": ["Submit Review", "إرسال المراجعة", "ثبت نظر"],
+    "cancel-item-btn": [
+      "Cancel items from this list",
+      "الغاء منتجات من هذه الطلبیة",
+      "لغو گزینه های لیست"
+    ],
+    "select-for-cancel": [
+      "Select Items for cancellation",
+      "حدد المنتجات المراد الغائها",
+      "موارد لغو را انتخاب کنید"
+    ],
+    "card-refund": [
+      "Card Refund",
+      "ارجاع قیمة المنتجات الی البطاقة",
+      "بازیابی سبد خرید"
+    ],
+    "card-msg1": [
+      "Only applies to prepaid amounts and take up to 7-14 business days to reflect on your card. Cash payments and Ajyal credits used to complement a card payment will be refunded to your wallet.",
+      "تنطبق فقط على المبالغ المدفوعة مسبقًا وتستغرق ما يصل إلى 7-14 يوم عمل لتصل إلى بطاقتك. سيتم رد المدفوعات النقدية في محفظة أجيال الخاصة بك في الموقع",
+      "مبالغ پرداخت شده پس از 7 الی 14 روز کاری به حساب شما واریز میگردد. بازگشت مبلغ سفارش مرجوعی به دو صورت شارژ کیف پول اجیال یا پرداخت نقدی میباشد"
+    ],
+    "card-msg2": [
+      "Why would you like to cancel this item?",
+      "لماذا تريد إلغاء هذا المنتج؟",
+      "چرا میخواهید این درخواست را لغو کنید؟"
+    ],
+    "cancel": ["Cancel", "إلغاء", "لغو"],
+    "select-reason": ["Select a reason", "اختر سببا", "انتخاب دلیل"],
+    "de-re": [
+      "Click here to change your default refund method",
+      "اضغط هنا لتغییر طریقة ارجاع قیمة المشتریات",
+      "برای تغییر روش بازپرداخت اینجا کلیک کنید"
+    ],
+    "quantity": ["Quantity", "الكمية", "تعداد"],
+    "cancel-msg1": [
+      "Why would you like to cancel this item?",
+      "لماذا ترید الغاء هذا المنتج؟",
+      "چرا می خواهید این مورد را لغو کنید؟"
+    ],
+    "cancel-confirm-btn": [
+      "CONFIRM CANCELLATION",
+      "تأکید الالغاء",
+      "تایید نهایی لغو"
+    ],
+    "cancel-msg2": [
+      "This item was successfully removed from your order",
+      "تمت إزالة هذا المنتج من الطلبية بنجاح",
+      "این مورد با موفقیت از سبد خرید شما حذف شد"
+    ],
+    "back-order": ["Back to order", "رجوع إلى الطلبية", "بازگشت به خرید"]
+  },
+  "credits": {
+    "msg1": [
+      "Redeem your Ajyal gift card",
+      "استخدام بطاقة الهدية الخاصة بك من أجيال",
+      "استفاده از کارت هدیه اجیال"
+    ],
+    "redeem-placeholder": [
+      "Redeem your Ajyal gift card",
+      "رقم بطاقة الهدية",
+      "استفاده مجدد از کارت هدیه اجیال"
+    ],
+    "av-balance": [
+      "Available Balance",
+      "الرصيد المتوفر",
+      "موجودی کافی می باشد"
+    ],
+    "date": ["Date", "التاريخ", "تاریخ"],
+    "type": ["Type", "النوع", "نوع"],
+    "details": ["Details", "تفاصيل", "جزییات"],
+    "amount": ["Amount", "الكمية", "میزان پرداختی"],
+    "balance": ["Balance", "الكمية المتبقية", "موجود"],
+    "msg2": [
+      "You don't have any Ajyal credits yet!",
+      "!ليس لديك أي رصيد من أجيال بعد",
+      "شما تاکنون از اجیال اعتبار نگرفته اید!"
+    ]
+  },
+  "returns": {
+    "returns": ["Returns", "الإرجاع", "بازگشتی ها"],
+    "select-reason-place": [
+      "Select a reason",
+      "اختر سببا",
+      "یک دلیل انتخاب کنید"
+    ],
+    "return": ["return", "إرجاع", "بازگشتی"],
+    "empty-msg1": [
+      "We don't see any returns requested",
+      ".لا يوجد أي منتجات مطلوب إرجاعها",
+      " هیج درخواست بازگشتی وجود ندارد"
+    ],
+    "empty-msg2": [
+      "Need to submit a request? Just click on the button below!",
+      "!تحتاج إلى تقديم طلب؟ فقط اضغط على الزر أدناه",
+      "برای ثبت درخواست خود کلیک کنید"
+    ],
+    "empty-msg1-deliverd": [
+      "We don't see any returns delivered",
+      ".لا توجد منتجات لتسليمها",
+      " هیج درخواست بازگشتی وجود ندارد"
+    ],
+    "return-request-tab1": [
+      "Returns Requested",
+      "طلبات الإرجاع المقدمة",
+      "درخواست های بازگشتی "
+    ],
+    "return-delivered-tab2": [
+      "Returns Delivered",
+      "طلبات الإرجاع المستلمة",
+      "بازگشت سفارش ها"
+    ],
+    "add-btn": [
+      "File a new return request",
+      "إنشاء طلب إرجاع جديد",
+      "فایل جدید درخواست بازگشت "
+    ],
+    "pickup": ["Pickup Address", "عنوان الاستلام", "انتخاب آدرس"],
+    "refund-method": ["Refund Method", "طریقه الاسترداد", "روش بازپرداخت"],
+    "reason": ["Reason:", "السبب:", "دلیل"],
+    "select-item-for-return": [
+      "Select Items for return",
+      "حدد المنتح للارجاع",
+      "گزینه های بازگشت را انتخاب کنید"
+    ],
+    "select-item": ["Select Item", "راجع هذا المنتح", "انتخاب گزینه"],
+    "return-msg1": [
+      "Why would you like to return this item?",
+      "للماذا ترغب في إرجاع هذا المنتج؟",
+      "چرا می خواهید این مورد را بازگردانید؟"
+    ],
+    "return-msg2": [""],
+    "return-des-placeholder": [
+      "Type your description about this item...",
+      "...اكتب تعليقك هنا",
+      "توضیحات خود را برای این مورد بنویسیذ"
+    ],
+    "req-type": [
+      "Choose your request type",
+      "هل السلعة كما وصفها البائع؟",
+      "نوع درخواست خود را انتخاب کنید"
+    ],
+    "refund-to-wallet": [
+      "Refund to Wallet",
+      "إرجاع قيمة المنتجات إلى المحفظة ",
+      "بازگرداندن به کیف پول"
+    ],
+    "other-address": ["other Address", "عنوان آخر", "آدرس های دیگر"],
+    "view-all": ["View all", "عرض الكل", "نمایش همه"],
+    "less": ["less", "أقل", "حداقل"],
+    "submit-req": ["Submit Request", "تقديم الطلب", "ثبت درخواست"],
+    "reason-error": [
+      "Select a reason is required",
+      "تحديد السبب مطلوب",
+      "یک دلیل انتخاب کنید"
+    ],
+    "action-error": [
+      "Choose your request type",
+      "اختر نوع طلبك",
+      "نوع درخواست خود را انتخاب کنید"
+    ]
+  },
+  "preference": {
+    "preference": ["Preference", "التفضيلات", "تنظیمات"],
+    "msg1": [
+      "Select your default refund method for returns and cancellations",
+      "اختر طريقة إسترداد المبالغ عند الإلغاء أو الإرجاع",
+      "برای بازگشت محصولات یک روش انتخاب کنید"
+    ],
+    "wallet": ["Wallet refund", "إرجاع قيمة المنتجات إلى المحفظة", "کیف پول"],
+    "wallet-msg": [
+      "The amount of returned or canceled purchases will be refunded to your wallet",
+      "ستضاف قيمة المنتجات المسترجعة أو الملغاة لمحفظتك",
+      "کل مبلغ سفارش لغو شده یا مرجوع شده به کیف پول شما افزوده خواهد شد"
+    ],
+    "card": [
+      "Card refund",
+      "إرجاع قيمة المنتجات إلى البطاقة",
+      "پرداخت به کارت"
+    ],
+    "card-msg": [
+      "If you paid with cash or used Credits to complement a card payment, the amount will be refunded to your wallet",
+      "إذا كنت قد دفعت نقدًا أو استخدمت أرصدة لاستكمال الدفع بالبطاقة، فسيتم رد المبلغ إلى محفظتك",
+      "اگر به صورت نقدی یا با استفاده از کیف پول پرداخت انجام داده اید، مبلغ به اعتبار شما افزوده خواهد شد"
+    ]
+  },
+  "payment": {
+    "delete": ["Delete", "حذف", "حذف"],
+    "expiry": ["Expiry", "Expiry", "تاریخ انتقضا"],
+    "dont-have-payment-card": [
+      "You don't have any payment card yet!",
+      "You don't have any payment card yet!",
+      "شما هنوز هیچ کارت بانکی ندارید"
+    ]
+  },
+  "usd": ["USD", "$", "تومان"],
+  "bhd": ["BHD", "د.ب", "تومان"],
+
+  "mobileProfile": {
+    "settings": ["SETTINGS", "إعدادات", "تنظیمات"],
+    "currency": ["Currency", "عملة", "واحد پول"],
+    "language": ["Language", "لغة", "زبان"],
+    "reach-out-us": ["REACH OUT TO US", "تواصل معنا", "به ما برسید"],
+    "whatsup-us": ["WhatsApp Us", "WhatsApp Us", "واتساپ"],
+    "help": ["Help", "مساعدة", "مستندات"],
+    "contact-us": ["Contact Us", "اتصل بنا", "ارتباط با ما"],
+    "my-account": ["MY ACCOUNT", "حسابي", "حساب من"],
+    "stores": ["Stores", "المتاجر", "تامین کننده ها"],
+    "hala2": ["Hala", "هاله", "سلام"]
+  }
+}

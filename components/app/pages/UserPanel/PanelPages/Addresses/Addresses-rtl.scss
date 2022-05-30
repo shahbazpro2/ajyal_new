@@ -1,0 +1,90 @@
+.rtl {
+  .pac-container {
+    direction: ltr;
+  }
+  .add-address-step1 {
+    &__mapinput-btn {
+      float: left;
+    }
+    &__mapinput-text {
+      margin-left: 10px;
+      margin-right: 0px;
+    }
+    &__mobile-cnt {
+      direction: ltr;
+    }
+    &__mobile-cnt > * {
+      margin-left: 10px;
+      margin-right: 0px;
+    }
+    &__check {
+      text-align: right;
+      margin-left: 0;
+      margin-right: 4%;
+
+      &--desktop {
+        left: 40px;
+        right: initial;
+      }
+    }
+  }
+  .add-address-step2 {
+    &__verification-container,
+    &__phone {
+      direction: ltr;
+    }
+  }
+
+  .addresses {
+    &__right-item {
+      &--iconi {
+        @include respond-bs(landscape-phones) {
+          &:not(:last-child) {
+            border-left: 1px solid #eee;
+            border-right: none;
+          }
+        }
+      }
+    }
+
+    a,
+    span,
+    p {
+      text-align: right;
+    }
+    &__addnew {
+      left: 20px;
+      right: auto;
+    }
+    .mobile-drop {
+      position: absolute;
+      right: initial;
+      left: 0;
+    }
+    &__right-item-icon {
+      margin-right: 0;
+      margin-left: 8px;
+    }
+    &__ars-value {
+      direction: ltr;
+      display: block;
+    }
+
+    &__alert-icon {
+      margin-right: 0px;
+      margin-left: 4px;
+    }
+
+    &__icon-cnt {
+      float: right;
+      margin-right: 0;
+      margin-left: 15px;
+    }
+  }
+
+  .mapAddress {
+    &__header {
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.orderplaced{
+    &__process-cnt{
+        margin: 10px 0px;
+        .goodsitua{
+            justify-content: flex-start;
+        }
+    }
+
+    &__deliveryprogress-cnt{
+        width:200px;
+    }
+
+    &__ship-link{
+        font-size: 16px;
+    }
+}

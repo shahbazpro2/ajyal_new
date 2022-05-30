@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "HaniArb-Light";
+  src: url("./fonts/ArbFONTS-HanimationArabicLight.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/ArbFONTS-HanimationArabicLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/ArbFONTS-HanimationArabicLight.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/ArbFONTS-HanimationArabicLight.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/ArbFONTS-HanimationArabicLight.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/ArbFONTS-HanimationArabicLight.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/ArbFONTS-HanimationArabicLight.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

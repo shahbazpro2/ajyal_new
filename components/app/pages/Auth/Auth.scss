@@ -1,0 +1,485 @@
+@import "./../../../../assets/scss/abstracts/variables";
+@import "../../../../assets/scss/abstracts/mixins";
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+@import "./ForgetPassword/ForgetPassword.scss";
+
+.auth {
+  @extend %d-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  @include respond-bs(portrait-phones) {
+    padding-top: 0;
+  }
+
+  &__header,
+  &__header-sub {
+    text-align: center;
+    color: $color-primary;
+    font-size: 16px;
+  }
+  &__header {
+    font-weight: normal;
+    margin-top: 45px;
+
+    &--signup {
+      margin-top: 10px;
+      // @include respond-bs(tablets) {
+      //   margin-top: 60px !important;
+      // }
+      // @include respond-bs(portrait-phones) {
+      //   margin-top: 60px !important;
+      // }
+    }
+  }
+  &__header-sub {
+    font-weight: bold;
+    margin-top: 7px;
+  }  
+  &__header-sub-mobile {
+    font-weight: bold;
+    margin-top: 7px;
+    text-align: left;
+    color: $color-primary;
+    font-size: 20px;
+    padding: 15px 15px 0;
+  }
+  &__input {
+    width: 100%;
+
+    border: 1px solid $color-gray4 !important;
+    background-color: $color-gray-lighter;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-size: 14px;
+    margin-top: 7px;
+
+    &::placeholder {
+      color: $color-gray5;
+      opacity: 1; /* Firefox */
+    }
+
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: $color-gray5;
+    }
+
+    &::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: $color-gray5;
+    }
+  }
+  &__form-label {
+    text-align: left;
+    display: block;
+    width: 58%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    &--signup {
+      margin-top: 11px;
+    }
+    @include respond-bs(portrait-phones) {
+      width: 90%;
+    }
+  }
+  &__input-label {
+    color: $color-primary-gray;
+    font-size: 14px;
+    text-transform: none;
+  }
+
+  &__btn {
+    width: 50%;
+    margin: 40px auto 10px auto;
+    @include respond-bs(tablets) {
+      margin: 20px auto 10px auto;
+    }
+  }
+
+  &__forget {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: $color-primary2;
+    margin-top: 20px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+  }
+
+  &__logo {
+    width: 110px;
+    position: absolute;
+    top: 59px;
+    right: 70px;
+    z-index: 99;
+  }
+
+  &__mobile-number {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    .react-select {
+      width: 40%;
+      margin-right: 5px;
+      position: absolute;
+      top: 8px;
+      width: 100px;
+      border-radius: 0;
+      left: 5px;
+      padding: 0;
+      .css-yk16xz-control {
+        box-shadow: unset;
+        background-color: transparent;
+        border: unset;
+        min-height: 30px !important;
+        outline: unset !important;
+        padding: 0px !important;
+      }
+      .css-1hb7zxy-IndicatorsContainer {
+        flex-direction: row-reverse;
+      }
+      .css-tlfecz-indicatorContainer {
+        padding: 5px !important;
+      }
+      .css-1pahdxg-control {
+        border-color: unset ;
+        border-style: unset ;
+        background-color: transparent ;
+        box-shadow: unset ;
+      }      
+      .css-1gtu0rj-indicatorContainer {
+        padding: 5px !important;
+      }
+    }
+  }
+
+  &__input-mobile {
+    padding: 7px 0 7px 110px !important;
+  }
+
+  &__verify-phone {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      justify-content: center;
+    .add-address-step2 {
+      min-height: auto;
+    }
+    .add-address-step2__p1 {
+      margin-top: 0;
+    }
+  }
+
+  .auth-mobile-logo {
+
+      position: relative;
+      width: 100%;
+      display: flex;
+      padding: 15px 15px 0;      
+      z-index: 9999;
+      img {
+        width: 110px;
+        height: 40px;
+      }
+  }
+
+  &__up-header {
+    font-size: 2.5rem;
+    margin-top: 126px;
+  }
+
+  &__up-p {
+    margin-top: 10px;
+    padding: 0px 20px;
+    line-height: 2;
+    font-size: 1.5rem;
+  }
+
+  &__lang-slt {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    font-size: 16px;
+    z-index: 99999;
+    @include respond-bs(tablets) {
+      top: 20px;
+      right: 20px;
+    }
+  }
+
+  &__footer-mobile {
+    display: none;
+    @include respond-bs(tablets) {
+      display: block;
+      a {
+        color: $color-primary2;
+      }
+    }
+  }
+
+  &__google-btn {
+    margin-top: 10px;
+  }
+
+  &__facebook-btn {
+    margin-top: 10px;
+    .kep-login-facebook.small {
+      border-radius: 2px;
+      font-size: 14px;
+      text-transform: initial;
+      font-weight: initial;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px,
+        rgba(0, 0, 0, 0.24) 0px 0px 1px 0px;
+    }
+  }
+
+  &__captcha-cnt {
+    margin-top: 20px;
+    & > div {
+      width: 304px;
+      margin: 0 auto;
+    }
+  }
+}
+
+$contW: 900px;
+$contW-tab-port: 600px;
+$contW-mobile: 100%;
+$imgW: 260px;
+$formW: $contW - $imgW;
+$switchAT: 1.2s;
+
+$inputW: 260px;
+$btnH: 36px;
+
+$diffRatio: ($contW - $imgW) / $contW;
+
+@mixin signUpActive {
+  .cont.s--signup & {
+    @content;
+  }
+}
+
+.cont {
+  overflow: hidden;
+  position: relative;
+  width: $contW;
+  padding-bottom: 25px;
+  height: 800px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 20px 0 $color-primary-black-16;
+  border-radius: 10px;
+  text-align: center;
+  @include respond-bs(tablets) {
+    width: $contW-tab-port;
+    // height: 620px;
+    height: 900px;
+  }
+  @include respond-bs(portrait-phones) {
+    width: $contW-mobile;
+  }
+}
+
+.form {
+  position: relative;
+  // position: absolute;
+  width: $formW;
+  height: 100%;
+  transition: transform $switchAT ease-in-out;
+  padding: 50px 30px 0;
+  padding-top: 10px;
+  @include respond-bs(tablets) {
+    width: 100%;
+  }
+  @include respond-bs(portrait-phones) {
+    padding: 10px 0 0;
+  }
+}
+
+.sub-cont {
+  overflow: hidden;
+  position: absolute;
+  //left: $formW;
+  left: 0;
+  top: 0;
+  width: $contW;
+  height: 100%;
+  background: #fff;
+  transition: transform $switchAT ease-in-out;
+
+  @include signUpActive {
+    transform: translate3d($formW, 0, 0);
+  }
+  @include respond-bs(tablets) {
+    width: 100%;
+    @include signUpActive {
+      transform: translate3d($contW-tab-port, 0, 0);
+    }
+  }
+  @include respond-bs(portrait-phones) {
+    @include signUpActive {
+      transform: translate3d($contW-mobile, 0, 0);
+    }
+  }
+}
+
+.img {
+  overflow: hidden;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: $imgW;
+  height: 100%;
+  padding-top: 325px;
+  @include respond-bs(tablets) {
+    display: none !important;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: $contW;
+    height: 100%;
+    background-image: url("/assets/imgs/login.jpg");
+    background-size: cover;
+    transition: transform $switchAT ease-in-out;
+    transform: translateX($formW);
+    @include respond-bs(tablets) {
+      transform: translateX($contW-tab-port) !important;
+    }
+    @include respond-bs(portrait-phones) {
+      transform: translateX($contW-mobile) !important;
+    }
+  }
+
+  @include signUpActive {
+    &:before {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  &__text {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 55px;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    transition: transform $switchAT ease-in-out;
+
+    h2 {
+      margin-bottom: 10px;
+      font-weight: normal;
+    }
+
+    &.m--up {
+      @include signUpActive {
+        transform: translateX($imgW * 2);
+      }
+    }
+
+    &.m--in {
+      transform: translateX($imgW * -2);
+
+      @include signUpActive {
+        transform: translateX(0);
+      }
+    }
+  }
+
+  &__btn {
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+    width: 160px;
+    height: $btnH;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.18);
+
+    &:after {
+      content: "";
+      z-index: 2;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    span {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      transition: transform $switchAT;
+
+      &.m--in {
+        transform: translateY($btnH * -2);
+
+        @include signUpActive {
+          transform: translateY(0);
+        }
+      }
+
+      &.m--up {
+        @include signUpActive {
+          transform: translateY($btnH * 2);
+        }
+      }
+    }
+  }
+}
+
+.sign-in {
+  transform: translateX($imgW);
+  @include signUpActive {
+    transition-timing-function: ease-in-out;
+    transition-duration: $switchAT;
+    transform: translate3d($formW * -1, 0, 0);
+  }
+  @include respond-bs(tablets) {
+    @include signUpActive {
+      transition-timing-function: ease-in-out;
+      transition-duration: $switchAT;
+      transform: translate3d($formW * 1, 0, 0) !important;
+    }
+  }
+
+  @include respond-bs(tablets) {
+    transform: unset !important;
+  }
+}
+
+.sign-up {
+  transform: translate3d($contW, 0, 0);
+  @include signUpActive {
+    transform: translate3d(0, 0, 0);
+  }
+  @include respond-bs(tablets) {
+    transform: translate3d($contW * -1, 0, 0);
+  }
+}
+
+#react-select-2-input {
+  font-size: 16px !important;
+}

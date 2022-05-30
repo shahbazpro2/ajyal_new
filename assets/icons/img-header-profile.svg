@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="header_-_profile" width="24" height="24" data-name="header - profile" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#f0b440}
+        </style>
+    </defs>
+    <g id="profile" transform="translate(-147.5 -176.9)">
+        <path id="Path_895" d="M168.764 412.752a1.091 1.091 0 0 1-1.092-1.092v-2.422a3.757 3.757 0 0 0-3.753-3.753h-8.482a3.757 3.757 0 0 0-3.753 3.753v2.422a1.092 1.092 0 0 1-2.185 0v-2.422a5.944 5.944 0 0 1 5.937-5.937h8.482a5.944 5.944 0 0 1 5.937 5.937v2.422a1.1 1.1 0 0 1-1.091 1.092z" class="cls-2" data-name="Path 895" transform="translate(0 -211.852)"/>
+        <path id="Path_896" d="M221.337 188.775a5.937 5.937 0 1 1 5.937-5.937 5.944 5.944 0 0 1-5.937 5.937zm0-9.928a3.99 3.99 0 1 0 3.99 3.99 4 4 0 0 0-3.99-3.99z" class="cls-2" data-name="Path 896" transform="translate(-61.665)"/>
+    </g>
+</svg>

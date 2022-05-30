@@ -1,0 +1,210 @@
+@import "../../../assets/scss/abstracts/variables";
+@import "../../../assets/scss/abstracts/mixins";
+@import "../../../assets/scss/abstracts/placeholders";
+
+.goodItem-s1 {
+}
+
+.goodItem-s2-container {
+  // overflow: hidden;
+  // height: 200px!important; //test
+  transition: all 0.2s;
+  position: relative;
+  &--hover:hover {
+    box-shadow: 0 0 10px 0 $color-primary-black-16;
+  }
+
+  &--hover:hover .goodItem-s1__heart-icon {
+    display: inline-block !important;
+  }
+}
+.goodItem-s2 {
+  @extend %d-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  @extend %d-flex;
+
+  padding: 15px 0px;
+  margin: 0px 29px;
+  border-bottom: 1px solid #f0f0f0;
+  @include respond-bs(portrait-phones) {
+    margin: 0px;
+  }
+  &__left-container {
+    @extend %d-flex;
+    flex-direction: row;
+  }
+
+  &__right-container {
+    @extend %d-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px 15px 0px 15px;
+    flex-basis: 23%;
+    @include respond-bs(portrait-phones) {
+      display: none;
+    }
+  }
+
+  &__addcard-btn {
+    background-color: $color-primary2;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+
+  &__wishlist-cnt {
+    margin-top: 25px;
+  }
+
+  &__wishlist-text {
+    color: $color-gray5;
+    font-size: 14px;
+    margin-left: 17px;
+    vertical-align: middle;
+  }
+
+  &__fig {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0;
+    width: 120px;
+    @include respond-bs(portrait-phones) {
+      width: 30%;
+    }
+  }
+
+  &__name {
+    text-align: left;
+    color: $color-primary-gray !important;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.7;
+    @include respond-bs(portrait-phones) {
+      font-weight: 400;
+    }
+  }
+
+  &__star-container {
+    flex-basis: 100%;
+    display: flex;
+    margin-top: 5px;
+  }
+
+  &__star {
+    padding-right: 5px;
+    width: 18px;
+  }
+  &__start-count {
+    color: $color-primary-gray;
+    vertical-align: top;
+    margin-top: 0px;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  &__left-right {
+    @extend %d-flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-between;
+    @include respond-bs(portrait-phones) {
+      width: 70%;
+      justify-content: initial;
+    }
+  }
+
+  &__right-ft {
+    @extend %d-flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    &--align-center {
+      align-items: center;
+    }
+  }
+  &__price-off {
+    color: $color-primary-gray-lighter;
+    margin-left: 15px;
+    text-decoration: line-through;
+    font-size: 15px;
+  }
+
+  &__off-percentage-container {
+    background-color: $color-primary-pink;
+    padding: 0px 2px;
+    border-radius: 2px;
+    margin-left: 15px;
+  }
+
+  &__sticky {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    padding: 4px;
+    border-radius: 0px 6px 6px 0px;
+    color: white;
+    display: inline-block;
+    font-size: 1.23rem;
+    font-weight: 450;
+    z-index: 3;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__currency {
+    color: $color-primary;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  &__number {
+    font-weight: bold;
+    margin-left: 4px;
+    color: $color-primary;
+    font-size: 18px;
+  }
+
+  &__decimal {
+    font-weight: 500;
+    color: $color-primary;
+    font-size: 13px;
+  }
+
+  &__bst {
+    width: 38px !important;
+  }
+
+  &__exp {
+    width: 85px !important;
+    margin-right: 13px;
+    @include respond-bs(portrait-phones) {
+      width: 59px !important;
+    }
+  }
+
+  &__off-percentage {
+    color: $color-primary-pink-darker;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  &__off-text {
+    color: $color-primary-pink-darker;
+    font-weight: 550;
+    font-size: 12px;
+  }
+  &__ns-con {
+    margin-top: 35px;
+    @include respond-bs(portrait-phones) {
+      margin-top: 10px;
+    }
+  }
+}

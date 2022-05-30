@@ -1,0 +1,19 @@
+{
+  "seemore": ["see more", "اظهار الكل","نمایش بیشتر"],
+  "setPrice": ["set price", "بحث","تعیین قیمت"],
+  "searchplaceholder": ["search brand", "بحث عن المادرکه","جستجوی برند"],
+  "resualtfound": ["results found for", "نتيجة ","نتایج یافت شده"],
+  "found": ["found", "لقينا","نتایج"],
+  "sortby": ["Sorte By", "ترتيب حسب","مرتب کردن"],
+  "display": ["Display", "عرض","نمایش"],
+  "row": ["row", "صف ","سطر"],
+  "grid": ["grid", "جريد","جدول بندی"],
+  "clear": ["Clean all", "مسح الكل","پاک کردن همه"],
+  "sort": ["Sort", "فرز","مرتب کردن"],
+  "filter": ["Filter", "فلتر","فیلتر"],
+  "reviews": ["reviews", "تقييم واحد","نظرات"],
+  "addcard": ["Add to card", "اضافة الی عربة التسوق","افزودن به سبد خرید"],
+  "addwish": ["Add to Wishlist", "إضافة إلى المفضلة","افزودن به لیست علاقمندی ها"],
+  "date": ["date", "منذ","تاریخ"],
+  "popularity": ["Popularity", "الأكثر رواجاً","محبوب ترین ها"]
+}

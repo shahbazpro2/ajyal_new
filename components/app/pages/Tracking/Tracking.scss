@@ -1,0 +1,48 @@
+@import "./../../../../assets/scss/abstracts/variables";
+@import "../../../../assets/scss/abstracts/mixins";
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+.tracking-content {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 70px;
+}
+.tracking {
+  @include respond-bs(desktops) {
+    margin-top: 70px !important;
+  }
+  @include respond-bs(portrait-phones) {
+    .boxStyle1 {
+      margin: 0px;
+      border-radius: 0;
+      overflow: hidden;
+    }
+    .boxStyle1__header {
+      overflow: initial;
+    }
+    .verify-email__input-cnt {
+      padding: 0 10px;
+    }
+  }
+  &__img {
+    margin-bottom: 40px;
+  }
+}
+
+.track-result{
+  .boxStyle2{
+    padding: 25px 25px;
+  }
+  .mapAddress__back-icon{
+    margin-left: 0;
+  }
+}
+
+.rtl{
+  .track-result{
+    .mapAddress__back-icon{
+      margin-right: 0;
+      margin-left: 10px;
+    }
+  }
+}

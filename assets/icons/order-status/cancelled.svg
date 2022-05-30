@@ -1,0 +1,15 @@
+<svg id="Component_91_1" data-name="Component 91 – 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Rectangle_260" data-name="Rectangle 260" width="16" height="16" transform="translate(0 16) rotate(-90)" fill="#fff" opacity="0"/>
+  <g id="Group_2437" data-name="Group 2437" transform="translate(0.842 0.842)">
+    <g id="Group_2401" data-name="Group 2401">
+      <g id="Group_2435" data-name="Group 2435">
+        <g id="Group_1557" data-name="Group 1557">
+          <path id="Path_637" data-name="Path 637" d="M118.845,111.722a7.123,7.123,0,1,0,7.123,7.123A7.131,7.131,0,0,0,118.845,111.722Zm0,12.758a5.634,5.634,0,1,1,5.634-5.634A5.641,5.641,0,0,1,118.845,124.48Z" transform="translate(-111.722 -111.722)" fill="#f07040"/>
+        </g>
+      </g>
+    </g>
+    <g id="close" transform="translate(4.575 4.575)">
+      <path id="Path_537" data-name="Path 537" d="M4.8.981,3.3,2.487,4.8,3.994a.574.574,0,1,1-.811.811L2.485,3.3.979,4.805a.574.574,0,0,1-.811-.811L1.674,2.487.168.981A.574.574,0,1,1,.979.17L2.485,1.676,3.992.17A.574.574,0,0,1,4.8.981Z" transform="translate(0 -0.002)" fill="#f07040" stroke="#f07040" stroke-width="0.3"/>
+    </g>
+  </g>
+</svg>

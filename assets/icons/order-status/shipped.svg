@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Group_2896" data-name="Group 2896" transform="translate(7944 5483)">
+    <g id="Group_2895" data-name="Group 2895" transform="translate(-7944 -5483)" opacity="0">
+      <rect id="Rectangle_260" data-name="Rectangle 260" width="16" height="16" transform="translate(0 16) rotate(-90)" fill="#fff" opacity="0.81"/>
+    </g>
+    <g id="truck" transform="translate(-7944 -5479.493)">
+      <path id="Path_1070" data-name="Path 1070" d="M5.993,224.136a.469.469,0,0,0-.469-.469H0v.937H5.524A.469.469,0,0,0,5.993,224.136Z" transform="translate(0 -219.877)" fill="#0288d1"/>
+      <circle id="Ellipse_30" data-name="Ellipse 30" cx="1.031" cy="1.031" r="1.031" transform="translate(12.337 7.537)" fill="#0288d1"/>
+      <circle id="Ellipse_31" data-name="Ellipse 31" cx="1.031" cy="1.031" r="1.031" transform="translate(1.875 7.537)" fill="#0288d1"/>
+      <path id="Path_1071" data-name="Path 1071" d="M0,105.253H5.524a1.406,1.406,0,0,1,0,2.812H0v2.852H.939a1.968,1.968,0,0,1,3.935,0H9.8V102.4H0Z" transform="translate(0 -102.401)" fill="#0288d1"/>
+      <path id="Path_1072" data-name="Path 1072" d="M346.948,159.667h-3.389v6.727h.665a1.968,1.968,0,0,1,3.935,0h.664V163.1Z" transform="translate(-332.823 -157.877)" fill="#0288d1"/>
+    </g>
+  </g>
+</svg>

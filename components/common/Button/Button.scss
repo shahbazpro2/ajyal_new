@@ -1,0 +1,24 @@
+@import "../../../assets/scss/abstracts/variables";
+
+.Button {
+  &__custom {
+    background-color: $color-primary2;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    &.disable {
+      background-color: $color-gray-lighter;
+      cursor: not-allowed;
+      border: 1px solid #d5d5d5 !important;
+      color: #acb1b8;
+    }
+  }
+
+  &__xsm {
+    padding: 4px 13px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,18 @@
+.delivery-progress{
+    display: flex;
+    flex-direction: row;
+
+    &__item{
+        flex-grow: 1;
+        margin-right: 3px;
+        background-color: #e2e2e2;
+        height: 5px;
+        border-radius: 2px;
+        &--green{
+            background-color: #3ad976;
+        }
+        &--orange{
+            background-color:#f0cd40;
+        }
+    }
+}

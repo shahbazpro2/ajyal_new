@@ -1,0 +1,29 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.dropdown {
+   overflow: hidden;
+   backface-visibility: hidden;
+  &__link {
+    width: 100%;
+    display: block;
+  }
+  &__arrow {
+    float: right;
+    transition: all 0.3s;
+
+    &--open {
+      transform: rotate(90deg);
+    }
+
+    &--close {
+      transform: rotate(0deg);
+    }
+  }
+
+  .react-slidedown {
+    backface-visibility: hidden;
+     overflow: hidden;
+  }
+}

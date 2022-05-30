@@ -1,0 +1,9 @@
+.seemore{
+    transition: height 0.3s;
+    overflow: hidden;
+    &__link {
+        font-size: 1.3rem;
+    margin-top: 1rem;
+
+    }
+}

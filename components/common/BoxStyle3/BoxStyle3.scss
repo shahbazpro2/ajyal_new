@@ -1,0 +1,39 @@
+@import "../../../assets/scss/abstracts/variables";
+@import "../../../assets/scss/abstracts/mixins";
+@import "../../../assets/scss/abstracts/placeholders";
+
+.boxStyle3 {
+  border: 1px solid #eee;
+  padding: 1rem;
+  background-color: #ffffff;
+  margin-top: 12px;
+  border-radius: $border-raduis;
+  //height: 500px;
+  overflow: hidden;
+  margin: 1rem;
+  @include respond-bs(tablets) {
+    margin: 12px 2rem;
+  }
+  @include respond-bs(portrait-phones) {
+    margin: 1rem 2rem;
+  }
+  &__header {
+    position: relative;
+
+    // &::before {
+    //   content: "";
+    //   border: 12px solid #f0b440;
+    //   position: absolute;
+    //   height: 100%;
+    //   border-radius: 20px;
+    //   left: -13px;
+    //   top: -8px;
+    // }
+  }
+  &__header-text {
+    padding: 17px 31px 19px 31px;
+    font-weight: bold;
+    font-size: 16px;
+    color: $color-primary;
+  }
+}

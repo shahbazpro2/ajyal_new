@@ -1,0 +1,67 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+$user-nav-height: 559px;
+
+.user-panel-nav {
+  background-color: white;
+  box-shadow: 0 0 6px 0 $color-primary-black-16;
+  // height: 100%;
+  min-height: $user-nav-height;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  &__signout-text {
+    width: 100%;
+    text-align: center;
+    color: $color-primary;
+    font-size: 13px;
+    background-color: $color-grey2;
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+  }
+
+  &__list {
+    padding: 0px;
+  }
+
+  &__link {
+    width: 100%;
+    text-align: left;
+    padding: 0px 15px;
+    display: block;
+    transition: all 0.3s;
+    &.active {
+      background-color: $color-gray6;
+    }
+
+    &:hover {
+      background-color: $color-gray6;
+    }
+  }
+  &__itm-cnt {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 16px 12px;
+    &--last {
+      border-bottom: none;
+    }
+  }
+  &__link-text {
+    color: $color-primary;
+    font-size: 13px;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+}
+
+.accountDrop {
+  box-shadow: none;
+  display: initial;
+  min-height: auto;
+  .dropAccount {
+    box-shadow: none;
+  }
+}

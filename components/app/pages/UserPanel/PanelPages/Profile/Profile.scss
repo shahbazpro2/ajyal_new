@@ -1,0 +1,270 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.verify-email-cnt {
+  text-align: center;
+  margin-top: 50px;
+}
+.verify-email {
+  &__top-text {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  &__btm-text {
+    font-size: 15px;
+  }
+  &__img {
+    width: 120px;
+    margin-bottom: 45px;
+  }
+  &__input-cnt {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  &__from {
+    text-align: center;
+  }
+}
+
+.editProfileOverly {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1728405e;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+.changepass-modal {
+  position: absolute;
+  margin: 0 auto;
+  background: white;
+  overflow: auto;
+  border-radius: 4px;
+  width: 540px;
+  top: 50%;
+  left: 50%;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  @include respond-bs(landscape-phones) {
+    width: 95%;
+  }
+  .swal-content {
+    margin: 0;
+    padding: 0;
+  }
+  .changepass {
+    &__content {
+      padding: 0px 10px 30px 10px;
+      @include respond-bs(landscape-phones) {
+        padding-bottom: 50px;
+      }
+    }
+    &__header {
+      padding: 15px 0px;
+      background-color: $color-grey2;
+    }
+    &__header-text {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+
+    &__des {
+      color: $color-gray5;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+    &__footer {
+      margin-top: 20px;
+    }
+
+    &__input-cnt {
+      width: 70%;
+      @include respond-bs(portrait-phones) {
+        width: 95%;
+      }
+    }
+
+    &__footer-btn {
+      border: none;
+      background-color: $color-grey2;
+      padding: 15px 0px;
+      width: 50%;
+      font-size: 14px;
+
+      &--primary {
+        background-color: $color-primary2;
+        color: white;
+      }
+    }
+  }
+}
+.profile {
+  margin-top: 90px;
+
+  &__signout-btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  padding: 0px 50px !important;
+  @include respond-bs(portrait-phones) {
+    margin-top: 0px;
+    text-align: center;
+    padding: 0 !important;
+  }
+  &__item-container {
+    padding: 5px 20px;
+    height: 60px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: $color-gray-lighter;
+    &--color {
+      background-color: $color-grey2;
+    }
+    @include respond-bs(portrait-phones) {
+      background-color: white !important;
+      margin-bottom: 10px;
+      & > div {
+        width: 100%;
+        text-align: left;
+      }
+    }
+  }
+  &__item {
+    margin-right: 30px;
+    font-size: 14px;
+    @include respond-bs(portrait-phones) {
+      font-size: 17px;
+    }
+    color: $color-gray5;
+    &--color {
+      color: $color-primary;
+    }
+    @include respond-bs(portrait-phones) {
+      text-align: center;
+      margin-right: 0;
+      margin-left: 0;
+      &--color {
+        width: 100%;
+        display: block !important;
+        text-align: left;
+        padding-top: 5px;
+      }
+    }
+  }
+
+  &__btn {
+    margin: 30px 0px;
+    &:hover {
+      color: white;
+    }
+    @include respond-bs(portrait-phones) {
+      width: 90%;
+      margin: 30px auto;
+    }
+  }
+
+  &__user-img {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid #d1d1d1;
+    background-color: #fbfbfb;
+    padding: 20px;
+    margin: 0 auto;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.profile-edit {
+  padding-bottom: 45px;
+  @include respond-bs(landscape-phones) {
+    margin-top: 20px;
+  }
+  &__form-container {
+    text-align: center;
+  }
+  &__box-header {
+    padding: 15px 30px 0px 0px;
+    font-weight: bold;
+    font-size: 16px;
+    color: $color-primary;
+  }
+  &__box-subheader {
+    color: $color-gray5;
+    padding-left: 0px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    font-size: 13px;
+  }
+  &__header-container {
+    padding-bottom: 18px;
+    padding-left: 40px;
+    @include respond-bs(landscape-phones) {
+      padding-left: 30px;
+    }
+  }
+
+  &__form-label {
+    width: 70% !important;
+    @include respond-bs(tablets) {
+      width: 60% !important;
+    }
+    @include respond-bs(landscape-phones) {
+      width: 70% !important;
+    }
+    @include respond-bs(portrait-phones) {
+      width: 97% !important;
+    }
+  }
+
+  &__sub-label-form {
+    font-size: 13px;
+    color: $color-gray5;
+    padding-left: 5px;
+    padding-top: 5px;
+    display: block;
+  }
+  &__passchange-link-cnt {
+    text-align: center;
+    margin-top: 20px;
+  }
+  &__passchange-link {
+    color: $color-primary2 !important;
+    font-size: 13px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__save-btn {
+    margin-top: 30px;
+  }
+}

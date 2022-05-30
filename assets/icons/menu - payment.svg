@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="menu_-_payment" width="16.006" height="16" data-name="menu - payment" viewBox="0 0 16.006 16">
+    <defs>
+        <style>
+            .cls-2{fill:#172840}
+        </style>
+    </defs>
+    <g id="payment" transform="translate(0 2.211)">
+        <path id="Path_630" d="M15.068 73.44H.938a.939.939 0 0 0-.938.938v9.538a.939.939 0 0 0 .938.938h14.13a.939.939 0 0 0 .938-.938v-9.538a.939.939 0 0 0-.938-.938zM.938 76.333h14.13v.938H.938zm14.13-1.955v1.017H.938v-1.017zM.938 83.916v-5.707h14.13v5.707z" class="cls-2" data-name="Path 630" transform="translate(0 -73.44)"/>
+        <path id="Path_631" d="M66.346 344.492h-4.2a.469.469 0 0 0 0 .938h4.2a.469.469 0 0 0 0-.938z" class="cls-2" data-name="Path 631" transform="translate(-59.75 -336.018)"/>
+        <path id="Path_632" d="M62.147 285.418h2.79a.469.469 0 0 0 0-.938h-2.79a.469.469 0 0 0 0 .938z" class="cls-2" data-name="Path 632" transform="translate(-59.75 -277.883)"/>
+        <path id="Path_633" d="M273.865 256.31a1.874 1.874 0 1 0 2.813 1.622 1.876 1.876 0 0 0-2.813-1.622zm-1.874 1.622a.936.936 0 1 1 .936.936.938.938 0 0 1-.936-.936zm2.577.906a1.869 1.869 0 0 0 0-1.812.936.936 0 1 1 0 1.812z" class="cls-2" data-name="Path 633" transform="translate(-262.58 -250.347)"/>
+    </g>
+</svg>

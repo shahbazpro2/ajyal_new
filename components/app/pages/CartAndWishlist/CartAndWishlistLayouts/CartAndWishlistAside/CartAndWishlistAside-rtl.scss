@@ -1,0 +1,62 @@
+@import "./../../../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .goodItem-s2 {
+    &__fig {
+      margin-right: 0px;
+      margin-left: 5px;
+    }
+  }
+  .cart-aside {
+    span,
+    h4,
+    a {
+      text-align: right;
+    }
+    padding-left: 0px;
+    padding-right: 10px;
+
+    &__item-text {
+      margin-left: 10px;
+      margin-right: 0px;
+    }
+    &__input-cnt {
+      .Button {
+        left: 5px;
+        right: unset;
+      }
+    }
+
+    &__input-btn {
+      left: 5px;
+      right: initial;
+      // top: 7px;
+      padding: 3px 13px;
+    }
+
+    &__input {
+      padding: 9px 10px 9px 66px !important;
+    }
+
+    &__coupon-cnt {
+      text-align: right;
+    }
+
+    &__coupon-text {
+      margin-left: 40px;
+      margin-right: 0;
+    }
+
+    &__coupon-icon {
+      right: initial;
+      left: 10px;
+    }
+
+    &__btn-icon {
+      right: 15px;
+      left: initial;
+    }
+  }
+}

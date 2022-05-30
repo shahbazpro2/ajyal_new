@@ -1,0 +1,166 @@
+{
+  "refund-saved": [
+    "refund saved successfully",
+    "تم حفظ المبلغ المسترد بنجاح",
+    "با موفقیت ذخیره شد"
+  ],
+  "select-Item": [
+    "please select an item first",
+    "الرجاء تحديد عنصر أولا",
+    "ابندا یک گزینه را انتخاب کنید"
+  ],
+  "verify-mobile": [
+    "you must verify your mobile number first",
+    "يجب عليك التحقق من رقم هاتفك المحمول أولاً",
+    "شما ابتدا باید شماره موبایل خود را تایید کنید"
+  ],
+  "verification-succes": [
+    "email verified successfully",
+    "تم التحقق من البريد الإلكتروني بنجاح",
+    "ایمیل شما با موفقیت تایید شد"
+  ],
+
+  "verification-error": [
+    "verification code is not correct!",
+    "رمز التحقق غير صحيح",
+    "کد وارد شده نامعتبر است"
+  ],
+
+  "phone-not-valid": [
+    "your phone number is not valid",
+    "رقم الهاتف غير صالح",
+    "شماره وارد شده صحیح نیست"
+  ],
+
+  "phone-not-match-country": [
+    "phone number is not valid for the selected region",
+    "رقم الهاتف غير صالح للمنطقة المحددة",
+    "شماره وارد شده با کشور انتخاب شده تطابق ندارد"
+  ],
+
+  "select-region-first": [
+    "please select a country first",
+    "الرجاء تحديد البلد أولا",
+    "ابتدا یک کشور را انتخاب کنید"
+  ],
+
+  "code-is-not-valid": [
+    "entered code is not valid",
+    "الرمز الذي تم إدخاله غير صالح",
+    "کد وارد شده صحیح نیست"
+  ],
+
+  "email-not-valid": [
+    "your email address is not valid",
+    "عنوان البريد الإلكتروني غير صالح",
+    "آدرس ایمیل موجود نمی باشد"
+  ],
+  "pass-not-valid": [
+    "your password must be at least 6 characters",
+    "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل",
+    "کلمه عبور حداقل باید 6 کاراکتر باشد"
+  ],
+  "confirm-pass": [
+    "your passwords are not equals",
+    "كلمة المرور ليست متشابهة",
+    "کلمه عبور شما برابر نیست"
+  ],
+  "empty-filed": [
+    "this field must not be empty",
+    "هذا الحقل مطلوب",
+    "این گزینه نمی تواند خالی باشد"
+  ],
+  "error-detected": [
+    "There are items that require your attention",
+    "هناك عناصر تتطلب انتباهك",
+    "مطالبی می باشد که باید به آنها توجه کنید"
+  ],
+  "succ-regitered": [
+    "you have successfully registered",
+    "تم التسجيل بنجاح",
+    "ثبت نام شما با موفقیت انجام شد"
+  ],
+  "succ-login": [
+    "you have successfully logged in",
+    "تم تسجيل الدخول بنجاح",
+    "ورود شما با موفقیت انجام شد"
+  ],
+  "succ-update-profile": [
+    "you successfully edit your profile",
+    "تم تحرير ملف التعريف بنجاح",
+    "ویرایش پروفایل شما با موفقیت انجام شد"
+  ],
+  "succ-update-password": [
+    "you successfully change your password",
+    "تم تغيير كلمة المرور بنجاح",
+    "تغییر کلمه عبور شما با موفقیت انجام شد"
+  ],
+  "confirm-address-delete": [
+    "are you sure to delete this address",
+    "هل أنت متأكد من حذف العنوان",
+    "آیا مطمعن هستید که آدرس را حذف کنید؟"
+  ],
+  "select-address": [
+    "please select an address first",
+    "الرجاء تحديد عنوان أولا",
+    "لطفاً اول آدرس را انتخاب نمایید"
+  ],
+  "select-payment": [
+    "please select a payment method first",
+    "الرجاء تحديد طريقة الدفع أولاً",
+    "ابتدا روش پرداخت خود را انتخاب کنید"
+  ],
+  "return-req": [
+    "Request sended successfully",
+    "تم ارسال الطلب بنجاح",
+    "درخواست ارسال دوباره با موفقیت انجام شد"
+  ],
+  "success-add-address": [
+    "The address successfuly added",
+    "تم إضافة العنوان بنجاح",
+    "ادرس با موفقیت اضافه شد"
+  ],
+  "success-update-address": [
+    "The address successfully updated",
+    "تم تحديث العنوان بنجاح",
+    "ادرس با موفقیت بروز شد"
+  ],
+  "success-delete-address": [
+    "The address successfully deleted",
+    "تم حذف العنوان بنجاح",
+    "ادرس با موفقیت حذف شد"
+  ],
+  "country-add-address": [
+    "The address you selected is not in our list of active countries",
+    "العنوان الذي حددته غير موجود في قائمة البلدان النشطة لدينا",
+    "ادرس انتخاب شده توسط شما در لیست کشور های فعال ما قرار ندارد"
+  ],
+  "error-city-create-shop": [
+    "The selected country must be the same as the city you selected in step two",
+    "يجب أن تكون الدولة المحددة هي نفس الدولة التي حددتها في الخطوة الثانية",
+    "کشور انتخاب شده باید همان کشوری باشد که در مرحله دو انتخاب کرده اید"
+  ],
+  "postal-code-filed": [
+    "Enter valid Postal Code!",
+    "أدخل رمزًا بريديًا صالحًا!",
+    "کد پستی معتبر وارد کنید"
+  ],
+  "pass-not-valid-create-shop": [
+    "your password must be at least 8 characters",
+    "يجب أن تتكون كلمة مرورك من 8 أحرف على الأقل",
+    "رمز عبور حداقل باید 8 کاراکتر باشد"
+  ],
+  "error-create-shop": [
+    "Registration error occurred. Please try again",
+    "حدث خطأ في التسجيل. حاول مرة اخرى",
+    "خطایی در ثبت نام رخ داده است لطفا یکبار دیگر امتحان کنید"
+  ],
+  "credi-card-filed": [
+    "Enter valid CreditCard Number!",
+    "أدخل رقم بطاقة ائتمان صالح!",
+    "شماره کارت معتبر وارد کنید"
+  ],
+  "reason-error": ["Select a reason is required",
+     "تحديد سبب مطلوب" ,
+      "انتخاب دلیل الزامی است"]
+}

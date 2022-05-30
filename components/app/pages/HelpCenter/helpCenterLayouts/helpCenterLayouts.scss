@@ -1,0 +1,95 @@
+@import "../../../../../assets/scss/abstracts/variables";
+@import "../../../../../assets/scss/abstracts/mixins";
+@import "../../../../../assets/scss/abstracts/placeholders";
+
+.article-box {
+  border-radius: 6px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.04);
+  background-color: rgba(255, 255, 255, 1);
+  border: solid 1px rgba(244, 244, 244, 1);
+  &:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  &__box-cnt {
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    @include respond-bs(tablets) {
+      padding: 25px;
+    }
+  }
+
+  &__header {
+    font-size: 25px;
+    @include respond-bs(tablets) {
+      font-size: 19px;
+    }
+    margin-top: -7px;
+    color: $color-primary;
+  }
+
+  &__box-right {
+    margin-left: 32px;
+    flex-grow: 1;
+    @include respond-bs(tablets) {
+      margin-left: 20px;
+    }
+  }
+
+  &__box-left {
+    align-self: center;
+    text-align: center;
+    svg {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  &__img {
+    width: 60px;
+  }
+
+  &__des {
+    color: $color-primary-gray;
+    font-size: 17px;
+    min-height: 75px;
+    @include respond-bs(tablets) {
+      font-size: 14px;
+      min-height: 84px;
+    }
+
+    @include respond-bs(landscape-phones) {
+      min-height: 44px;
+    }
+  }
+
+  &__count-cnt {
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #eeee;
+  }
+
+  &__count {
+    font-size: 14px;
+    color: $color-gray7;
+  }
+}
+
+.rtl {
+  .article-box {
+    &__box-right {
+      margin-left: 0;
+      margin-right: 32px;
+      @include respond-bs(tablets) {
+        margin-right: 20px;
+      }
+    }
+
+    &__header,
+    &__des,
+    &__count-cnt {
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,828 @@
+{
+  "en": {
+    "imgColComponent": [
+      [{ "url": null }],
+      [{ "url": null }],
+      [{ "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }, { "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }, { "url": null }, { "url": null }],
+      [
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null }
+      ],
+      [
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null }
+      ],
+      [
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null }
+      ],
+      [
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null }
+      ],
+      [{ "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }, { "url": null }],
+      [{ "url": null }]
+    ],
+    "headerComponent": {
+      "headerTopIconText": [
+        "Cart",
+        "Whishlist",
+        "account",
+        "Sign in or Sign out"
+      ],
+      "lang": ["English", "Arabic"],
+      "currency": ["USD", "BHD"],
+      "search": ["search"],
+      "searchInputPlaceHolder": "what are looking for?",
+      "mobileMenuText": [
+        "We have everything you need",
+        "Sign in or Sign up",
+        "Language",
+        "currency",
+        "All Categories"
+      ],
+      "mainMenu": [
+        "All Categories",
+        "Home",
+        "Deals",
+        "Order Tracking",
+        "Help Center",
+        "Sell with us"
+      ]
+    },
+    "allCategory": {
+      "categoryTitle": [
+        "Electronics",
+        "Fashion",
+        "Sports",
+        "Baby & Toys",
+        "Books",
+        "Pets Supplies",
+        "Cars",
+        "Health"
+      ],
+      "categoryListTitle": ["Must Popular", "Top Brands"],
+      "viewAll": "View All",
+      "categoryList": [
+        "Neque ultricies ",
+        "Augue curabitur ipsum ",
+        "Dolor quisque vestibulum ",
+        "Posuere quam",
+        "Rhoncus quam bibendum ",
+        "Lorem faucibus ultrices ",
+        "Consectetur vel pellentesque ",
+        "Rhoncus quam bibendum ",
+        "Rhoncus quam bibendum ",
+        "Rhoncus quam bibendum "
+      ]
+    },
+    "topCategoriesListComponent": [
+      {
+        "icon": "",
+        "imageUrl": "../../assets/images/categories/Fashion.jpg",
+        "text": "Fashion"
+      },
+      {
+        "icon": "",
+        "imageUrl": "../../assets/images/categories/Toys & Games.jpg",
+        "text": "Toys & Games"
+      },
+      {
+        "icon": "",
+        "imageUrl": "../../assets/images/categories/Mobiles.jpg",
+        "text": "Mobiles"
+      },
+      {
+        "icon": "",
+        "imageUrl": "../../assets/images/categories/Home & Kitchen.jpg",
+        "text": "Home & Kitchen"
+      },
+      {
+        "icon": "",
+        "imageUrl": "../../assets/images/categories/Sports.jpg",
+        "text": "Sports"
+      },
+      {
+        "icon": "",
+        "imageUrl": "../../assets/images/categories/Electronics.jpg",
+        "text": "Electronics"
+      },
+      {
+        "icon": "",
+        "imageUrl": "../../assets/images/categories/Beauty.jpg",
+        "text": "Beauty"
+      },
+      {
+        "icon": "",
+        "imageUrl": "../../assets/images/categories/Books.jpg",
+        "text": "Books"
+      },
+      {
+        "icon": "",
+        "imageUrl": "../../assets/images/categories/Pet Supplies.jpg",
+        "text": "Pet Supplies"
+      }
+    ],
+    "goodsSliderComponent": [
+      {
+        "caption": {
+          "text": "New Arrivals",
+          "bg-color": "#3866de"
+        },
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "10 Cups Drip Coffee Maker With Glass Carafe 1.25L 800W D ...",
+        "price": "589.50",
+        "priceAfterOff": "",
+        "off": "",
+        "express": true,
+        "inCard": false,
+        "modelnumber": "BGL32500",
+        "reason": "Item completely different from what was ordered"
+      },
+      {
+        "caption": {
+          "text": "Ajyal Exclusive",
+          "bg-color": "#fe1743"
+        },
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "Electric Juicer 1500W JE850 Silver.",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": false,
+        "modelnumber": "BGL32500",
+        "reason": "Item completely different from what was ordered"
+      },
+      {
+        "caption": {},
+        "liked": true,
+        "imageUrl": "",
+        "goodName": "Canister Vacuum Cleaner With Twin Chamber System ...",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": false,
+        "inCard": false,
+        "star-count": 4,
+        "modelnumber": "BGL32500",
+        "reason": "Item completely different from what was ordered"
+      },
+      {
+        "caption": {},
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "Smoothie Maker 1.6L 300W S MP060WG White/Green",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": false,
+        "modelnumber": "BGL32500"
+      },
+      {
+        "caption": {},
+        "liked": true,
+        "imageUrl": "",
+        "goodName": "Food Processor 800W FDM30 7SS Silver/Clear",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": true,
+        "star-count": 2
+      },
+      {
+        "caption": {},
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "10 Cups Drip Coffee Maker With Glass Carafe 1.25L 800W D ...",
+        "price": "589.50",
+        "priceAfterOff": "",
+        "off": "",
+        "express": true,
+        "inCard": false
+      },
+      {
+        "caption": {},
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "Electric Juicer 1500W JE850 Silver.",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": false
+      },
+      {
+        "caption": {},
+        "liked": true,
+        "imageUrl": "",
+        "goodName": "Canister Vacuum Cleaner With Twin Chamber System ...",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": false,
+        "inCard": false,
+        "star-count": 4
+      },
+      {
+        "caption": {},
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "Smoothie Maker 1.6L 300W S MP060WG White/Green",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": false
+      },
+      {
+        "caption": {},
+        "liked": true,
+        "imageUrl": "",
+        "goodName": "Food Processor 800W FDM30 7SS Silver/Clear",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": true,
+        "star-count": 2
+      }
+    ],
+    "footerComponent": {
+      "top": {
+        "left": [
+          "We’re Always Here To Help",
+          "Reach out to us through any of these support channels"
+        ],
+        "icons": [
+          ["HELP CENTER", "Help.noon.com"],
+          ["EMAIL SUPPORT", "Care@noon.com"],
+          ["PHONE SUPPORT", "800-38888"],
+          ["WhatsApp Us", "800-38888"]
+        ]
+      },
+      "middle": [
+        {
+          "header": "Fashion",
+          "list": [
+            "Massa dapibus est ",
+            "Eros nec neque ",
+            "Nisl mauris ",
+            "Consequat mollis ",
+            "Mauris adipiscing condimentum ",
+            "Ultrices proin pharetra ",
+            "Eros nec neque ",
+            "Eros nec neque "
+          ]
+        },
+        {
+          "header": "Fashion",
+          "list": [
+            "Massa dapibus est ",
+            "Eros nec neque ",
+            "Nisl mauris ",
+            "Consequat mollis ",
+            "Mauris adipiscing condimentum ",
+            "Ultrices proin pharetra ",
+            "Eros nec neque ",
+            "Eros nec neque "
+          ]
+        },
+        {
+          "header": "Fashion",
+          "list": [
+            "Massa dapibus est ",
+            "Eros nec neque ",
+            "Nisl mauris ",
+            "Consequat mollis ",
+            "Mauris adipiscing condimentum ",
+            "Ultrices proin pharetra ",
+            "Eros nec neque ",
+            "Eros nec neque "
+          ]
+        },
+        {
+          "header": "Fashion",
+          "list": [
+            "Massa dapibus est ",
+            "Eros nec neque ",
+            "Nisl mauris ",
+            "Consequat mollis ",
+            "Mauris adipiscing condimentum ",
+            "Ultrices proin pharetra ",
+            "Eros nec neque ",
+            "Eros nec neque "
+          ]
+        },
+        {
+          "header": "Fashion",
+          "list": [
+            "Massa dapibus est ",
+            "Eros nec neque ",
+            "Nisl mauris ",
+            "Consequat mollis ",
+            "Mauris adipiscing condimentum ",
+            "Ultrices proin pharetra ",
+            "Eros nec neque ",
+            "Eros nec neque "
+          ]
+        },
+        {
+          "header": "Fashion",
+          "list": [
+            "Massa dapibus est ",
+            "Eros nec neque ",
+            "Nisl mauris ",
+            "Consequat mollis ",
+            "Mauris adipiscing condimentum ",
+            "Ultrices proin pharetra ",
+            "Eros nec neque ",
+            "Eros nec neque "
+          ]
+        }
+      ],
+      "bottom": {
+        "app": "SHOP ON THE GO",
+        "social": "CONNECT WITH US",
+        "copy": "© 2020 Ajyar. All Rights Reserved.",
+        "list": [
+          "Careers",
+          "Warranty Policy",
+          "Sell with us",
+          "Terms of Use",
+          "Terms of Sale",
+          "Privacy Policy"
+        ],
+        "chat": "Chat"
+      }
+    },
+    "categories": [
+      {
+        "headerText": "Featured Categories",
+        "listItem": [
+          "Maecenas diam ",
+          "Integer gravida tincidunt ",
+          "Maecenas pulvinar ",
+          "Integer bibendum odio ",
+          "Odio neque ",
+          "Vel vehicula efficitur ",
+          "Etiam aliquam integer "
+        ]
+      },
+      {
+        "headerText": "Brands",
+        "listItem": [
+          "Maecenas diam ",
+          "Integer gravida tincidunt ",
+          "Maecenas pulvinar ",
+          "Integer bibendum odio ",
+          "Odio neque ",
+          "Vel vehicula efficitur ",
+          "Etiam aliquam integer "
+        ]
+      }
+    ]
+  },
+
+  "ar": {
+    "imgColComponent": [
+      [{ "url": null }],
+      [{ "url": null }],
+      [{ "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }, { "url": null }, { "url": null }],
+      [{ "url": null }, { "url": null }, { "url": null }, { "url": null }],
+      [
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null }
+      ],
+      [
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null }
+      ],
+      [
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null }
+      ],
+      [
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null },
+        { "url": null }
+      ],
+      [
+        { "url": null }
+      ]
+    ],
+    "categories": [
+      {
+        "headerText": "فئات مميزة",
+        "listItem": [
+          "مستلزمات الحمام",
+          "ديكورات المنازل",
+          "المطبخ وأدوات الطعام",
+          "الأدوات وتحسين المنزل",
+          "أجهزة الصوت والفيديو",
+          "الأثاث",
+          "مستلزمات الحدائق "
+        ]
+      },
+      {
+        "headerText": "ماركات",
+        "listItem": [
+          "مستلزمات الحمام",
+          "ديكورات المنازل",
+          "المطبخ وأدوات الطعام",
+          "الأدوات وتحسين المنزل",
+          "أجهزة الصوت والفيديو",
+          "الأثاث",
+          "مستلزمات الحدائق "
+        ]
+      }
+    ],
+    "headerComponent": {
+      "headerTopIconText": [
+        "عربة التسوق",
+        "الإعجابات",
+        " أو الاشتراك",
+        "تسجيل الدخول"
+      ],
+      "lang": ["English", "العربیه"],
+      "currency": ["USD", "BHD"],
+      "search": ["بحث"],
+      "searchInputPlaceHolder": "عما تبحث؟",
+      "mobileMenuText": [
+        "لدينا كل ما تحتاجه",
+        "تسجيل الدخول أو الاشتراك",
+        "اللغة",
+        "عملة",
+        "كل الفئات"
+      ],
+      "mainMenu": [
+        "جميع الفئات",
+        "الصفحة الرئيسية",
+        "صفقات",
+        "تتبع الطلب",
+        "مركز المساعدة",
+        "بيع معنا"
+      ]
+    },
+    "allCategory": {
+      "categoryTitle": [
+        "إلكترونيات",
+        "الجمال والعناية الشخصية",
+        "ألعاب الأطفال",
+        "رياضات",
+        "الجمال والعطور",
+        "دبي مول",
+        "الموسيقى والأفلام",
+        "دبي مول"
+      ],
+      "categoryListTitle": ["الأكثر شعبية", "ارقى الماركات"],
+      "viewAll": "عرض الكل",
+      "categoryList": [
+        "مستلزمات الحمام ",
+        "ديكورات المنازل",
+        "المطبخ وأدوات الطعام",
+        "الأدوات وتحسين المنزل",
+        "أجهزة الصوت والفيديو",
+        "الأثاث",
+        "مستلزمات الحدائق",
+        "مستلزمات الحمام",
+        "الأثاث",
+        "الأثاث"
+      ]
+    },
+    "topCategoriesListComponent": [
+      {
+        "icon": "",
+        "imageUrl": "",
+        "text": "موضه"
+      },
+      {
+        "icon": "",
+        "imageUrl": "",
+        "text": "ألعاب"
+      },
+      {
+        "icon": "",
+        "imageUrl": "",
+        "text": "التليفون المحمول"
+      },
+      {
+        "icon": "",
+        "imageUrl": "",
+        "text": "المنزل والمطبخ"
+      },
+      {
+        "icon": "",
+        "imageUrl": "",
+        "text": "رياضات"
+      },
+      {
+        "icon": "",
+        "imageUrl": "",
+        "text": "إلكترونيات"
+      },
+      {
+        "icon": "",
+        "imageUrl": "",
+        "text": "جمال"
+      },
+      {
+        "icon": "",
+        "imageUrl": "",
+        "text": "جمال"
+      },
+      {
+        "icon": "",
+        "imageUrl": "",
+        "text": "مستلزمات الحيوانات"
+      }
+    ],
+    "goodsSliderComponent": [
+      {
+        "caption": {
+          "text": "الوافدون الجدد",
+          "bg-color": "#3866de"
+        },
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "عصارة كهربائية بقدرة1500 وات JE850 فضي",
+        "price": "589.50",
+        "priceAfterOff": "",
+        "off": "",
+        "express": true,
+        "inCard": false,
+        "modelnumber": "BGL32500",
+        "reason": "المنتج مختلف تماما عما تم طلبه"
+      },
+      {
+        "caption": {
+          "text": "أجيال حصرية",
+          "bg-color": "#fe1743"
+        },
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "غسالة صغيرة بالتحميل العلويسعة 2 كجم NWM22 أزرق/ أبيض",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": false,
+        "modelnumber": "BGL32500",
+        "reason": "المنتج مختلف تماما عما تم طلبه"
+      },
+      {
+        "caption": {},
+        "liked": true,
+        "imageUrl": "",
+        "goodName": "جهاز كهربائي لطهي الأرز 1.8 لتراً وقدرة 700 واط RC1860-B5 أبيض",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": false,
+        "inCard": false,
+        "star-count": 4,
+        "modelnumber": "BGL32500",
+        "reason": "المنتج مختلف تماما عما تم طلبه"
+      },
+      {
+        "caption": {},
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "جهاز كهربائي لطهي الأرز 1.8 لتراً وقدرة 700 واط RC1860-B5 أبيض",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": false,
+        "modelnumber": "BGL32500",
+        "reason": "المنتج مختلف تماما عما تم طلبه"
+      },
+      {
+        "caption": {},
+        "liked": true,
+        "imageUrl": "",
+        "goodName": "جهاز طهي الطعام بالبخار مكون من ثلاث طبقات HS6000-B5 أبيض",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": true,
+        "star-count": 2,
+        "modelnumber": "BGL32500"
+      },
+      {
+        "caption": {},
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "عصارة كهربائية بقدرة1500 وات JE850 فضي",
+        "price": "589.50",
+        "priceAfterOff": "",
+        "off": "",
+        "express": true,
+        "inCard": false,
+        "modelnumber": "BGL32500"
+      },
+      {
+        "caption": {},
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "غسالة صغيرة بالتحميل العلويسعة 2 كجم NWM22 أزرق/ أبيض",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": false,
+        "modelnumber": "BGL32500"
+      },
+      {
+        "caption": {},
+        "liked": true,
+        "imageUrl": "",
+        "goodName": "جهاز كهربائي لطهي الأرز 1.8 لتراً وقدرة 700 واط RC1860-B5 أبيض",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": false,
+        "inCard": false,
+        "star-count": 4,
+        "modelnumber": "BGL32500"
+      },
+      {
+        "caption": {},
+        "liked": false,
+        "imageUrl": "",
+        "goodName": "جهاز كهربائي لطهي الأرز 1.8 لتراً وقدرة 700 واط RC1860-B5 أبيض",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": false,
+        "modelnumber": "BGL32500"
+      },
+      {
+        "caption": {},
+        "liked": true,
+        "imageUrl": "",
+        "goodName": "جهاز طهي الطعام بالبخار مكون من ثلاث طبقات HS6000-B5 أبيض",
+        "price": "589.50",
+        "priceAfterOff": "358.50",
+        "off": "37",
+        "express": true,
+        "inCard": true,
+        "star-count": 2,
+        "modelnumber": "BGL32500"
+      }
+    ],
+    "footerComponent": {
+      "top": {
+        "left": [
+          "نحن دائماً جاهزون لمساعدتك",
+          "تواصل معنا من خلال أي من قنوات الدعم التالية"
+        ],
+        "icons": [
+          ["الدعم عبر الهاتف", "Help.noon.com"],
+          ["مرکزالمساعدة", "Care@noon.com"],
+          ["الدعم عبر البريد الإلكتروني", "800-38888"],
+          ["راسلنا علی", "WhatsApp Us"]
+        ]
+      },
+      "middle": [
+        {
+          "header": "الأطفال",
+          "list": [
+            "عربات الأطفال",
+            "مقاعد السيارات",
+            "مستلزمات الإرضاع والإطعام",
+            "الاستحمام والعناية بالبشرة",
+            "الحفاضات",
+            "ملابس وأحذية الأطفال",
+            "الأثاث",
+            "ألعاب الأطفال"
+          ]
+        },
+        {
+          "header": "الأطفال",
+          "list": [
+            "عربات الأطفال",
+            "مقاعد السيارات",
+            "مستلزمات الإرضاع والإطعام",
+            "الاستحمام والعناية بالبشرة",
+            "الحفاضات",
+            "ملابس وأحذية الأطفال",
+            "الأثاث",
+            "ألعاب الأطفال"
+          ]
+        },
+        {
+          "header": "الأطفال",
+          "list": [
+            "عربات الأطفال",
+            "مقاعد السيارات",
+            "مستلزمات الإرضاع والإطعام",
+            "الاستحمام والعناية بالبشرة",
+            "الحفاضات",
+            "ملابس وأحذية الأطفال",
+            "الأثاث",
+            "ألعاب الأطفال"
+          ]
+        },
+        {
+          "header": "الأطفال",
+          "list": [
+            "عربات الأطفال",
+            "مقاعد السيارات",
+            "مستلزمات الإرضاع والإطعام",
+            "الاستحمام والعناية بالبشرة",
+            "الحفاضات",
+            "ملابس وأحذية الأطفال",
+            "الأثاث",
+            "ألعاب الأطفال"
+          ]
+        },
+        {
+          "header": "الأطفال",
+          "list": [
+            "عربات الأطفال",
+            "مقاعد السيارات",
+            "مستلزمات الإرضاع والإطعام",
+            "الاستحمام والعناية بالبشرة",
+            "الحفاضات",
+            "ملابس وأحذية الأطفال",
+            "الأثاث",
+            "ألعاب الأطفال"
+          ]
+        },
+        {
+          "header": "الأطفال",
+          "list": [
+            "عربات الأطفال",
+            "مقاعد السيارات",
+            "مستلزمات الإرضاع والإطعام",
+            "الاستحمام والعناية بالبشرة",
+            "الحفاضات",
+            "ملابس وأحذية الأطفال",
+            "الأثاث",
+            "ألعاب الأطفال"
+          ]
+        }
+      ],
+      "bottom": {
+        "app": "تسوق أينما كنت",
+        "social": "تواصل معنا",
+        "copy": "© 2020 اجیال. جميع الحقوق محفوظة",
+        "list": [
+          "فرص التوظيف",
+          "سياسة الضمان",
+          "البيع معنا",
+          "شروط الاستخدام",
+          "شروط البيع",
+          "سياسة الخصوصية"
+        ],
+        "chat": "Chat"
+      }
+    }
+  }
+}

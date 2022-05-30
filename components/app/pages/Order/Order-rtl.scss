@@ -1,0 +1,49 @@
+@import "./../../../../assets/scss/abstracts/variables";
+@import "../../../../assets/scss/abstracts/mixins";
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+@import "./OrderLayouts/OrderPlaced/OrderPlaced.scss";
+
+@import "./OrderLayouts/Payment/Payment-rtl.scss";
+
+@import "./OrderLayouts/ShippingAddress/ShippingAddress-rtl.scss";
+
+.rtl {
+  .ordernav {
+    &__item-cnt {
+      &--have-line {
+        &::before {
+          margin-right: 0;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    &__back-cnt {
+        left: initial;
+        right: 25px;
+    }
+  }
+
+  .order-re {
+    .addresses {
+      &__right-item {
+        &--iconi {
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  .ordernav-mobile{
+    &__list{
+      right: initial;
+      left: 20px;
+    }
+
+    &__back-cnt{
+      right: 20px;
+      left: initial;
+    }
+  }
+}

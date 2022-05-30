@@ -1,0 +1,153 @@
+{
+  "@TrackingTitle": [
+    "ajyal.bh | order tracking",
+    "ajyal.bh | تتبع الطلب",
+    "ajyal.bh | پیگیری سفارش"],
+
+  "order-tracking": ["Order Tracking",
+     "تتبع الطلبسة",
+      "پیگیری سفارش"],
+  "tracking-sub": [
+    "Track your orders for details and more information",
+    "تتبع طلبياتك للحصول على التفاصيل ومزيد من المعلومات",
+    "اطلاعات بیشتر برای پیگیری سفارش"
+  ],
+  "tracking-input-msg": [
+    "Please enter your order tracking number",
+    "الرجاء إدخال رقم تتبع الطلبية",
+    "کد پیگیری سفارش خود را وارد کنید"
+  ],
+  "tracking-placeholder": [
+    "Enter Order Tracking number",
+    "أدخل رقم تتبع الطلبية",
+    "کد پیگیری سفارش را وارد کنید"
+  ],
+  "tracking": ["Tracking", "تتبع", "پیگیری"],
+  "orders": {
+    "orders": ["Orders", "الطلبيات", "سفارش ها"],
+    "Show orders from": [
+      "Show orders from",
+      "إظهار الطلبات من",
+      "نمایش سفارش ها"
+    ],
+    "empty-msg1": [
+      "You don't have any orders yet",
+      "ليس لديك أي طلبات حتى الآن",
+      "شما تاکنون هیچ سفارشی ندارید"
+    ],
+    "empty-msg2": [
+      "What are you waiting for? Start shopping!",
+      "ماذا تنتظر؟ ابدأ التسوق!",
+      "منتظر چه هستید؟ خرید را شروع کنید"
+    ],
+    "con-shopping": ["Continue Shopping", "مواصلة التسوق", "ادامه دادن خرید"],
+    "placed-on": ["Places on", "تم الطلب في", "در محل"],
+    "item": ["item", "منتج", "گزینه"],
+    "detail-view": ["View Details", "عرض التفاصيل", "نمایش جزییات"],
+    "orders-des1": [
+      "See how your orders are managed and check the latest status on your order",
+      "تعرف على كيفية إدارة طلبياتك وتحقق من حالة طلبك أول بأول",
+      "مشاهده وضعیت و مدیریت سفارش ها"
+    ],
+    "inSum": ["Invoice Summary", "ملخص الفاتورة", "خلاصه صورتحساب"],
+    "taxInvo": ["Tax Invoices", "الفواتير الضريبية", "مالیات صورتحساب"],
+    "model-num": ["Model number:", "رقم الموديل:", "شماره مدل"],
+    "sold-by": ["Sold by:", "البائع:", "فروخته شد"],
+    "msg1": [
+      "This item cannot be exchanged or returned",
+      "مينفعش تستبدل أو ترجع المنتج ده",
+      "امکان بازگشت یا تعویض برای این گزینه وجود ندارد"
+    ],
+    "review": ["Review", "راجع هذا المنتج", "نظرات"],
+    "on": ["on", "علی", "در"],
+    "order-sum": ["Order Summary", "ملخص الطلبية", "جمع صورتحساب"],
+    "subtotal": ["Subtotal", "المجموع الفرعي", "جمع کل"],
+    "shipping": ["Shipping", "الشحن", "ارسال"],
+    "total": ["Total", "المجموع", "جمع"],
+    "free": ["Free", "مجاناً", "رایگان"],
+    "inciusive": ["(Inclusive of VAT)",
+       "(شامل ضريبة القيمة المضافة VAT)" , 
+       "شامل ارزش افزوده"],
+    "items": ["items", "منتج", "گزینه ها"],
+    "discount": ["Discount", "خصم", "تخفیف"],
+    "pay-method": ["Payment Method", "طريقة الدفع او السداد", "روش پرداخت"],
+    "quantity": ["Quantity", "الكمية", "تعداد"]
+  },
+  "aside": {
+    "order-sum": [
+      "Order Summary",
+      "ملخص الطلبية",
+      "خلاصه سفارش"
+    ],
+    "subtotal": [
+      "Subtotal",
+      "المجموع الفرعي",
+      "جمع کل"
+    ],
+    "shipping": [
+      "Shipping",
+      "الشحن",
+      "ارسال"
+    ],
+    "total": [
+      "Total",
+      "المجموع",
+      "مجموع"
+    ],
+    "free": [
+      "Free",
+      "مجاناً",
+      "رایگان"
+    ],
+    "inciusive": [
+      "(Inclusive of VAT)",
+      "(شامل ضريبة القيمة المضافة VAT)",
+      "شامل مالیات بر ارزش افزوده"
+    ],
+    "apply": [
+      "Apply",
+      "تطبيق",
+      "تایید"
+    ],
+    "coupon": [
+      "Coupon Code or Gift Card",
+      "أدخل الكود أو الكوبون",
+      "کد تخفیف یا کارت هدیه"
+    ],
+    "con-shop": [
+      "Continue Shopping",
+      "متابعة التسوق",
+      "ادامه ی خرید"
+    ],
+    "checkout": [
+      "Checkout Now",
+      "إتمام الشراء",
+      "پرداخت "
+    ],
+    "items": [
+      "ITEMS FOR",
+      "عناصر لـ",
+      "موارد برای"
+    ],
+    "buy": [
+      "BUY",
+      "يشترى",
+      "خرید"
+    ],
+    "discount": [
+      "Discount",
+      "خصم",
+      "تخفیف"
+    ],
+    "coupon2": [
+      "Coupon",
+      "قسيمة",
+      "کد تخفیف"
+    ],
+    "vat": [
+      "VAT",
+      "VAT",
+      "ارزش افزوده"
+    ]
+  }
+}

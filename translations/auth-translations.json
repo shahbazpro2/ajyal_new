@@ -1,0 +1,163 @@
+{
+  "@authtitle": [
+    "ajyal.bh | Sign in or Sing up",
+    "ajyal.bh | تسجيل الدخول أو الاشتراك",
+    "ajyal.bh | ثبت نام کنید یا وارد شوید "
+  ],
+  "lang": ["العربية", "English", "English"],
+
+  "forget-pass": [
+    "Forgot your password?",
+    "نسيت كلمة المرور؟",
+    "رمز عبور خود را فراموش کردید؟"
+  ],
+  "enter-email": [
+    "Enter your email address and we'll send you a code to reset your password",
+    "أدخل عنوان بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور",
+    "ایمیل خود را وارد کنید سپس ما برای شما یک کد برای تعویض پسورد خواهیم فرستاد"
+  ],
+  "submit": ["submit", "إرسال", "ارسال"],
+  "send-new-email": [
+    "send new email",
+    "إرسال بريد إلكتروني جديد",
+    "ارسال ایمیل جدید"
+  ],
+  "change-pass": [
+    "change your password now!",
+    "تغيير كلمة المرور الخاصة بك الآن",
+    "همین حالا رمز عبور خود را تغییر دهید"
+  ],
+  "submit-email": ["Submit email", 
+    "إرسال البريد الإلكتروني",
+     "ارسال ایمیل"],
+  "check-inbox": [
+    "Check your email inbox",
+    "تحقق من صندوق البريد الإلكتروني الخاص بك",
+    "ایمیل خود را بررسی کنید"
+  ],
+  "sent-email-msg1": [
+    "We've sent an email to",
+    "لقد أرسلنا بريدًا إلكترونيًا إلى",
+    "ما یک ایمیل به"
+  ],
+  "sent-email-msg2": [
+    " with 6-digit code . Please  enter the code below then set a new password .",
+    "برمز مكون من 6 أرقام. الرجاء إدخال الرمز أدناه ثم تعيين كلمة مرور جديدة.",
+    "با 6 رقم کد ارسال کردیم، کد را وارد کرده سپس پسورد خود را تغییر دهید"
+  ],
+  "verify-code-placeholder": ["Verification Code", 
+    "شفرة التأكيد",
+     "کد تایید"],
+  "verify": ["Verify",
+     "تحقق"
+     , "تایید"],
+  "old-pass-place-holder": [
+    "Enter your old password",
+    "أدخل كلمة المرور القديمة الخاصة بك",
+    "رمز قدیمی را وارد کنید"
+  ],
+  "new-pass": ["New password", "كلمة سر جديدة", ""],
+  "new-pass-placeholder": [
+    "enter your new password",
+    "أدخل كلمة المرور الجديدة",
+    "رمز جدید خود را وارد کنید"
+  ],
+
+  "signIn3": ["SIGN IN", "تسجيل الدخول", "ورود"],
+  "signUp3": ["SIGN UP", "اشتراك", "ثبت نام"],
+  "welcome": ["Welcome back!", "!أهلا بك مجدداً", "خوش آمدید"],
+  "signIn": [
+    "Sign in to your account",
+    "تسجيل الدخول إلى حسابك",
+    "وارد حساب کاربری خود شوید"
+  ],
+  "signIn-mobile": [
+    "Hala ! Welcome back !",
+    "!أهلا بك مجدداً", "خوش آمدید"
+  ],
+  "email": ["Email", "البريد الإلكتروني", "ایمیل"],
+  "mobileNumber": ["Mobile Number",
+     "رقم الهاتف المحمول",
+      "شماره موبایل"],
+  "Password": ["Password", "كلمة المرور", "رمز عبور"],
+  "login": ["Login", "تسجيل الدخول", "ورود"],
+  "forget": ["Forget Password?", "نسيت كلمة المرور؟", "فراموشی رمز عبور؟"],
+  "new": ["New here?", "هل أنت زائر جديد؟", ""],
+  "sign-dis": [
+    "Sign up and discover our products",
+    "سجل واكتشف منتجاتنا",
+    "ثبت نام کنید و از محصولات ما استفاده کنید"
+  ],
+  "acc-have": ["Have an account?", "ليس لديك حساب ؟", "کاربر جدید هستید؟"],
+  "login2": [
+    "Log in to your account We were waiting for you!",
+    "تسجيل الدخول إلى حسابك",
+    "به حساب کاربری خود وارد شوید"
+  ],
+  "hi": ["Hi!", "!مرحبا", "سلام!"],
+  "acc-create": ["Create a Ajyal account",
+     "إنشاء حساب على أجيال",
+      "ساخت حساب کاربری اجیال"],
+  "pas-confirm": ["Confirm password", "تأكيد كلمة المرور", ""],
+  "fullname": ["Full name", "الاسم الكامل", ""],
+  "acc-create2": ["Create an account", "إنشاء حساب", "ساخت حساب کاربری جدید"],
+  "email-placeholder": [
+    "Enter email address",
+    "أدخل البريد الإلكتروني",
+    "ایمیل خود را وارد کنید"
+  ],  
+  "mobile-placeholder": [
+    "Enter mobile number",
+    "أدخل رقم الهاتف المحمول",
+    "شماره موبایل خود را وارد کنید"
+  ],
+  "pass-placeholder": [
+    "Enter password",
+    "أدخل كلمة المرور",
+    "پسورد را وارد کنید"
+  ],
+  "cpass-placeholder": [
+    "Confirm your password",
+    "أدخل كلمة المرور مرة أخرى",
+    "رمز عبور خود را تایید کنید"
+  ],
+  "name-placeholder": ["Enter your name",
+     "أدخل أسمك"
+     , "نام خود را وارد کنید"],
+  "family-placeholder": [
+    "Enter your family name",
+    "أدخل اسم عائلتك",
+    "نام خوانوادگی خود را وارد کنید"
+  ],
+  "name": ["Name",
+     "الاسم",
+      "نام"],
+  "family": ["Family",
+     "العائلة"
+     , "نام خوانوادگی"],
+     "verify-sms": [
+      "Please verify your mobile number to continue",
+      "لازم تأكد رقم موبايلك عشان نكمّل",
+      "شماره موبایل خود را برای ادامه تایید کنید"
+    ],
+    "verify-sms-des": [
+      "To proceed to register, use the OTP & verify your mobile number. We’ve sent the OTP to",
+      " عشان نكمّل لإتمام الشراء، استخدم رمز OTP وأكد رقم موبايلك. بعتنا رمز OTP إلى",
+      "کد تایید به شماره موبایل شما ارسال شد، برای تکمیل ثبت نام کد تایید را وارد کنید"
+    ],
+    "changephone-btn": [
+      "Submit & verify phone",
+      "إرسال الرمز",
+      "تایید شماره موبایل"
+    ],
+    "dontreceive": [
+      "Didn't receive OTP?",
+      "لم يصلك رمز OTP?",
+      "کد تایید دریافت نشده است؟"
+    ],
+    "resendnow": ["Resend now", "إعادة إرسال الآن", "ارسال مجدد"],
+    "changeRegisterData": ["Change Register Data",
+       "تغيير بيانات التسجيل",
+        "تغییر اطلاعات"]
+
+}

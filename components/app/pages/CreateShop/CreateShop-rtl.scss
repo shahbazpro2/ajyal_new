@@ -1,0 +1,128 @@
+@import "./../../../../assets/scss/abstracts/variables";
+@import "../../../../assets/scss/abstracts/mixins";
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .createshop {
+    &__logo-cnt {
+      margin-left: 0;
+      margin-right: -50px;
+    }
+    .checklist__search-input-icon {
+      left: initial;
+      right: 7px;
+    }
+    .checklist__search-input{
+      padding: 6px 29px 6px 10px;
+    }
+    &__back-icon {
+      margin-left: 10px;
+      margin-right: 0px;
+      transform: rotate(180deg);
+    }
+
+    .auth__form-label {
+      text-align: right;
+    }
+
+    &__text1 {
+      font-size: 14px;
+    }
+
+    &__text-sky {
+      font-size: 13px;
+    }
+
+    &__login {
+      .auth__forget {
+        font-size: 14px;
+      }
+    }
+
+    &__select-img {
+      margin-left: 15px;
+      margin-right: 0;
+    }
+
+    &__check-text {
+      text-align: right;
+      margin-left: 0;
+      margin-right: 10px;
+    }
+
+    &__rel {
+      &.next {
+        .createshop__transition-cnt {
+          &.enter {
+            transform: translateX(-100%);
+            &-done {
+              transform: translateX(0);
+            }
+
+            &-active {
+              transform: translateX(0);
+            }
+          }
+
+          &.exit {
+            &-done {
+              transform: translateX(100%);
+            }
+
+            &-active {
+              transform: translateX(100%);
+            }
+          }
+        }
+      }
+
+      &.prev {
+        .createshop__transition-cnt {
+          &.enter {
+            transform: translateX(100%);
+            &-done {
+              transform: translateX(0);
+            }
+
+            &-active {
+              transform: translateX(0);
+            }
+          }
+
+          &.exit {
+            &-done {
+              transform: translateX(-100%);
+            }
+
+            &-active {
+              transform: translateX(-100%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .shopnav {
+    &__icon {
+      margin-right: 0;
+      margin-left: 8px;
+    }
+  }
+
+  .shopnav-mobile {
+    &__backicon {
+      transform: rotate(180deg);
+    }
+  }
+
+
+  .store-phone-number {
+    flex-direction: row-reverse;  
+    input {
+      text-align: left;
+    }
+  }
+
+
+}

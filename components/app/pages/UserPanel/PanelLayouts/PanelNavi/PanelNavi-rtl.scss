@@ -1,0 +1,21 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.rtl{
+
+.user-panel-nav{
+    li,span,a,p,h1,h2,h3,h4{
+        text-align: right;
+    }
+    &__link-text{
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    &__signout-text{
+        text-align: center!important;
+    }
+}
+
+}

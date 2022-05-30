@@ -1,0 +1,285 @@
+{
+  "@categoryTitle": [
+    "ajyal.bh | category",
+    "ajyal.bh | الفئة",
+    "ajyal.bh | دسته بندی"
+  ],
+  "@indexTitle": [
+    "ajyal.bh - Online Shopping in Bahrain",
+    "التسوق عبر الإنترنت في البحرين",
+    "فروشگاه آنلاین اجیال"
+  ],
+  "lang": ["English", "العربیة", "فارسی"],
+  "usd": ["USD", "$", "تومان"],
+  "bhd": ["BHD", "د.ب", "تومان"],
+  "tmn": ["TMN", "تومان", "تومان"],
+  "searchPlaceholder": [
+    "What are you looking for?",
+    "ما الذي تبحث عنه؟",
+    "در جستجوی چه هستید؟"
+  ],
+  "seemore": ["see more", "اظهار الكل", "بیشتر"],
+  "all": ["All", "جميع", "همه"],
+  "search": ["search", "بحث", "جستجو"],
+  "singin": [
+    "Sign in or Sign up",
+    "تسجيل الدخول أو الاشتراك",
+    "ورود / ایجاد حساب کاربری"
+  ],
+  "account": ["Account", "الحساب", "حساب کاربری"],
+  "my-account": ["My Account", "حسابي", "حساب کاربری من"],
+  "signin2": ["Sign in", "تسجيل الدخول", "ورود"],
+  "signup": ["Sign up", "الاشتراك", "ثبت نام"],
+  "wishlist": ["Wishlist", "المفصلة", "علاقمندی ها"],
+  "cart": ["cart", "عربة التسوق", "سبد خرید"],
+  "mobileMenuDesc": [
+    "We have everything you need",
+    "لدينا كل ما تحتاجه",
+    "هرچیزی که شما نیاز دارید ما داریم"
+  ],
+  "language": ["Language", "اللغة", "زبان"],
+  "currency": ["currency", "العملة", "واحد پول"],
+  "category": ["All Categories", "كل التصنيفات", "تمام دسته بندی ها"],
+  "homeItem": ["Home", "الصفحة الرئيسية", "خانه"],
+  "dealsItem": ["Deals", "العروض", "معاملات"],
+  "orderTrackingItem": ["Order Tracking", "تتبع الطلب", "پیگیری سفارش"],
+  "helpCenterItem": ["Help Center", "مركز المساعدة", "مرکز راهنمایی"],
+  "sellWithUsItem": ["Sell with us", "البيع معنا", "با ما بفروشید"],
+  "back-to-main-menu": [
+    "Back to main menu",
+    "العودة إلى القائمة الرئيسية",
+    "بازگشت به منوی اصلی"
+  ],
+  "home": ["Home", "الصفحة الرئيسية", "خانه"],
+  "brands": ["Brands", "الماركات", "برند ها"],
+  "connect-provider": [
+    "Connect provider",
+    "الاتصال بالبائع",
+    "ارتباط با تامین کننده"
+  ],
+  "country": ["Country", "بلد", "کشور"],
+  "city": ["City", "مدينة", "شهر"],
+  "province": ["Province", "المحافظة", "استان"],
+  "common": {
+    "unavailable": ["Unavailable", "غير متوفر", "ناموجود"],
+    "save": ["Save", "حفظ", "ذخیره"],
+    "name": ["Name", "الاسم", "نام"],
+    "phone": ["Phone", "رقم الهاتف", "شماره موبایل"],
+    "delete-address": ["Delete address", "حذف العنوان", "حذف آدرس"],
+    "delete": ["Delete","حذف","حذف"],
+    "edit": ["Edit", "تعدیل", "ویرایش"],
+    "primary-address": ["primary address", "العنوان الرئيسي", "آدرس منتخب"],
+    "recommended": [
+      "Customer Also Viewed",
+      "قد يعجبك أيضاً",
+      "پیشنهاد برای شما"
+    ],
+    "show-p-info": ["go to detail", "انتقل إلى التفاصيل", "به جزئیات بروید"],
+    "continue": ["Continue", "متابعة", "ادامه"],
+    "not-verified": ["not verified", "لم يتم التحقق", "تایید نشد"],
+    "cancel": ["Cancel", "إلغاء", "لغو"],
+    "place-order": ["Place Order", "تاکید الطلبیة", "محل سفارش"],
+    "item": ["item", "منتج", "گزینه"],
+    "items": ["items", "منتجات", "گزینه ها"],
+    "back": ["Back", "عودة", "بازگشت"],
+    "order": ["Order", "الطلبیه", "سفارش"],
+    "continue-shopping": ["Continue Shopping", "متابعة التسوق", "ادامه خرید"],
+    "addressform": {
+      "verify": [
+        "Please verify your mobile number to continue",
+        "يرجى التحقق من رقم هاتفك المحمول للمتابعة",
+        "شماره موبایل خود را برای ادامه تایید کنید"
+      ],
+      "verify-des": [
+        "To proceed to checkout, use the OTP & verify your mobile number. We’ve sent the OTP to",
+        "لمتابعة إتمام الشراء، استخدم كود OTP وقم بتأكيد رقم جوّالك. لقد قمنا بإرسال كود OTP إلى",
+        "کد تایید به شماره موبایل شما ارسال شد، برای تکمیل ثبت نام کد تایید را وارد کنید"
+      ],
+      "changephone": [
+        "Change Phone Number",
+        "تغيير الرقم",
+        "شماره موبایل خود را تغییر دهید"
+      ],
+      "changephone-btn": [
+        "Submit & verify phone",
+        "تحقق من رقم الهاتف",
+        "تایید شماره موبایل"
+      ],
+      "skip": ["Skip", "رد شدن", "تخطى"],
+      "dontreceive": [
+        "Didn't receive OTP?",
+        "لم يصلك رمز OTP?",
+        "کد تایید دریافت نشده است؟"
+      ],
+      "resendnow": ["Resend now", "إعادة إرسال الآن", "ارسال مجدد"],
+      "entermobile": [
+        "Please enter your new mobile number and we’ll send you a new OTP.",
+        "الرجاء إدخال رقم جوّالك وسنقوم بإرسال كود OTP جديد لك.",
+        "لطفاً شماره موبایل جدید خود را وارد کنید تا کد تایید برای شما ارسال شود"
+      ],
+      "send-new-code": ["Send new code", "عايز كود جديد", "ارسال کد جدید"],
+      "mobile-number-placeholder": [
+        "Enter mobile number",
+        "أدخل رقم الجواّل",
+        "شماره موبایل را وارد کنید"
+      ]
+    },
+    "addressAside": {
+      "order-sum": ["Order Summary", "ملخص الطلبية", "خلاصه سفارش"],
+      "subtotal": ["Subtotal", "المجموع الفرعي", "جمع کل"],
+      "shipping": ["Shipping", "الشحن", "ارسال"],
+      "total": ["Total", "المجموع", "جمع بندی"],
+      "free": ["Free", "مجاناً", "رایگان"],
+      "inciusive": [
+        "(Inclusive of VAT)",
+        "(شامل ضريبة القيمة المضافة VAT)",
+        "شامل ارزش افزوده"
+      ],
+      "vat": ["VAT", "VAT", "ارزش افزوده"],
+      "apply": ["Apply", "تطبيق", "تایید"],
+      "coupon": [
+        "Coupon Code or Gift Card",
+        "رمز القسيمة أو الكوبون",
+        "کارت هدیه یا کوپن"
+      ],
+      "con-shop": ["Continue Shopping", "متابعة التسوق", "ادامه خرید"],
+      "checkout": ["Checkout Now", "إتمام الشراء الآن", "اکنون پرداخت کنید"],
+      "item": ["items", "منتج", "گزینه ها"],
+      "discount": ["Discount", "خصم", "تخفیف"],
+      "coupon2": ["Coupon", "قسيمة", "کد تخفیف"]
+    },
+    "go-detail": ["go to detail", "انتقل إلى التفاصيل", "به جزئیات بروید"],
+    "good-item": {
+      "model-num": ["Model number:", "رقم الموديل:", "نمونه عدد"],
+      "reviews": ["reviews", "المراجعات", "نظرات"]
+    },
+    "good-process": {
+      "cancelled": ["Cancelled", "تم الإلغاء", "لغو شده"],
+      "delivered": ["Delivered", "تم التوصيل", "ارسال شده"],
+      "processing": ["Processing", "معالجة", "در حال پردازش"]
+    },
+    "view-all": ["VIEW ALL", "مشاهدة الكل", "مشاهده همه"]
+  },
+  "email-verify": {
+    "check-email": [
+      "check your email inbox",
+      "تحقق من صندوق البريد الإلكتروني الخاص بك",
+      "لطفا ایمیل خود را بررسی کنید"
+    ],
+    "enter-code": [
+      "Enter the code that was sent to you to Verify the email",
+      "أدخل الرمز الذي تم إرساله إليك للتحقق من البريد الإلكتروني",
+      "لطفا کد ارسال شده به ایمیل را وارد کنید"
+    ],
+    "verification-code-placeholder": [
+      "Verification Code",
+      "شفرة التأكيد",
+      "کد تایید"
+    ],
+    "verify": ["Verify", "تحقق", "تایید"],
+    "verify-email": [
+      "Verify Your Email",
+      "تأكيد بريدك الألكتروني",
+      "ایمیل خود را تایید کنید"
+    ]
+  },
+  "nav": {
+    "profile": ["Profile", "حسابك", "پروفایل"],
+    "orders": ["Orders", "الطلبيات", "سفارش ها"],
+    "address": ["Addresses", "العناوين", "آدرس ها"],
+    "payment": ["Payment", "عمليات الدفع", "پرداخت"],
+    "credit": ["Ajyal Credits", "رصید اجیال", "حساب اجیال"],
+    "return": ["Returns", "الإرجاع", "مرجوعی ها"],
+    "preference": ["Preference", "تفضيلات", "اولویت"],
+    "claims": ["Claims", "طلبات الضمان", "درخواست ها"],
+    "signout": ["Sign Out", "تسجيل الخروج", "خروج از سیستم"],
+    "matching-brand": ["Matching Brands", "الماركات المتطابقة", "انتخاب برند"],
+    "matching-category": [
+      "Matching Categories",
+      "الفئات المتطابقة",
+      "انتخاب دسته بندی"
+    ]
+  },
+  "footer": {
+    "topBrand": ["Top Brands", "افضل المارکات", "برندهای برتر"],
+    "topCategories": ["Top Categories", "الأكثرة شهرة", "دسته بندی های برتر"],
+    "viewAll": ["View All", "عرض الكل", "نمایش همه"],
+    "footer-msg1": [
+      "We’re Always Here To Help",
+      "نحن دائماً جاهزون لمساعدتك",
+      "ما همیشه برای کمک در کنار شما هستیم"
+    ],
+    "footer-msg2": [
+      "Reach out to us through any of these support channels",
+      "تواصل معنا من خلال قنوات الدعم التالية",
+      "برای پشتیبانی از طریق  کانال های ارتباطی با ما در ارتباط باشید"
+    ],
+    "helpCenter": ["HELP CENTER", "مرکزالمساعدة", "مرکز راهنمایی"],
+    "emailSupport": [
+      "EMAIL SUPPORT",
+      "الدعم عبر البريد الإلكتروني",
+      "ایمیل پشتیبانی"
+    ],
+    "phoneSupport": ["PHONE SUPPORT", "الدعم عبر الهاتف", "شماره پشتیبانی"],
+    "whatsAppUs": ["WhatsApp Us", "راسلنا علی", "واتس آپ "],
+    "ConnectWithUs": ["CONNECT WITH US", "تواصل معنا", "با ما در ارتباط باشید"],
+    "ShopOnTheGo": [
+      "SHOP ON THE MOBILE",
+      "تسوق أينما كنت",
+      "خرید در تلفن موبایل شما"
+    ],
+    "btm-nav": {
+      "Careers": ["Customer Rights", "فرص التوظيف", "حقوق مشتریان"],
+      "warrantyPolicy": ["Warranty Policy", "سياسة الضمان", "شرایط گارانتی"],
+      "sellWithUs": ["Sell with us", "البيع معنا", "با ما بفروشید"],
+      "termOfUse": ["Terms of Use", "شروط الاستخدام", "شرایط استفاده"],
+      "termsOfSale": ["Terms of Sale", "شروط البيع", "شرایط فروش"],
+      "privacyPolicy": [
+        "Privacy Policy",
+        "سياسة الخصوصية",
+        "خط و مشی های امنیتی"
+      ],
+      "home": ["Home", "المنزل", "خانه"],
+      "category": ["Categories", "الفئات", "دسته بندی ها"],
+      "profile": ["My Account", "حسابي", "پروفایل کاربری"],
+      "cart": ["Cart", "عربة التسوق", "سبد خرید"],
+      "deals": ["Deals", "العروض", "معاملات"]
+    },
+    "chat": ["Chat", "دردشه", "گفتگو"],
+    "copyRight": [
+      "© 2021 Ajyal. All Rights Reserved.",
+      "أجیال. جميع الحقوق محفوظة © 2021",
+      "© 2021 Ajyal. All Rights Reserved."
+    ]
+  },
+  "dontlogin": {
+    "retu-custo": ["Returning Customer", "الزبون العائد", "حساب کاربری دارید "],
+    "dont-acc": [
+      "Don't have an account?",
+      "ليس لديك حساب؟",
+      "حساب کاربری ندارید؟"
+    ]
+  },
+  "main-nav": {
+    "storeList": ["Stores List", "المتاجر", "لیست فروشگاه ها"]
+  },
+  "How-are-these-calculated": [
+    "How are these calculated?",
+    "كيف يتم حساب ذلك؟",
+    "این چگونه محاسبه میشود؟"
+  ],
+  "mobile-profile": {
+    "hala": ["Hala! Nice to meet you", "هاله! سعيد بلقائك", ""],
+    "hala-des": [
+      "The region's favorite online marketplace",
+      "السوق المفضل على الإنترنت في المنطقة",
+      ""
+    ]
+  },
+  "Goods": [
+    "goods",
+    "بضائع",
+    "کالاها"
+  ]
+
+}

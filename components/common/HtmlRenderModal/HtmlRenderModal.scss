@@ -1,0 +1,71 @@
+@import "../../../assets/scss/abstracts/variables";
+@import "../../../assets/scss/abstracts/mixins";
+@import "../../../assets/scss/abstracts/placeholders";
+
+.box-wrapper {
+  z-index: 20;
+  position: relative;
+  &__title {
+  }
+  &__text {
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(126, 133, 155);
+  }
+  &__help-icon-wrapper {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+  }
+  &__help-icon {
+    width: 17px;
+    height: 17px;
+    margin-top: -3px;
+  }
+  .modal {
+    width: 100%;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    left: 0px;
+    border: 1px solid rgb(227, 229, 240);
+    margin-top: 5px;
+    box-sizing: border-box;
+    animation: 0.5s ease-in-out 0s 1 normal none running delay;
+    z-index: 20;
+    box-shadow: rgba(58, 58, 58, 0.08) 0px 1px 5px;
+    padding: 12px 10px 10px 10px;
+    border-radius: 5px;
+    &__icon-wrapper {
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      position: absolute;
+      right: 7px;
+      top: 7px;
+      border-radius: 100%;
+      // padding: 6px;
+      // border: 1px solid rgb(0, 0, 0);
+      cursor: pointer;
+    }
+    &__content {
+    }
+    &__icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .modal-wrapper {
+    z-index: 20;
+    transition: opacity 150ms ease-in-out 0s, visibility 150ms ease-in-out 0s;
+    &.show {
+      opacity: 1;
+      visibility: visible;
+    }
+    &.hide {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+}

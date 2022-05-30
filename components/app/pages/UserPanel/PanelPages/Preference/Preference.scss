@@ -1,0 +1,43 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "./../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.preference {
+  padding: 0px 35px;
+  min-height: 442px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include respond-bs(portrait-phones) {
+    padding: 0px 20px;
+  }
+
+  .SelectBox2__item {
+    margin-top: 20px;
+    padding-bottom: 12px;
+    align-items: flex-start;
+    &:not(:last-child) {
+      border-bottom: 1px solid #eee;
+    }
+  }
+  &__btn-cnt {
+    margin: 20px 0px;
+    button {
+      @include respond-bs(portrait-phones) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.rtl {
+  .preference {
+    .SelectBox2__content {
+      text-align: right;
+    }
+
+    &__btn-cnt {
+      text-align: right;
+    }
+  }
+}

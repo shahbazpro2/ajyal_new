@@ -1,0 +1,46 @@
+@import "./../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .category-page {
+    &__left {
+      padding-right: 0;
+      padding-left: 1.3rem;
+    }
+
+    .seemore__link-brands{
+      text-align: right;
+      display:block;
+    }
+  }
+
+  .rtl-pl {
+    padding-right: 15px !important;
+    padding-left: 0px;
+  }
+  .categories {
+    li,
+    span,
+    a {
+      text-align: right;
+    }
+
+    &__top-link {
+      text-align: right;
+      &::after {
+        content: "";
+        border: 12px solid #f0b440;
+        position: absolute;
+        height: 114%;
+        border-radius: 9px;
+        left: initial;
+        top: -4px;
+        right: -15px;
+      }
+      &::before {
+        border: none;
+      }
+    }
+  }
+}

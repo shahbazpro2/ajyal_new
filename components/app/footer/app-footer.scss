@@ -1,0 +1,316 @@
+@import "../../../assets/scss/abstracts/variables";
+@import "../../../assets/scss/abstracts/mixins";
+@import "../../../assets/scss/abstracts/placeholders";
+
+.footer {
+  margin-top: 25px;
+
+  &__top-container {
+    background-color: $color-grey2;
+    border-top: 1px solid $color-grey-darker;
+    border-bottom: 1px solid $color-grey-darker;
+    border-left: none;
+    border-right: none;
+    padding: 12px 20px 4px 20px;
+    @include respond-bs(desktops) {
+      background-color: white;
+      border-bottom: none;
+    }
+  }
+  &__top-list {
+    @extend %horizental-list;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 0;
+  }
+  &__icon-container {
+    float: left;
+    border: 1px solid $color-grey-darker;
+    background-color: white;
+    border-radius: 100%;
+    padding: 8px;
+    margin-top: 3px;
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &__t-text {
+    color: $color-primary-gray;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+  &__b-text {
+    margin-left: 10px;
+    color: $color-primary;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  &__top-item {
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    @include respond-bs(desktops) {
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+      margin-top: 0;
+
+      border-bottom: solid 1px $color-grey-darker;
+    }
+    &--first {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      @include respond-bs(desktops) {
+        align-items: center;
+        border-bottom: none;
+      }
+    }
+    svg {
+      width: 30%;
+      height: 40px;
+      @include respond-bs(portrait-phones) {
+        width: 20%;
+      }
+    }
+    .top-item-info {
+      direction: ltr;
+      width: 70%;
+      @include respond-bs(portrait-phones) {
+        width: 80%;
+      }
+    }
+  }
+  &__mobile-style {
+    padding: 0 4rem;
+  }
+  &__btm-container {
+    padding: 20px 20px 0px 20px !important;
+    @include respond-bs(desktops) {
+      display: none;
+    }
+  }
+  &__top-left-text {
+    color: $color-primary;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  &__btn-left-text {
+    color: $color-primary-gray;
+    font-size: 14px;
+  }
+  &__list-header {
+    color: $color-primary;
+    font-size: 1.6rem;
+    margin-bottom: 1.3rem;
+  }
+  &__list-item {
+    margin-bottom: 8px;
+  }
+  &__list-link {
+    color: $color-primary-gray;
+    font-size: 1.3rem;
+  }
+
+  &__nt-container {
+    @extend %d-flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  &__nt-header {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: $color-primary;
+    margin-bottom: 15px;
+  }
+  &__nt-img {
+    margin-right: 8px;
+    width: 150px;
+  }
+  &__nt-icon-list {
+    @extend %d-flex;
+    justify-content: center;
+  }
+  &__nt-icon-container {
+    margin-left: 19px;
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  &__btm2-container {
+    background-color: $color-light-white;
+    border-top: 1px solid $color-grey-darker;
+    padding: 13px 0px;
+    &--flex {
+      @extend %d-flex;
+      justify-content: flex-start;
+    }
+  }
+  &__btm2-left {
+    @extend %d-flex;
+    align-items: center;
+    @include respond-bs(desktops) {
+      margin: 2rem 0;
+    }
+  }
+  $margin: 5px;
+  &__btm2-img {
+    width: 40px;
+    margin-right: $margin;
+    height: 31px;
+  }
+  &__btm2-text {
+    margin: 0;
+    margin-right: $margin;
+    align-self: center;
+    color: $color-primary-gray;
+    font-size: 1.3rem;
+    @include respond-bs(desktops) {
+      display: none;
+    }
+  }
+  &__btm2-text-mobile {
+    margin: 0;
+    margin-right: $margin;
+    text-align: center !important;
+    color: $color-primary-gray;
+    font-size: 14px;
+    display: none;
+    margin-bottom: 2rem;
+    @include respond-bs(desktops) {
+      display: block;
+    }
+  }
+  &__btm2-right {
+    @extend %d-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__btm2-link {
+    margin-left: 20px;
+    color: $color-primary-gray;
+    font-size: 14px;
+    @include respond-bs(desktops) {
+      margin-bottom: 2rem;
+      margin-left: 0;
+      text-align: center!important;
+      flex-basis: 33%;
+    }
+    &--chat {
+      background-color: $color-primary-darker;
+      padding: 1rem 2.5rem;
+      border-radius: 4rem;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__mobile-end {
+    display: none !important;
+    @include respond-bs(desktops) {
+      display: flex !important;
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 10px;
+      /* font-size: 9px; */
+      justify-content: space-around;
+    }
+  }
+  &__desktop-end {
+    display: flex !important;
+    @include respond-bs(desktops) {
+      display: none !important;
+    }
+  }
+
+  &__chat {
+    position: fixed;
+    right: 0;
+    bottom: 0.5rem;
+    z-index: 98;
+  }
+
+  &__btm2-chat {
+    color: white;
+    margin-left: 9px;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  &__btm2-chat-icon {
+    vertical-align: top;
+  }
+
+
+
+  &__nav {
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    z-index: 40;
+    display: flex;
+    box-shadow: #00000042 0px -1px 8px;
+    -webkit-tap-highlight-color: transparent;
+
+    a {
+      flex: 1 1 0%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    svg {
+      margin: 0px auto;
+      width: 28px;
+      height: 28px;
+    }
+    span {
+      font-size: 11px;
+      color: rgb(64, 69, 83);
+      font-weight: 600;
+    }
+    }
+
+
+    .active-footer {
+      svg,rect,path {
+        fill: #F0B440;
+      }
+    }
+
+    .iconContainer {
+      position: relative;
+    }
+    .cart-mobile-counter {
+      position: absolute;
+      top: -3px;
+      right: -5px;
+      height: 18px;
+      width: 18px;
+      border-radius: 100%;
+      background-color: rgb(56, 102, 223);
+      color: rgb(255, 255, 255);
+      font-size: 13px;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+    }
+
+  }
+
+
+}

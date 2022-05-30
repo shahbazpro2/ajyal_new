@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Component_103" width="24" height="24" data-name="Component 103" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#172840}
+        </style>
+    </defs>
+    <g id="bank" transform="translate(-.926)">
+        <g id="Group_2617" data-name="Group 2617" transform="translate(.926)">
+            <path id="Path_998" d="M23.432 8.949a1.408 1.408 0 0 0 1.407-1.407V5.721a1.4 1.4 0 0 0-.882-1.3L13.41.1a1.4 1.4 0 0 0-1.05 0L1.808 4.416a1.4 1.4 0 0 0-.882 1.3v1.826a1.408 1.408 0 0 0 1.407 1.407h.844v10.6h-.844a1.408 1.408 0 0 0-1.407 1.403v1.641A1.408 1.408 0 0 0 2.333 24h21.1a1.408 1.408 0 0 0 1.407-1.407v-1.641a1.408 1.408 0 0 0-1.407-1.407h-.844V8.949h.844zm0 12v1.641H2.333v-1.638zM4.583 19.546V8.949h1.595v10.6zm3 0V8.949h3.095v10.6zm4.5 0V8.949h1.597v10.6zm3 0V8.949h3.095v10.6zm4.5 0V8.949h1.594v10.6zm-17.255-12V5.723l10.555-4.316 10.545 4.312c.007 0 0-.134 0 1.823H2.333z" class="cls-2" data-name="Path 998" transform="translate(-.926)"/>
+        </g>
+        <g id="Group_2618" data-name="Group 2618" transform="translate(12.179 3.041)">
+            <path id="Path_999" d="M241.63 64.854a.7.7 0 0 0-.7.7v1.5a.7.7 0 1 0 1.407 0v-1.5a.7.7 0 0 0-.707-.7z" class="cls-2" data-name="Path 999" transform="translate(-240.927 -64.854)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,151 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "./../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.payment {
+  &__payment-detail-cnt {
+    padding: 26px 20px;
+    @include respond-bs(desktops) {
+      border-radius: 0;
+    }
+  }
+
+  &__box-header {
+    font-size: 15px;
+  }
+
+  &__aside,
+  &__items-cnt {
+    @include respond-bs(desktops) {
+      border-radius: 0;
+    }
+    @include respond-bs(tablets) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &__text1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: $color-primary;
+  }
+
+  &__text2 {
+    font-size: 13px;
+    color: $color-primary-gray;
+  }
+
+  &__text3 {
+    font-size: 15px;
+    color: $color-primary-gray;
+    &--margin {
+      margin-left: 5px;
+    }
+  }
+
+  &__text4 {
+    font-size: 15px;
+    color: $color-primary;
+    &--margin {
+      margin-left: 20px;
+      vertical-align: middle;
+    }
+  }
+
+  &__sky-text {
+    font-size: 14px;
+    color: $color-primary2;
+    font-weight: bold;
+  }
+
+  &__icon {
+    width: 40px;
+  }
+
+  .SelectBox2__img {
+    align-self: flex-start;
+    flex-shrink: 0;
+  }
+
+  .SelectBox2__item {
+    padding: 5px;
+    &:not(:nth-child(2)) {
+      border-bottom: 1px solid #eee;
+    }
+  }
+
+  &__switch {
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+
+  .shipto {
+    margin-top: 25px;
+    @include respond-bs(portrait-phones) {
+      padding: 0 20px;
+    }
+  }
+
+  &__order-sum {
+    @include respond-bs(landscape-phones) {
+      padding-left: 0px !important ;
+      padding-right: 0px !important ;
+    }
+  }
+
+  .cart-aside {
+    &__cnt {
+      @include respond-bs(portrait-phones) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  &__cartType-list {
+    padding-left: 30px;
+    margin-top: 20px;
+  }
+  &__cartType-item {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    input {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+  &__cartType-text {
+    vertical-align: text-bottom;
+  }
+
+  &__payment-method {
+    border-color: #dedfe0;
+    background: #f8f8f9;
+    border: 1px solid #dedfe0;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 0 20px 20px 20px;
+    font-size: 14px;
+    .gray__input {
+      padding: 10px 15px;
+    }
+    .date-input-month {
+      margin-right: 0.5rem;
+      margin-left: 0;
+    }
+    .date-input-year {
+      margin-left: 0.5rem;
+      margin-right: 0;
+    }
+  }
+}
+
+
+.credimax-card-name,.credimax-card-number {
+  width: 50%;
+  @include respond-bs(portrait-phones) {
+     width: 100%;
+  }
+}

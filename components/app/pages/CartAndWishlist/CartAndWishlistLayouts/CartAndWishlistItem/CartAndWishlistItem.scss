@@ -1,0 +1,139 @@
+@import "./../../../../../../assets/scss/abstracts/variables";
+@import "./../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.cart-item {
+  &__model-container {
+    margin-top: 6px;
+  }
+
+  &__varietyList {
+    & > li {
+      margin-right: 15px;
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+  }
+  &__dropdown {
+    width: 51px;
+    .Dropdown-control {
+      font-size: 14px;
+    }
+    .Dropdown-option {
+      font-size: 14px;
+    }
+  }
+  &__model {
+    font-size: 14px;
+    color: $color-primary-gray;
+    &--less-margin {
+      margin-right: 5px;
+    }
+  }
+
+
+  &__store-name {
+    font-size: 14px;
+    color: $color-primary-gray;
+    .store {
+      font-weight: 500;
+      margin: 0 10px;
+    }
+  }
+
+  &__quantity {
+    margin-bottom: 10px;
+  }
+
+
+  &__Guarantee {
+    margin: 10px 0px 0 0px;
+    display: flex;
+    align-items: center;
+    span {
+      color: $color-primary-gray;
+      font-size: 14px;
+      margin: 0 5px;
+    }
+  }
+
+
+  &__model-num-value {
+    color: $color-primary-gray;
+    font-size: 14px;
+  }
+  &__qut-text,
+  &__remove {
+    font-size: 14px;
+    color:  $color-primary-gray;
+  }
+  &__qut-text {
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 20px;
+  }
+  &__remove {
+    margin: 10px 15px 0 0px;
+    display: flex;
+    align-items: center; 
+  }
+  &__text-icon {
+    margin-right: 10px;
+    &--remove {
+      margin-left: 3px;
+    }
+  }
+
+  &__right {
+    @extend %d-flex;
+    justify-content: flex-start;
+    .cart-item-remove-like {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    @include respond-bs(desktops) {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+  }
+  .goodItem-s2 {
+    padding-top: 2px;
+    margin: 0px 15px;
+    @include respond-bs(desktops) {
+      flex-direction: column;
+    }
+    &__left-right {
+      display: block;
+    }
+    &__right-ft-con {
+      margin-top: 12px;
+    }
+    &__right-ft {
+      margin-bottom: 5px;
+    }
+    &__exp {
+      width: 70px !important;
+    }
+    &__name {
+      font-weight: bold;
+      color: $color-primary !important;
+    }
+    &__price-off {
+      font-size: 14px;
+    }
+    &__right-container {
+      flex-basis: 25%;
+      padding: 0;
+      justify-content: space-between ;
+      align-items: center;
+    }
+    &__connect-provider{
+      font-size: 14px;
+      color: $color-primary-gray !important;
+      margin-top: 10px;
+    }
+  }
+}

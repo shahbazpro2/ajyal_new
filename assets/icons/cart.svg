@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="cart" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-cart-2{fill:#acb1b8}
+        </style>
+    </defs>
+    <g id="shopping-cart_1_" data-name="shopping-cart (1)" transform="translate(1.077 .769)">
+        <g id="Group_2011" data-name="Group 2011">
+            <g id="Group_2010" data-name="Group 2010">
+                <circle id="Ellipse_28" cx="1.699" cy="1.699" r="1.699" class="cls-cart-2" data-name="Ellipse 28" transform="translate(3.832 10.975)"/>
+                <path id="Path_861" d="M268.2 324.1a1.7 1.7 0 1 0 1.7 1.7 1.7 1.7 0 0 0-1.7-1.7z" class="cls-cart-2" data-name="Path 861" transform="translate(-257.707 -313.123)"/>
+                <path id="Path_862" d="M20.3 9.24h-8.862l-.173-1.006h7.282a.52.52 0 0 0 .485-.329l1.734-4.369a.52.52 0 0 0-.485-.711h-9.918L9.947.433A.52.52 0 0 0 9.427 0H7.433a.52.52 0 1 0 0 1.04h1.56l1.491 8.807a.52.52 0 0 0 .52.433H20.3a.52.52 0 0 0 0-1.04z" class="cls-cart-2" data-name="Path 862" transform="translate(-6.913 .001)"/>
+            </g>
+        </g>
+    </g>
+</svg>

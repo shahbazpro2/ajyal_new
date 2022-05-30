@@ -1,0 +1,222 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "./../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.returns {
+  &__box {
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+  }
+  &__add-btn {
+    position: absolute;
+    right: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    @include respond-bs(landscape-phones) {
+      position: initial;
+      display: inline-block;
+      align-self: center;
+      width: 80%;
+      height: 100%;
+      line-height: 28px;
+      font-size: 15px;
+    }
+
+    @include respond-bs(portrait-phones) {
+      width: 95%;
+    }
+  }
+  .checkout-fix {
+    @include respond-bs(landscape-phones) {
+      justify-content: center !important;
+    }
+  }
+  //   .goodDetailTabs {
+  //     padding: 10px 23px!important;
+  //   }
+  .react-tabs {
+    &__tab-list {
+      position: relative;
+      @include respond-bs(portrait-phones) {
+        justify-content: space-between;
+      }
+      @include respond-bs(landscape-phones) {
+        margin-bottom: 10px !important;
+      }
+    }
+
+    &__tab {
+      @include respond-bs(portrait-phones) {
+        flex-basis: 50%;
+        text-align: center;
+        // font-size: 14px!important;
+      }
+      @include respond-bs(landscape-phones) {
+        &:not(:first-child) {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    &__tab-panel {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  .no-address {
+    justify-content: initial;
+    margin-top: 100px;
+    min-height: auto;
+  }
+
+  .goodDetailTabs {
+    @include respond-bs(portrait-phones) {
+      padding: 0;
+    }
+  }
+}
+
+.return-req {
+  &__text1 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    @include respond-bs(portrait-phones) {
+      margin-bottom: 5px;
+    }
+  }
+
+  &__detail {
+    margin-top: 13px;
+  }
+
+  &__item {
+    &:not(:first-child) {
+      border-top: 1px solid #ebebeb;
+      padding-top: 8px;
+    }
+  }
+}
+
+.return-item {
+  border-top: none;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+.return-del {
+  .return-item {
+    margin-top: 10px;
+  }
+}
+
+.returns-add {
+  @include respond-bs(landscape-phones) {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  &__items {
+    margin-top: 25px;
+    @include respond-bs(landscape-phones) {
+      margin-top: 0px;
+    }
+  }
+
+  .return-item {
+    padding-bottom: 10px;
+    &:not(:first-child) {
+      border-top: 1px solid #eeee;
+    }
+    .goodItem-s2__left-right {
+      margin-top: 15px;
+    }
+
+    @include respond-bs(landscape-phones) {
+      &:first-child {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+.returns-add-single {
+  .sky-text-link {
+    font-size: 1.3rem;
+    color: $color-primary2;
+  }
+
+  &__text1 {
+    font-size: 14px;
+    color: $color-primary;
+  }
+  &__text2 {
+    font-size: 14px;
+    color: $color-primary-gray;
+    &--bold {
+      font-weight: bold;
+    }
+  }
+
+  &__text3 {
+    font-size: 14.5px;
+    color: $color-primary;
+    &--bold {
+      font-weight: bold;
+    }
+  }
+
+  &__box-gray {
+    background-color: $color-gray-lighter;
+    padding: 15px;
+  }
+
+  &__slc-cnt {
+    margin-top: 40px;
+    @include respond-bs(landscape-phones) {
+      margin-top: 10px;
+    }
+  }
+  .addresses__item-cnt {
+    @include respond-bs(landscape-phones) {
+      margin-top: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  &__select-box {
+    margin-bottom: 20px;
+    &--addresses {
+      flex-wrap: wrap;
+      & > * {
+        flex-basis: 100%;
+      }
+      .SelectBox2 {
+        &__item {
+          flex-basis: 100%;
+          margin-left: 0;
+          margin-right: 0;
+        }
+        &__content {
+          flex-basis: 100%;
+        }
+        @include respond-bs(landscape-phones) {
+          &__img {
+            margin-right: 2px;
+            align-self: flex-start;
+            margin-top: 12px;
+          }
+        }
+      }
+
+      .addresses__item-cnt {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.error-text {
+  font-size: 1.5rem;
+  color: #ee3f3f;
+  width: 100%;
+  display: block;
+}

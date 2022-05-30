@@ -1,0 +1,54 @@
+@import "./../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+@import "./CartAndWishlistLayouts/CartAndWishlistAside/CartAndWishlistAside-rtl.scss";
+
+@import "./CartAndWishlistLayouts/CartAndWishlistItem/CartAndWishlistItem-rtl.scss";
+
+.rtl {
+  .cart {
+    p,
+    h2,
+    h4,
+    span {
+      text-align: right;
+    }
+    &__header-container {
+      padding-right: 40px;
+    }
+    &__box-header {
+      padding: 5px 0px 0px 0px;
+    }
+
+    &__deli-cnt {
+      right: initial;
+      left: 0;
+    }
+  }
+
+  .empty-cart {
+    text-align: center;
+    & > * {
+      text-align: center !important;
+    }
+  }
+
+  .checkout-fix {
+    &__price {
+      text-align: right;
+    }
+  }
+
+  .cart-item {
+    &__varietyList {
+      & > li {
+        margin-left: 0px;
+        margin-right: 15px;
+        &:last-of-type {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

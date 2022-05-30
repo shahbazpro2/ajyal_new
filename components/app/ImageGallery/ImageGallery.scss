@@ -1,0 +1,66 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.imagegallery {
+  .image-gallery-image {
+    width: 81% !important;
+    padding: 20px 10px;
+  }
+
+  padding-right: 15px;
+  .image-gallery-fullscreen-button {
+    top: 10px;
+    bottom: initial;
+  }
+  .image-gallery-thumbnail {
+    width: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 6px;
+    overflow: hidden;
+    &.active {
+      border: 1px solid blue;
+    }
+
+    &:hover {
+      border: 1px solid blue;
+    }
+  }
+  .image-gallery-thumbnails {
+    background-color: #00000024;
+    padding: 0px 0px;
+  }
+  .image-gallery-thumbnails .image-gallery-thumbnails-container {
+    text-align: left;
+    // background-color: #00000024;
+    padding: 8px 8px;
+  }
+
+  .fullscreen {
+    .image-gallery-image {
+      height: calc(100vh - 80px) !important;
+      width: auto !important;
+
+      & > img {
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+  .image-gallery-bullets {
+    bottom: 0px;
+    .image-gallery-bullets-container {
+      text-align: center !important;
+    }
+    .image-gallery-bullet {
+      padding: 3px;
+      background-color: #8e8e8e;
+      border: 1px solid transparent;
+    }
+    .image-gallery-bullet.active {
+      background: #373737;
+      padding: 4px;
+    }
+  }
+}

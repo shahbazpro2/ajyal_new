@@ -1,0 +1,25 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.filter {
+  background-color: $color-gray-lighter;
+  border: 1px solid $color-gray4;
+  padding: 3px 7px;
+  margin-right: 13px;
+  margin-top: 7px;
+  $margin: 10px;
+  &__name{
+      color: $color-primary-gray-lighter;
+      font-size: 12px;
+      margin-right:  $margin;
+  }
+  &__value{
+      color: $color-primary-gray;
+      font-size: 13px;
+      margin-right:  $margin;
+  }
+  &__icon{
+    cursor: pointer;
+  }
+}

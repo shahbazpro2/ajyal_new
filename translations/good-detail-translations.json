@@ -1,0 +1,229 @@
+{
+  "detail": {
+    "model-num": [
+      "Model number:",
+      "رقم الموديل:",
+      "شماره مدل"
+    ],
+    "review": [
+      "Reviews",
+      "تقييم واحد",
+      "نظرات"
+    ],
+    "Inclusive": [
+      "(Inclusive of VAT)",
+      "(شامل ضريبة القيمة المضافة VAT)",
+      "شامل ارزش افزوده"
+    ],
+    "saving": [
+      "Saving:",
+      "التوفير:",
+      "در حال ذخیره"
+    ],
+    "was": [
+      "Was:",
+      "کان:",
+      "قیمت قبلی"
+    ],
+    "now": [
+      "Now:",
+      "الآن:",
+      "قیمت الان"
+    ],
+    "deliverTo": [
+      "Deliver to",
+      "توصيل إلى",
+      "ارسال به"
+    ],
+    "changeAre": [
+      "Change Area",
+      "تغيير المنطقة",
+      "تغییر آدرس"
+    ],
+    "post-by-seller": [
+      "Posted by the seller",
+      "الإرسال بواسطة البائع",
+      "ارسال توسط فروشنده"
+    ],
+    "city-not": [
+      "Sorry! This product is not available.",
+      "المعذرة، هذا المنتج غير متوفر",
+      "متاسفیم! این محصول موجود نمی باشد"
+    ],
+    "provider-info": [
+      "Call request ",
+      "طلب اتصال",
+      "درخواست تماس"
+    ],
+    "provider-info-click": [
+      " We will contact you",
+      "سوف نتصل بك",
+      "جهت مذاکره با شما تماس گرفته خواهد شد ."
+    ],
+    "provider-msg1": [
+      "Connect provider for the price of the product",
+      "الاتصال بالبائع للحصول المنتج",
+      "برای قیمت محصول با تامین کننده در ارتباط باشید"
+    ]
+  },
+  "tabs": {
+    "overview": [
+      "Overview",
+      "نظرة عامة",
+      "بررسی اجمالی"
+    ],
+    "specification": [
+      "Specification",
+      "المواصفات",
+      "ویژگی ها"
+    ],
+    "rating": [
+      "Rating & Reviews",
+      "التقييم والمراجعات",
+      "بررسی و رتبه بندی"
+    ],
+    "basedon": [
+      "Based on",
+      "حسب",
+      "براساس"
+    ],
+    "review": [
+      "Reviews",
+      "التقييم",
+      "بررسی ها"
+    ],
+    "more-reviews": [
+      "More Reviews",
+      "المزيد من المراجعات",
+      "نظرات بیشتر"
+    ]
+  },
+  "aside": {
+    "buy-now": [
+      "Buy now",
+      "اشترالآن",
+      "اکنون بخرید"
+    ],
+    "soldby": [
+      "Sold by:",
+      "البائع",
+      "فروخته شد"
+    ],
+    "month-war": [
+      "month warranty",
+      "ضمان لمدة شهر",
+      "ضمانت ماهانه"
+    ],
+    "seller-reviews": [
+      "Seller Reviews",
+      "تقييم البائع",
+      "نظرات فروشنده"
+    ],
+    "free-return": [
+      "Get free returns on eligible items",
+      "لا يمكن استبدال أو إرجاع هذا المنتج",
+      "کالاهای واجد شرایط بیشتری را دریافت کنید "
+    ],
+    "always-stock": [
+      "Always In Stock",
+      "توفر المنتجات",
+      "موجود است"
+    ],
+    "ship-on": [
+      "Ships On Time",
+      "الشحن على الوقت",
+      "ارسال به موقع"
+    ],
+    "other-offer": [
+      "other offer",
+      "عروض أخرى",
+      "پیشنهادهای دیگر"
+    ],
+    "less": [
+      "less",
+      "أقل",
+      "حداقل"
+    ],
+    "quantity": [
+      "Quantity",
+      "الكمية",
+      "تعداد"
+    ],
+    "add-cart": [
+      "Add to card",
+      "اضافة الی عربة التسوق",
+      "افزودن به سبد خرید"
+    ],
+    "in-wishlist": [
+      "In your Wishlist",
+      "فی قائمة الرغبات الخاصه بک",
+      "لیست علاقمندیها"
+    ],
+    "add-wish": [
+      "Add to Wishlist",
+      "إضافة إلى قائمة الامنيات",
+      "اضافه کردن به لیست علاقمندی ها"
+    ],
+    "remove-wish": [
+      "Remove from Wishlist",
+      "إزالة من قائمة الرغبات",
+      "حذف کردن از لیست علاقمندی ها"
+    ],
+    "view-offer": [
+      "View all offers",
+      "عرض جميع العروض",
+      "نمایش بیشتر پیشنهادها"
+    ],
+    "dont-return": [
+      "This item cannot be exchanged or returned",
+      "لا يمكن استبدال أو إرجاع هذا المنتج",
+      "این مورد امکان تغییر یا بازگشت ندارد"
+    ],
+    "bottomData": {
+      "secure-shopping": [
+        "SECURE SHOPPING",
+        "تسوق آمن",
+        "خرید امن"
+      ],
+      "your-data-protected": [
+        "Your data is always protected",
+        "بياناتك محمية دائماً",
+        "اطلاعات شما همیشه محافظت می شود"
+      ],
+      "trusted-shipping": [
+        "TRUSTED SHIPPING",
+        "شحن موثوق به",
+        "ارسال مطمئن"
+      ],
+      "free-shipping-desc": [
+        "Free shipping when you spend BHD 50 and above on express items",
+        "شحن مجاني عند شراء منتجات يتم شحنها بواسطة أجيال بـ 50 دينار أو أكثر",
+        "ارسال رایگان در صورت خرید بالای یک میلیون تومان و بالاتر"
+      ]
+    }
+  },
+  "panel": {
+    "del-lo": [
+      "Delivery Location",
+      "مكان التوصيل",
+      "آدرس تحویل"
+    ],
+    "src-city": [
+      "Search City",
+      "بحث عن المدن",
+      "انتخاب شهر"
+    ]
+  },
+  "sellerReviews": [
+    "Reviews",
+    "التقییم",
+    "امتیاز "
+  ],
+  "DeliveredBy": [
+    "Delivered by",
+    "توصلك يوم",
+    "روز تحویل "
+  ]
+
+
+}

@@ -1,0 +1,21 @@
+@import '../../../../assets/scss/abstracts/mixins';
+
+.index-home {
+    @include respond-bs(desktops) {
+        padding-top: 6.5rem;
+      }
+}
+
+.imgCols_big-desktop {
+    @include respond-bs(tablets) {
+        display: none;
+    }
+}
+
+.imgCols_mobile {
+    display: none;
+
+    @include respond-bs(tablets) {
+        display: block;
+    }
+}

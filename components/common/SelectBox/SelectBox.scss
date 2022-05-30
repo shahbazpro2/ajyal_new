@@ -1,0 +1,88 @@
+@import "../../../assets/scss/abstracts/variables";
+
+.dontlogin {
+  &__smallText {
+    font-size: 12px;
+    color: $color-primary-gray;
+    &--border-top {
+      padding-top: 10px;
+      border-top: 1px solid rgba(226, 226, 226, 0.933);
+      margin-top: 10px;
+    }
+  }
+  &__link {
+    font-size: 15px;
+  }
+  &__btn {
+    border: none;
+    background-color: $color-primary-yellow-darker;
+    padding: 7px;
+    color: $color-primary;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+}
+
+.select-box-container {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.18) 0 0.5rem 0.4rem 0;
+  position: absolute;
+  top: 4.3rem;
+  left: -1.5rem;
+  z-index: 9999;
+  white-space: nowrap;
+  border-radius: 0.2rem;
+  padding: 0.8rem 0;
+  width: 20rem;
+  &__item {
+    padding: 1rem 2.5rem 0 1.5rem;
+
+    button {
+      display: flex;
+      align-items: center;
+      padding-bottom: 1.5rem;
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      justify-content: space-around;
+      span {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: $color-primary;
+      }
+
+    }
+    .lang-flag {
+      width: 35px;
+    }
+  }
+
+  &::after {
+    content: "";
+    bottom: 100%;
+    left: 3rem;
+    border: 0.7rem solid transparent;
+    border-bottom-color: white;
+    height: 0;
+    width: 0;
+    position: absolute;
+  }
+}
+
+.dropAccount {
+  padding-bottom: 0;
+  width: 22rem;
+  top: 5.1rem;
+  left: 2.9rem;
+  border-radius: 6px;
+}
+
+.rtl {
+  .select-box-container {
+    direction: ltr;
+  }
+  .dropAccount {
+    direction: rtl !important;
+  }
+}

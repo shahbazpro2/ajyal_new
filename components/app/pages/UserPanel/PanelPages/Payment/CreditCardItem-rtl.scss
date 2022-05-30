@@ -1,0 +1,46 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .card {
+    p {
+    }
+    &__header {
+      &__left {
+        align-items: center;
+        display: flex;
+        .card-icon {
+        }
+      }
+      &__right {
+        align-items: center;
+        span {
+        }
+      }
+    }
+    &__body {
+      &__left {
+        .full-text {
+        }
+        .expire-text {
+        }
+        .expire-data-text {
+        }
+      }
+      &__right {
+      }
+    }
+    &__footer {
+      &__delete-wrapper {
+      }
+      &__icon-container {
+        .trash-icon {
+        }
+      }
+      &__delete-text {
+        margin-right: 5px;
+        margin-left: 0px;
+      }
+    }
+  }
+}

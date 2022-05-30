@@ -1,0 +1,33 @@
+@import "../../../../../assets/scss/abstracts/variables";
+
+.rtl {
+  .nav {
+    &__item:hover {
+      box-shadow: 0px 0px 0px 0px #acb1b8, 1px 0px 0px 0px #acb1b8;
+    }
+
+    &__link {
+      &::after {
+        left: 0;
+        right: initial;
+      }
+    }
+    &__link-text {
+      font-size: 1.6rem;
+    }
+    &__item--last {
+      .nav__link {
+        &::after {
+          border: none;
+        }
+      }
+    }
+    &__item--secound {
+      .nav__link {
+        &::after {
+          border-right: 0.1rem solid $color-nav-list-item-seperator;
+        }
+      }
+    }
+  }
+}
