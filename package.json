@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev -H 127.0.0.1 -p 4000",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "runapp": "node app.js",
     "stop": "taskkill -f -im node.exe"
   },
