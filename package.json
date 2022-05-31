@@ -2,6 +2,9 @@
   "name": "ajyalproject-next-spa",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "10.24.1"
+  },
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev -H 127.0.0.1 -p 4000",
     "build": "next build",
