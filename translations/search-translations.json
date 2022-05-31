@@ -1,94 +1,26 @@
 {
-  "@searchTitle": [
-    "ajyal.bh | search",
-    "ajyal.bh | بحث",
-    "ajyal.bh | جستجو"
-  ],
-  "seemore": [
-    "see more",
-    "عرض الكل",
-    "بیشتر"
-  ],
-  "setPrice": [
-    "GO",
-    "ضع سعرًا",
-    "انتخاب قیمت"
-  ],
-  "searchplaceholder": [
-    "search brand",
-    "بحث عن ماركة",
-    "جستجوی برند"
-  ],
+  "@searchTitle": ["ajyal.bh | search", "ajyal.bh | بحث", "ajyal.bh | جستجو"],
+  "seemore": ["see more", "عرض الكل", "بیشتر"],
+  "setPrice": ["GO", "ضع سعرًا", "انتخاب قیمت"],
+  "searchplaceholder": ["search brand", "بحث عن ماركة", "جستجوی برند"],
   "resualtfound": [
     "results found for",
     "النتائج التي تم العثور عليها لـ",
     "نتیجه های یافت شده"
   ],
-  "found": [
-    "found",
-    "وجدنا",
-    "نتایج"
-  ],
-  "sortby": [
-    "Sorte By",
-    "الترتيب حسب",
-    "مرتب سازی براساس"
-  ],
-  "sortbySelect": [
-    "Select ...",
-    "تحديد ...",
-    "انتخاب ..."
-  ],
-  "display": [
-    "Display",
-    "العرض",
-    "نمایش"
-  ],
-  "row": [
-    "row",
-    "صف",
-    "ردیف"
-  ],
-  "grid": [
-    "grid",
-    "شبكة",
-    "جدول بندی"
-  ],
-  "filter": [
-    "Filters:",
-    "تصفية:",
-    "فیلترها"
-  ],
-  "filter3": [
-    "Filter",
-    "تصفية",
-    "فیلتر"
-  ],
-  "filter2": [
-    "Filters",
-    "تصفية",
-    "فیلترها"
-  ],
-  "sort": [
-    "Sort",
-    "فرز",
-    "مرتب کردن"
-  ],
-  "clear": [
-    "Clean all",
-    "مسح الكل",
-    "پاک کردن همه"
-  ],
-  "popularity": [
-    "Popularity",
-    "الأكثر رواجاً",
-    "محبوب ترین ها"
-  ],
-  "just-exist": [
-    "Just Exist",
-    "المتوفر",
-    "فقط موجود"
-  ],
+  "found": ["found", "وجدنا", "نتایج"],
+  "sortby": ["Sorte By", "الترتيب حسب", "مرتب سازی براساس"],
+  "sortbySelect": ["Select ...", "تحديد ...", "انتخاب ..."],
+  "display": ["Display", "العرض", "نمایش"],
+  "row": ["row", "صف", "ردیف"],
+  "grid": ["grid", "شبكة", "جدول بندی"],
+  "filter": ["Filters:", "تصفية:", "فیلترها"],
+  "filter3": ["Filter", "تصفية", "فیلتر"],
+  "filter2": ["Filters", "تصفية", "فیلترها"],
+  "sort": ["Sort", "فرز", "مرتب کردن"],
+  "clear": ["Clean all", "مسح الكل", "پاک کردن همه"],
+  "popularity": ["Popularity", "الأكثر رواجاً", "محبوب ترین ها"],
+  "just-exist": ["Just Exist", "المتوفر", "فقط موجود"],
   "maxPrice": [
     "Price: High to Low",
     "السعر: من الأعلى إلى الأقل",
@@ -99,26 +31,10 @@
     "السعر: من الأقل إلى الأعلى",
     "قیمت :کمترین به بیشترین"
   ],
-  "newArrivals": [
-    "New Arrivals",
-    "جديدنا",
-    "جدیدترین ها"
-  ],
-  "reviews": [
-    "reviews",
-    "التقییم",
-    "نظرات"
-  ],
-  "addcard": [
-    "Add to card",
-    "إضافة إلی عربة التسوق",
-    "افزودن به سبد خرید"
-  ],
-  "date": [
-    "date",
-    "منذ",
-    "تاریخ"
-  ],
+  "newArrivals": ["New Arrivals", "جديدنا", "جدیدترین ها"],
+  "reviews": ["reviews", "التقییم", "نظرات"],
+  "addcard": ["Add to cart", "إضافة إلی عربة التسوق", "افزودن به سبد خرید"],
+  "date": ["date", "منذ", "تاریخ"],
   "in-wishlist": [
     "In your Wishlist",
     "في قائمة الرغبات الخاصة بك",
@@ -135,36 +51,12 @@
     "افزودن به لیست علاقمندی های"
   ],
   "sortedBy": {
-    "mostView": [
-      "Most View",
-      "الأكثر مشاهدة",
-      "پربازدیدترین"
-    ],
-    "mostLiked": [
-      "Most Liked",
-      "الأكثر إعجابًا",
-      "محبوب ترین "
-    ],
-    "expensive": [
-      "Expensive",
-      "الأغلى",
-      "گران ترین "
-    ],
-    "cheapest": [
-      "Cheapest",
-      "الأرخص",
-      "ارزان ترین "
-    ],
-    "mostSeller": [
-      "Most Seller",
-      "الأكثر مبيعًا",
-      "بیشترین فروشها "
-    ],
-    "new": [
-      "New",
-      "الأحدث",
-      "جدید ترین"
-    ],
+    "mostView": ["Most View", "الأكثر مشاهدة", "پربازدیدترین"],
+    "mostLiked": ["Most Liked", "الأكثر إعجابًا", "محبوب ترین "],
+    "expensive": ["Expensive", "الأغلى", "گران ترین "],
+    "cheapest": ["Cheapest", "الأرخص", "ارزان ترین "],
+    "mostSeller": ["Most Seller", "الأكثر مبيعًا", "بیشترین فروشها "],
+    "new": ["New", "الأحدث", "جدید ترین"],
     "mostDiscount": [
       "Most Discount Percentage",
       "الأعلى تخفيضًا",
@@ -176,83 +68,31 @@
       "بيشرين تخفيف در قیمت"
     ]
   },
-  "perPage": [
-    "per Page",
-    "لكل صفحة",
-    "صفحه ها"
-  ],
+  "perPage": ["per Page", "لكل صفحة", "صفحه ها"],
   "searchAside": {
     "FeaturedCategories": [
       "Featured Categories",
       "الأكثر شهرة",
       "ویژگی دسته بندی ها"
     ],
-    "Fulfillment": [
-      "Fulfillment",
-      "الشحن بواسطة",
-      "انجام شد"
-    ],
-    "NewArrivals": [
-      "New Arrivals",
-      "وصل حديثاً",
-      "جدیدترین"
-    ],
-    "Price": [
-      "Price",
-      "السعر",
-      "قیمت "
-    ],
-    "Price-bhd": [
-      "Price ( BHD )",
-      "السعر ( BHD )",
-      "قیمت ( تومان )"
-    ],
-    "Price-usd": [
-      "Price ( USD )",
-      "السعر ( USD )",
-      "قیمت ( تومان )"
-    ],
-    "Price-tmn": [
-      "Price ( TMN )",
-      "السعر ( TMN )",
-      "قیمت ( تومان )"
-    ],
-    "Brand": [
-      "Brand",
-      "الماركة",
-      "برند"
-    ]
+    "Fulfillment": ["Fulfillment", "الشحن بواسطة", "انجام شد"],
+    "NewArrivals": ["New Arrivals", "وصل حديثاً", "جدیدترین"],
+    "Price": ["Price", "السعر", "قیمت "],
+    "Price-bhd": ["Price ( BHD )", "السعر ( BHD )", "قیمت ( تومان )"],
+    "Price-usd": ["Price ( USD )", "السعر ( USD )", "قیمت ( تومان )"],
+    "Price-tmn": ["Price ( TMN )", "السعر ( TMN )", "قیمت ( تومان )"],
+    "Brand": ["Brand", "الماركة", "برند"]
   },
   "arrivals": {
-    "30": [
-      "Last 30 Days",
-      "آخر 30 يومًا",
-      "جدیدترین های 30 روز اخیر"
-    ],
-    "50": [
-      "Last 50 Days",
-      "آخر 50 يومًا",
-      "جدیدترین های 60 روز اخیر"
-    ]
+    "30": ["Last 30 Days", "آخر 30 يومًا", "جدیدترین های 30 روز اخیر"],
+    "50": ["Last 50 Days", "آخر 50 يومًا", "جدیدترین های 60 روز اخیر"]
   },
   "empty-search": [
     "nothing found",
     "لم يتم العثور على شيء",
     "نتیجه ای یافت نشد"
   ],
-  "productsold": [
-    "Products sold",
-    "عملية بيع",
-    "کالاهای فروخته شده"
-  ],
-  "termscondition": [
-    "Terms & condition",
-    "الشروط والأحكام",
-    "شرایط و ضوابط"
-  ],
-  "sellerReviews": [
-    "Reviews",
-    "التقییم",
-    "امتیاز "
-  ]
+  "productsold": ["Products sold", "عملية بيع", "کالاهای فروخته شده"],
+  "termscondition": ["Terms & condition", "الشروط والأحكام", "شرایط و ضوابط"],
+  "sellerReviews": ["Reviews", "التقییم", "امتیاز "]
 }
