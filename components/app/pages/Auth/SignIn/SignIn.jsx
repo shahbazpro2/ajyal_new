@@ -78,12 +78,12 @@ export default (props) => {
 
     if (LoginStatus) return;
 
-    if (captchaToken === "") {
-      setcaptchaErrors(true);
-      return;
-    } else {
-      setcaptchaErrors(false);
-    }
+    /*  if (captchaToken === "") {
+       setcaptchaErrors(true);
+       return;
+     } else {
+       setcaptchaErrors(false);
+     } */
 
     for (let key in errors) {
       if (errors[key]) {
@@ -236,7 +236,7 @@ export default (props) => {
                 <>
                   {!props.isDesktop && (
                     <a
-                    href="/"
+                      href="/"
                       className="auth-mobile-logo"
                     >
                       <img src={Logo} />
