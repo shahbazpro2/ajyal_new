@@ -17,12 +17,14 @@ import {
   addWishCount,
   addCartCount,
 } from "../pages/CartAndWishlist/cartAndWishlistSlice";
+import { client_fetchCart } from "../../../lib/api/client/clientCart";
 import { requestFirebaseNotificationPermission } from "../../../firebaseInit.js";
 import { client_updateUserNotificationKey } from "../../../lib/api/client/clientCommon";
 import { client_getHomeSerachAutoComplete } from "../../../lib/api/client/clientHome";
 import SearchSugestion from "./LayoutsHeader/SearchInput/SearchSugestion/SearchSugestion";
 import SearchIcon from "./../../../assets/icons/search-gray.svg";
 import Nav from "./LayoutsHeader/Nav/nav";
+import { getCookie, setCookies } from "cookies-next";
 class AppHeader extends React.Component {
   constructor(props) {
     super(props);
@@ -45,8 +47,12 @@ class AppHeader extends React.Component {
     searchData: [],
   };
 
-  componentDidMount() {
-    this.props.addCartCount(this.props.data?.cartCount);
+  async componentDidMount() {
+    (async () => {
+      const res = await client_fetchCart('', '', '', '')
+      this.props.addCartCount(res?.result?.items?.length)
+      setCookies('cartCount', res?.result?.items?.length)
+    })()
     this.props.addWishCount(this.props.data?.wishListCount);
 
     let isSafari = false;
@@ -103,11 +109,11 @@ class AppHeader extends React.Component {
     }
   };
 
-  
-  handRedirectSearch=(e) => {
+
+  handRedirectSearch = (e) => {
     if (e.which === 13 && this.state.search != null && this.state.search != undefined && this.state.search != "") {
       this.props.router.push(`/${this.props.curr}-${this.props.lang}/search?search=${this.state.search}`)
-     }
+    }
   }
 
   render() {

@@ -5,23 +5,28 @@ import ShipTo from "../ShipTo";
 import { useSelector } from "react-redux";
 import { selectCurr } from "../../../../../../appConfigSlice";
 import { formatMoney } from "../../../../../../lib/helpers";
-import {Loading} from '../../../../../common'
-const PaymentAside = ({ data,loading }) => {
+import { Loading } from '../../../../../common'
+const PaymentAside = ({ data, newShipping, loading }) => {
   const curr = useSelector(selectCurr);
-  if(loading){
-   return ( <div className="row payment no-gutters">
-             <Loading
+  if (loading) {
+    return (<div className="row payment no-gutters">
+      <Loading
         type="gray"
         styleSheet={{ margin: "80px auto" }}
         width="60px"
         height="60px"
       />
     </div>)
-    
+
   }
- 
+  console.log('newShipping', newShipping)
+
+  const subtotal = data.totalWithOutDiscountCode - data.vat - (newShipping ?? data.shipping)
+  const total = subtotal + data.vat + (newShipping ?? data.shipping)
+
   return (
-   <div className="payment__order-sum pl-3 rtl-pl-0 rtl-pr-3">
+    <div className="payment__order-sum pl-3 rtl-pl-0 rtl-pr-3">
+
       <BoxStyle2 className="payment__aside ">
         <div className="cart-aside__cnt">
           <div className="cart-aside__top-cnt">
@@ -38,8 +43,8 @@ const PaymentAside = ({ data,loading }) => {
                   {data.itemsCount > 1 ? (
                     <Translate id="common.items" />
                   ) : (
-                      <Translate id="common.item" />
-                    )}
+                    <Translate id="common.item" />
+                  )}
                 </span>
               </span>
               <div className="goodItem-s2__price-container">
@@ -47,7 +52,7 @@ const PaymentAside = ({ data,loading }) => {
                   <Translate id={curr} />
                   &nbsp;
                   {formatMoney(
-                    data.totalWithOutDiscountCode - data.vat - data.shipping
+                    subtotal
                   )}
                 </span>
               </div>
@@ -62,8 +67,8 @@ const PaymentAside = ({ data,loading }) => {
                 {data.shipping === 0 ? (
                   <Translate id="common.addressAside.free" />
                 ) : (
-                    formatMoney(data.shipping)
-                  )}
+                  formatMoney((newShipping ?? data.shipping))
+                )}
               </span>
             </div>
 
@@ -91,8 +96,8 @@ const PaymentAside = ({ data,loading }) => {
                 <div className="goodItem-s2__price-container">
                   <span className="goodItem-s2__number">
                     <Translate id={curr} />
-                  &nbsp;
-                  {formatMoney(
+                    &nbsp;
+                    {formatMoney(
                       data.vat
                     )}
                   </span>
@@ -117,7 +122,7 @@ const PaymentAside = ({ data,loading }) => {
                 )}
                 <span className="goodItem-s2__number">
                   <Translate id={curr} />
-                  &nbsp; {formatMoney(data.total)}
+                  &nbsp; {formatMoney(total)}
                 </span>
               </div>
             </div>

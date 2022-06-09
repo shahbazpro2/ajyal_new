@@ -13,6 +13,7 @@ export const LOADING = "loading";
 export const IDLE = "idle";
 export const SUCCEEDED = "succeeded";
 export const ERROR = "error";
+import { getCookie, getCookies, setCookies } from "cookies-next";
 
 //// selectors
 export const selectStatus = (state) => state.cart_wishlist.status;
@@ -33,7 +34,7 @@ export const selectWishCount = (state) => state.cart_wishlist.wishCount;
 const initialState = {
   status: IDLE,
   error: null,
-  cartCount: 0,
+  cartCount: getCookie("cartCount") || 0,
   wishCount: 0,
   cart: {},
   countryId: null,
@@ -82,7 +83,12 @@ const cartSlice = createSlice({
       state.coupon = action.payload;
     },
     addCartCount(state, action) {
-      state.cartCount = action.payload;
+      const cookies = getCookies(['cartCount', 'cartId'])
+      if (cookies?.cartCount && cookies?.cartId && (action.payload === 0)) {
+        console.log('inside')
+        state.cartCount = Number(cookies?.cartCount);
+      } else
+        state.cartCount = action.payload;
     },
     addWishCount(state, action) {
       state.wishCount = action.payload;

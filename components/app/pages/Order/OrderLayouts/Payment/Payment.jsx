@@ -38,6 +38,7 @@ import Shipingprovider from "./slelectdeliver";
 const Payment = () => {
   const [checked, setChecked] = useState(false);
   const [payment, setPayment] = useState(null);
+  const [newShipping, setNewShipping] = useState(null)
   const [paymentType, setPaymentType] = useState(null);
   const [cartType, setCartType] = useState(null);
   const [cartTypeId, setCartTypeId] = useState(null);
@@ -49,12 +50,12 @@ const Payment = () => {
   const [cardYear, setCardYear] = useState(null);
   const [cardSecurity, setCardSecurity] = useState(null);
   const [cardZip, setCardZip] = useState(null);
-  const [ppk,setppk]=useState({});
-  const [diliverysettings,setdiliverysettings] = useState({})
-  const [asideloading,setasideloading]=useState(false)
+  const [ppk, setppk] = useState({});
+  const [diliverysettings, setdiliverysettings] = useState({})
+  const [asideloading, setasideloading] = useState(false)
   const curr = useSelector(selectCurr);
   const lang = useSelector(selectLang);
-  const ggk=useRef()
+  const ggk = useRef()
   const coupon = Cookies.get(
     process.env.NEXT_PUBLIC_Token_Cookie_name_coupon
   );
@@ -69,24 +70,24 @@ const Payment = () => {
       client_getActivePayment()
     ]).then((res) => {
       setPayment(res[0].result);
-              let cards = [];
-        res[1].result.forEach((item) => {
-          cards.push({
-            value: item.methodId,
-            label: (
-              <div>
-                <img
-                  src={`${process.env.NEXT_PUBLIC_PAYMENTLOGO_PREFIX}/${item.methodImageUrl}`}
-                  height="20px"
-                  width="20px"
-                />{" "}
-                {item.methodTitle}
-              </div>
-            ),
-          });
+      let cards = [];
+      res[1].result.forEach((item) => {
+        cards.push({
+          value: item.methodId,
+          label: (
+            <div>
+              <img
+                src={`${process.env.NEXT_PUBLIC_PAYMENTLOGO_PREFIX}/${item.methodImageUrl}`}
+                height="20px"
+                width="20px"
+              />{" "}
+              {item.methodTitle}
+            </div>
+          ),
         });
-        setCartTypeId(cards.find((x) => x.value === 3));
-        setCartType(cards);
+      });
+      setCartTypeId(cards.find((x) => x.value === 3));
+      setCartType(cards);
     })
       .catch(ex => console.error(ex));
 
@@ -106,7 +107,7 @@ const Payment = () => {
     //   })
     //   .catch((err) => {});
 
-    return () => {};
+    return () => { };
   }, []);
 
   if (!payment) {
@@ -128,8 +129,8 @@ const Payment = () => {
 
   const handlePlaceOrderClick = async (e) => {
 
-   e.preventDefault();
-   
+    e.preventDefault();
+
     if (!cartTypeId) {
       toast.error(getErrorMsg(lang, "select-payment"), getToastConfig());
       return;
@@ -149,40 +150,41 @@ const Payment = () => {
 
     setPlaceOrderLoading(true);
     try {
-      const result = await client_getPaymentPageUrl(parseInt(cartTypeId.value) , cardName , cardNumber , cardMonth , cardYear , cardSecurity , cardZip  , coupon)
-   
-      let rri=result.result.split('+')
-      if(rri.length>1){
+      const result = await client_getPaymentPageUrl(parseInt(cartTypeId.value), cardName, cardNumber, cardMonth, cardYear, cardSecurity, cardZip, coupon)
+
+      let rri = result.result.split('+')
+      if (rri.length > 1) {
         console.log(rri)
-        let ffi=JSON.parse(rri[0])
-         ffi={...ffi,redirect:window.location.href}
+        let ffi = JSON.parse(rri[0])
+        ffi = { ...ffi, redirect: window.location.href }
         setppk(ffi)
-       ggk.current.submit()
+        ggk.current.submit()
       }
-      else{
-        window.location.href = result.result 
+      else {
+        window.location.href = result.result
       }
-    setPlaceOrderLoading(false);
+      setPlaceOrderLoading(false);
     } catch (err) {
       console.log(err)
       if (err.response?.data.result?.errorText) {
-      
+
         toast.error(err.response?.data.result?.errorText, getToastConfig());
       } else toast.error(err.response?.data.message, getToastConfig());
       setPlaceOrderLoading(false);
     }
-  
+
   };
 
-  const shippingchange=(res)=>{
-    console.log("changedvalue",res)
+  const shippingchange = (res) => {
+    console.log("changedvalue", res)
     setasideloading(false)
-  if(res.data.result) setPayment(res?.data.result)
-    
-}
-const setasideloading1=()=>{
-  setasideloading(true)
-}
+    setNewShipping(res?.data)
+    /* if (res.data.result) setPayment(res?.data.result) */
+
+  }
+  const setasideloading1 = () => {
+    setasideloading(true)
+  }
 
 
   return (
@@ -206,10 +208,10 @@ const setasideloading1=()=>{
                 onChange={onCartTypeChange}
               />
             </div>
-            <Shipingprovider shippingchange={shippingchange} setasideloading={setasideloading1} prevpayment={payment}/>
+            <Shipingprovider shippingchange={shippingchange} setasideloading={setasideloading1} prevpayment={payment} />
 
             {/* برای کردیمکس هست فقط */}
-            {/*cartTypeId?.value === 2 ? (
+            {cartTypeId?.value === 2 ? (
               <div className="payment-method__container mt-4">
                 <div className="payment__payment-method">
                   <Translate>
@@ -328,8 +330,8 @@ const setasideloading1=()=>{
                                         lang,
                                       });
                                     }}
-                                  />                                  
-                                <input
+                                  />
+                                  <input
                                     className="payment-method__input gray__input date-input-year"
                                     type="text"
                                     placeholder="YY"
@@ -438,62 +440,62 @@ const setasideloading1=()=>{
                   </Translate>
                 </div>
               </div>
-            ) : 
-            (
-              <div className="payment-method__container mt-4">
+            ) :
+              (
+                <div className="payment-method__container mt-4">
+                  <div className="payment__payment-method p-4">
+                    <Translate>
+                      {({ translate }) => {
+                        return (
+                          <>
+                            <div className="row">
+
+                              <div className="col-12">
+                                <Translate id="payment-method.redirectToPyamnetPage" />
+                              </div>
+
+                            </div>
+
+                          </>
+                        );
+                      }}
+                    </Translate>
+                  </div>
+                </div>
+              )}
+
+            <div className="payment-method__container mt-4">
               <div className="payment__payment-method p-4">
                 <Translate>
                   {({ translate }) => {
                     return (
                       <>
                         <div className="row">
-                            
-                            <div className="col-12">
+
+                          <div className="col-12">
                             <Translate id="payment-method.redirectToPyamnetPage" />
-                            </div>
+                          </div>
 
                         </div>
-                       
+
                       </>
                     );
                   }}
                 </Translate>
               </div>
             </div>
-            )*/}
+            <form action={`https://webdemo.webtreeonline.com/ajyal-payment/`} style={{ display: 'none' }} ref={ggk} method="POST"  >
 
-<div className="payment-method__container mt-4">
-              <div className="payment__payment-method p-4">
-                <Translate>
-                  {({ translate }) => {
-                    return (
-                      <>
-                        <div className="row">
-                            
-                            <div className="col-12">
-                            <Translate id="payment-method.redirectToPyamnetPage" />
-                            </div>
-
-                        </div>
-                       
-                      </>
-                    );
-                  }}
-                </Translate>
-              </div>
-            </div>
-  <form action={`https://webdemo.webtreeonline.com/ajyal-payment/`} style={{display: 'none'}} ref={ggk}  method="POST"  >
-
-                  <input name="PaymentType" value={ppk?.PaymentType}/>
-                  <input name="PaymentId" value={ppk?.PaymentId}/>
-                  <input name="OrderId" value={ppk?.OrderId}/>
-                  <input name="CurrencyId" value={ppk?.CurrencyId}/>
-                  <input name="total" value={ppk?.total}/>
-                  <input name="userid" value={ppk?.cusomerid}/>
-                  <input name="redirect" value={ppk?.redirect}/>
-                {/*<input name="FkShippingMethodId" value={diliverysettings?.id}/>
+              <input name="PaymentType" value={ppk?.PaymentType} />
+              <input name="PaymentId" value={ppk?.PaymentId} />
+              <input name="OrderId" value={ppk?.OrderId} />
+              <input name="CurrencyId" value={ppk?.CurrencyId} />
+              <input name="total" value={ppk?.total} />
+              <input name="userid" value={ppk?.cusomerid} />
+              <input name="redirect" value={ppk?.redirect} />
+              {/*<input name="FkShippingMethodId" value={diliverysettings?.id}/>
                 <input name="ShippingCost"  value={diliverysettings?.totalAmount}/>*/}
-  </form>
+            </form>
             {/* <div className="gray-box d-flex p-4 mt-4">
             <Switch
               onChange={handleChange}
@@ -601,7 +603,7 @@ const setasideloading1=()=>{
         </form>
       </section>
       <aside className="col-xl-3 col-lg-4 col-12 order-md-2 order-1">
-        <PaymentAside data={payment} loading={asideloading} />
+        <PaymentAside data={payment} newShipping={newShipping} loading={asideloading} />
       </aside>
     </div>
   );
