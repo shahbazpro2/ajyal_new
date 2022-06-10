@@ -69,7 +69,7 @@ class IndexPage extends React.Component {
             isDesktop={this.props.ua.isDesktop}
           />
           {index}
-          <Footer lang={this.props.lang} isDesktop={this.props.ua.isDesktop} data={this.props.data.footer} cartCount = {this.props.data.header.cartCount}/>
+          <Footer lang={this.props.lang} isDesktop={this.props.ua.isDesktop} data={this.props.data.footer} cartCount={this.props.data.header.cartCount} />
         </LocalizeProvider>
       </>
     );
@@ -88,12 +88,13 @@ export const getServerSideProps = wrapper.getServerSideProps(async (context) => 
     server_fetchFooter(),
   ]);
 
+
   return {
     props: {
       ua,
-      data: { 
-        header: Result[0].result, 
-        footer: Result[1].result 
+      data: {
+        header: Result[0].result,
+        footer: Result[1].result
       },
     },
   };

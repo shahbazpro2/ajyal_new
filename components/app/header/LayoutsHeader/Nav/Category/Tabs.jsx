@@ -25,7 +25,7 @@ export const TabItem = ({
         <Link href={`/${curr}-${lang}/category/${catId}`}>
           <a onClick={closeHomeMenu}>
             {iconUrl !== null ? (
-              <img src={`${Category_pre}/${catId}/${iconUrl}`} alt={children} />
+              <img src={`${Category_pre}/${iconUrl}`} alt={children} />
             ) : null}
 
             <span>{children}</span>
@@ -37,7 +37,7 @@ export const TabItem = ({
         >
           <a onClick={closeHomeMenu}>
             {iconUrl !== null ? (
-              <img src={`${Category_pre}/${catId}/${iconUrl}`} alt={children} />
+              <img src={`${Category_pre}/${iconUrl}`} alt={children} />
             ) : null}
             <span>{children}</span>
           </a>
@@ -127,7 +127,9 @@ export const TabContent = ({
                     key={brand.brandId}
                     href={`/${curr}-${lang}/search?id=${categories.categoryId}&?type=${SEARCH_TYPE_CATEGORY}&brandId=${brand.brandId}`}
                   >
+
                     <a onClick={closeHomeMenu}>
+                      {console.log('brtanglogo', brand)}
                       <img
                         className="header-brand-images"
                         title={brand.brandTitle}

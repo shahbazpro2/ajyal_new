@@ -34,38 +34,38 @@ const Category = (probs) => {
                 {
                   // data is results.categories
                   probs.data &&
-                    probs.data.map((cat) => {
-                      return (
-                        <TabItem
-                          closeHomeMenu={probs.closeHomeMenu}
-                          catId={cat.categoryId}
-                          iconUrl={cat.iconUrl}
-                          haveWebPage={cat.haveWebPage}
-                          key={cat.categoryId}
-                          onMouseEnterEvent={() => {
-                            setTabActiveIndex(cat.categoryId);
-                          }}
-                        >
-                          {cat.categoryTitle}
-                        </TabItem>
-                      );
-                    })
+                  probs.data.map((cat) => {
+                    return (
+                      <TabItem
+                        closeHomeMenu={probs.closeHomeMenu}
+                        catId={cat.categoryId}
+                        iconUrl={cat.iconUrl}
+                        haveWebPage={cat.haveWebPage}
+                        key={cat.categoryId}
+                        onMouseEnterEvent={() => {
+                          setTabActiveIndex(cat.categoryId);
+                        }}
+                      >
+                        {cat.categoryTitle}
+                      </TabItem>
+                    );
+                  })
                 }
               </ul>
             </div>
             {
               // data is results.categories
               probs.data &&
-                probs.data.map((cat) => {
-                  return (
-                    <TabContent
-                      closeHomeMenu={probs.closeHomeMenu}
-                      key={cat.categoryId}
-                      isActive={tabActiveIndex === cat.categoryId}
-                      categories={cat}
-                    />
-                  );
-                })
+              probs.data.map((cat) => {
+                return (
+                  <TabContent
+                    closeHomeMenu={probs.closeHomeMenu}
+                    key={cat.categoryId}
+                    isActive={tabActiveIndex === cat.categoryId}
+                    categories={cat}
+                  />
+                );
+              })
             }
           </div>
         </div>
