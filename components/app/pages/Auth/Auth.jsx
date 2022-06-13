@@ -23,8 +23,8 @@ class Auth extends React.Component {
     this.conRef = React.createRef();
     this.leftForm = this.is_rtl ? (
       <SignIn loc={this.props.loc}
-      isDesktop={this.props.isDesktop}
-      clickSignUp={this.clickHandler} />
+        isDesktop={this.props.isDesktop}
+        clickSignUp={this.clickHandler} />
     ) : (
       <SignUp
         loc={this.props.loc}
@@ -34,15 +34,15 @@ class Auth extends React.Component {
     );
     this.righForm = this.is_rtl ? (
       <SignUp
-        loc={this.props.loc}        
+        loc={this.props.loc}
         clickSignUp={this.clickHandler}
         isDesktop={this.props.isDesktop}
       />
     ) : (
-      <SignIn loc={this.props.loc} 
-      clickSignUp={this.clickHandler} 
-      isDesktop={this.props.isDesktop}
-      
+      <SignIn loc={this.props.loc}
+        clickSignUp={this.clickHandler}
+        isDesktop={this.props.isDesktop}
+
       />
     );
   }
@@ -71,9 +71,9 @@ class Auth extends React.Component {
             </style>
             <div className="img img-auth-logo">
               <a href="/" className="auth__logo">
-              <img
-                src={`${process.env.NEXT_PUBLIC_LOGO_PREFIX}/${this.props.data.logo}`}
-              />
+                <img
+                  src={`${process.env.NEXT_PUBLIC_LOGO_PREFIX}/Uploads/Images/Logo/${this.props.data.logo}`}
+                />
               </a>
 
               <div className="img__text m--up">
