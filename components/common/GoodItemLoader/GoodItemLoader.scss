@@ -1,0 +1,41 @@
+@import "../../../assets/scss/abstracts/variables";
+@import "../../../assets/scss/abstracts/mixins";
+@import "../../../assets/scss/abstracts/placeholders";
+
+.goodItem-loader {
+  &--row {
+    .goodItem-s2__left-container {
+      width: 100%;
+    }
+  }
+  .goodItem-s2__left-right {
+    width: 100%;
+  }
+  .goodItem-s1 {
+    min-height: auto;
+  }
+
+  &__img-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    &--row {
+      height: 134px;
+      align-items: flex-start;
+    }
+  }
+  &__img {
+    // @extend %vertical-center;
+    width: 70px !important;
+    margin-bottom: -10px;
+    &--slider {
+      width: 100% !important;
+    }
+    &--row {
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+    // margin: 0 auto;
+  }
+}

@@ -1,0 +1,19 @@
+.mobile-back {
+  padding: 0px 15px 0px 15px;
+  margin: 20px 0px;
+  &__img {
+    width: 106px;
+    margin: 0px 20px;
+  }
+  &__back-icon {
+    cursor: pointer;
+  }
+}
+
+.rtl {
+  .mobile-back {
+    &__back-icon {
+      transform: rotate(180deg);
+    }
+  }
+}

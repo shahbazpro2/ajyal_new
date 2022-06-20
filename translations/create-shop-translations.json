@@ -1,0 +1,673 @@
+{
+  "@sellerTitle": [
+    "ajyal.bh | Become a Seller",
+    "ajyal.bh | كن بائعا",
+    "ajyal.bh | فروشنده شوید"
+  ],
+  "nav": {
+    "login": [
+      "Register",
+      "تسجيل الدخول",
+      "ثبت نام"
+    ],
+    "country": [
+      "Country",
+      "البلد",
+      "کشور"
+    ],
+    "store": [
+      "Store",
+      "المتجر",
+      "فروشگاه"
+    ],
+    "document": [
+      "Document",
+      "المستند",
+      "مستندات"
+    ],
+    "bank": [
+      "Bank",
+      "البنك",
+      "بانک"
+    ],
+    "vat": [
+      "VAT",
+      "ضريبة القيمة المضافة",
+      "ارزش افزوده"
+    ]
+  },
+  "subheader": {
+    "back": [
+      "Go Back",
+      "الرجوع",
+      "برگشت"
+    ],
+    "lang": [
+      "العربیه",
+      "English",
+      "فارسی"
+    ]
+  },
+  "login": {
+    "signIn-msg1": [
+      "Sign up to your account",
+      "تسجيل الدخول إلى حسابك",
+      "ایجاد حساب کاربری"
+    ],
+    "mobileNumber": [
+      "Mobile Number",
+      "رقم الهاتف المحمول",
+      "شماره موبایل"
+    ],
+    "mobile-placeholder": [
+      "Enter mobile number",
+      "أدخل رقم الهاتف المحمول",
+      "شماره موبایل خود را وارد کنید"
+    ],
+    "email": [
+      "Email ( username )",
+      "البريد الإلكتروني",
+      "ایمیل"
+    ],
+    "pass": [
+      "Password",
+      "كلمة المرور",
+      "رمز عبور"
+    ],
+    "confirm-Pass": [
+      "Confirm password",
+      "تأكيد كلمة المرور",
+      "تکرار رمز عبور"
+    ],
+    "email-placeholder": [
+      "Enter email",
+      "أدخل عنوان البريد الالكتروني",
+      "ایمیل خود را وارد کنید"
+    ],
+    "pass-placeholder": [
+      "Enter password",
+      "أدخل كلمة المرور الخاصة بك",
+      "رمز عبور خود را انتخاب کنید"
+    ],
+    "confirm-pass-placeholder": [
+      "Enter confirm password",
+      "أدخل كلمة المرور مجدداً",
+      "رمز عبور را دوباره وارد کنید"
+    ],
+    "login": [
+      "Login",
+      "تسجيل الدخول",
+      "ورود"
+    ],
+    "signup": [
+      "Sign up",
+      "الاشتراك",
+      "ثبت نام"
+    ],
+    "forget-pass": [
+      "Forget Password?",
+      "نسيت كلمة المرور؟",
+      "فراموشی رمز عبور!"
+    ],
+    "dont-acc": [
+      "Do you have Ajyal account? ",
+      "هل لديك حساب؟",
+      "قبلا ثبت نام کرده ام"
+    ],
+    "signup-msg1": [
+      "Sign in now!",
+      "سجيل دخولك الآن!",
+      "هم اکنون وارد شوید"
+    ]
+  },
+  "country": {
+    "country-msg1": [
+      "Where is your business based",
+      "أين يقع محلك التجاري؟",
+      " محل کار را انتخاب کنید"
+    ],
+    "country-choose": [
+      "Choose Country",
+      "اختر الدولة",
+      "انتخاب کشور"
+    ],
+    "province-choose": [
+      "Choose Province",
+      "اختر المقاطعة",
+      "انتخاب استان"
+    ],
+    "city-choose": [
+      "Select City",
+      "اختر المدينة",
+      "انتخاب شهر"
+    ],
+    "next": [
+      "Next",
+      "التالي",
+      "مرحله بعد"
+    ],
+    "select-cntry": [
+      "please select country",
+      "الرجاء تحديد الدولة",
+      "لطفاً کشور را انتخاب کنید"
+    ],
+    "select-city": [
+      "please select city",
+      "الرجاء تحديد المدينة",
+      "لطفاً شهر را انتخاب کنید"
+    ]
+  },
+  "vat": {
+    "vat-msg1": [
+      "VAT Details",
+      "تفاصيل ضريبة القيمة المضافة",
+      "اطلاعات ارزش افزوده"
+    ],
+    "tax-input-label": [
+      "Tax Registration Number",
+      "رقم التسجيل الضريبي",
+      "شماره کد اقتصادی مالیاتی"
+    ],
+    "tax-input-placeholder": [
+      "Enter Tax Registration Number",
+      "أدخل رقم التسجيل الضريبي",
+      "شماره کد اقتصادی مالیاتی را وارد کنید"
+    ],
+    "upload-tax": [
+      "Upload Tax Registration",
+      "تحميل شهادة التسجيل الضريبي",
+      "گواهی ارزش افزوده یا ثبت نام مالیاتی خود را وارد کنید"
+    ],
+    "upload-msg1": [
+      "Upload Tax Registration Certificate or Declaration of VAT non-enrollment",
+      "تحميل شهادة التسجيل الضريبي أو إقرار عدم التسجيل في ضريبة القيمة المضافة",
+      "گواهی ثبت نام مالیاتی یا ارزش افزوده را وارد کنید"
+    ],
+    "submit": [
+      "Submit",
+      "إرسال",
+      "ارسال"
+    ],
+    "vat-end-msg": [
+      "I acknowledge and agree that ajyal will be raising and facilitating VAT invoices and credit notes on behalf of my company in relation to consumer transactions on the ajyal site",
+      "I acknowledge and agree that ajyal will be raising and facilitating VAT invoices and credit notes on behalf of my company in relation to consumer transactions on the ajyal site",
+      "شماره کد ارزش افزوده خود را تایید مینمایم و‌ درصورتی که کالاهای من شامل ارزش افزوده باشند نسبت به اعمال آن اقدام خواهم نمود"
+    ]
+  },
+  "store": {
+    "store-msg1": [
+      "Seller details",
+      "تفاصيل البائع",
+      "مشخصات فروشنده"
+    ],
+    "email": [
+      "Email",
+      "الایمیل",
+      "ایمیل"
+    ],
+    "email-placeholder": [
+      "Lorem_Ipsum@domain.com",
+      "Lorem_Ipsum@domain.com"
+    ],
+    "company-name": [
+      "Company Legal Name",
+      "اسم الشركة القانوني",
+      "نام ثبتی شرکت"
+    ],
+    "company-name-placeholder": [
+      "Enter Company Legal Name",
+      "أدخل  اسم الشركة القانوني",
+      "نام قانونی شرکت را وارد کنید"
+    ],
+    "full-name-placeholder": [
+      "Enter Full Name",
+      "أدخل  الاسم الكامل",
+      "نام کامل وارد کنید"
+    ],
+    "store-name": [
+      "Whats your store name?",
+      "اسم المتجر",
+      "نام فروشگاه"
+    ],
+    "fullname": [
+      "Full name",
+      "الاسم الكامل",
+      "نام کامل"
+    ],
+    "store-name-placeholder": [
+      "Enter store name",
+      "أدخل اسم الشركة القانوني",
+      "نام فروشگاه را وارد کنید"
+    ],
+    "company-phone": [
+      "Company Phone Number",
+      "رقم هاتف الشركة",
+      "شماره تماس شرکت"
+    ],
+    "company-phone-placeholder": [
+      "Enter Company Phone Number",
+      "أدخل رقم هاتف الشركة",
+      "شماره تماس شرکت را وارد کنید"
+    ],
+    "phone": [
+      "Phone Number",
+      "رقم هاتف",
+      "شماره موبایل"
+    ],
+    "phone-placeholder": [
+      "Enter Phone Number",
+      "أدخل رقم الهاتف",
+      "شماره موبایل را وارد کنید"
+    ],
+    "kind-pro": [
+      "What kind of product do you sell",
+      "ما هي أنواع المنتجات التي تقوم ببيعها؟",
+      "چه نوع محصولاتی را می فروشید؟"
+    ],
+    "kind-pro-placeholder": [
+      "Select kind of product you sell",
+      "ما هي أنواع المنتجات التي تقوم ببيعها؟",
+      "دسته بندی محصولاتی که میفروشید انتخاب کنید"
+    ],
+    "address": [
+      "Full Address",
+      "العنوان",
+      "آدرس کامل"
+    ],
+    "address-placeholder": [
+      "Enter full Address",
+      "يرجى إدخال العنوان بالكامل",
+      "آدرس کامل وارد کنید"
+    ],
+    "person": [
+      "Person",
+      "شخص",
+      "نوع شخصیت"
+    ],
+    "person-placeholder": [
+      "select person",
+      "تحديد الشخص",
+      "نوع شخصیت را انتخاب کنید"
+    ],
+    "select-category-error": [
+      "Category should be selected",
+      "يجب اختيار فئة",
+      "دسته بندی باید انتخاب شود"
+    ]
+  },
+  "document": {
+    "document-msg1": [
+      "Document Verification",
+      "التحقق من المستند",
+      "بارگذاری مدارک"
+    ],
+    "trade-lic": [
+      "Upload Trade License",
+      "تحميل الرخصة التجارية",
+      "مجوز کسب و کار را بارگذاری کنید"
+    ],
+    "upload": [
+      "Upload",
+      "تحميل",
+      " بارگذاری"
+    ],
+    "nat-id": [
+      "Upload National ID",
+      "تحميل الهوية الوطنية",
+      "بارگذاری کارت ملی"
+    ],
+    "upload-file-error": [
+      "Upload file is required",
+      "مطلوب تحميل الملف",
+      "مدارک را بارگذاری کنید"
+    ],
+    "nat-id-sub": [
+      "(country ID,or Passport copy with VISA)",
+      "(هوية الدولة ، أو نسخة من جواز السفر مع فيزا)",
+      "کارت ملی یا پاسپورت"
+    ]
+  },
+  "bank": {
+    "bank-msg1": [
+      "Bank Details",
+      "تفاصيل البنك الخاص بك",
+      "مشخصات بانک"
+    ],
+    "bene-name": [
+      "Beneficiary Name",
+      "اسم المستفيد",
+      "نام صاحب حساب"
+    ],
+    "bene-name-placeholder": [
+      "Enter Beneficiary Name",
+      "أدخل اسم المستفيد",
+      "نام صاحب حساب را وارد کنید"
+    ],
+    "bank-name": [
+      "Bank Name",
+      "اسم البنك",
+      "نام بانک"
+    ],
+    "bank-name-placeholder": [
+      "Enter Bank Name",
+      "أدخل  اسم البنك",
+      "نام بانک را وارد کنید"
+    ],
+    "branch-name": [
+      "Branch Name",
+      "اسم الفرع",
+      "نام شعبه"
+    ],
+    "branch-name-placeholder": [
+      "Enter Branch Name",
+      "أدخل  اسم الفرع",
+      "نام شعبه را وارد کنید"
+    ],
+    "acc-number": [
+      "Account Number",
+      "رقم الحساب",
+      "شماره حساب"
+    ],
+    "acc-number-placeholder": [
+      "Enter Account Number",
+      "أدخل  رقم الحساب",
+      "شماره حساب را وارد کنید"
+    ],
+    "IBAN-number": [
+      "IBAN Number",
+      "IBAN رقم",
+      "شماره شبا"
+    ],
+    "IBAN-number-placeholder": [
+      "Enter IBAN Number",
+      "IBAN أدخل رقم ",
+      "شماره شبا را وارد کنید"
+    ],
+    "swift-code": [
+      "SwiftCode",
+      "SwiftCode",
+      "شماره کارت بازرگانی"
+    ],
+    "swift-code-placeholder": [
+      "Enter SwiftCode",
+      "أدخل رمز سويفت",
+      "شماره کارت بازرگانی را وارد کنید"
+    ],
+    "currency": [
+      "Currency",
+      "العملة",
+      "واحد پول"
+    ],
+    "currency-placeholder": [
+      "Select Currency",
+      "العملة",
+      "واحد پول را انتخاب کنید"
+    ],
+    "upload-msg": [
+      "Upload either certified and stamped document by the bank with having the information mentioned above OR Cancelled Cheque.",
+      "تحميل تفاصيل البنك كما اعلاه مطبوعه على اوراق البنك ومختومة بختم البنك أو تحميل شيك ملغي",
+      "سند تایید حساب بانکی ممهور به مهر بانک را بارگذاری کنید"
+    ]
+  },
+  "end": {
+    "thanks": [
+      "Thank You!",
+      "!شكراً",
+      "ممنون"
+    ],    
+    "backToHome": [
+      "Back to home!",
+      "العودة إلى المنزل",
+      "بازگشت به خانه"
+    ],
+    "msg1": [
+      "We have received your store creation request.",
+      "لقد تم استلام طلبك لإنشاء متجر جديد بنجاح",
+      " درخواست ایجاد فروشگاه شما دریافت شد"
+    ],
+    "msg2": [
+      "Please allow us up to 48 hours to verify your documents and confirm your store creation request.",
+      "سوف يتم التحقق من المستندات في خلال ٤٨ ساعة و تاكيد طلب انشاء متجرك",
+      "تا 48 ساعت آینده درخواست ایجاد فروشگاه شما بررسی و به اطلاع شما خواهد رسید"
+    ],
+    "msg3": [
+      "If you have any concerns regarding the creation of your account please do not hesitate to contact us on info@ajyal.bh",
+      "إذا كانت لديك أية مخاوف بشأن إنشاء حسابك، لا تتردد في الاتصال بنا على care@ajyal.bh",
+      "چنانچه در مورد ایجاد حساب کاربری خود سوالی دارید از طریق info@ajyal.bh با ما در ارتباط باشید"
+  ],
+    "back": [
+      "Provider Panel",
+      "لوحة الموفر",
+      "پنل تامین کننده"
+    ]
+  },
+  "upload": {
+    "drag-drop": [
+      "Drag and Drop or",
+      "اسحب أو أفلت هنا",
+      "بکشید و رها کنید"
+    ],
+    "browse": [
+      "Browse",
+      "تصفح",
+      "انتخاب فایل"
+    ]
+  },
+  "addresses": {
+    "addresses": [
+      "Addresses",
+      "العناوين",
+      "آدرس ها"
+    ],
+    "empty-des": [
+      "Where are your saved addresses?",
+      "العناوين المحفوظة",
+      "آدرس های ذخیره شده شما"
+    ],
+    "empty-des2": [
+      "Add an address so we can get cracking on the delivery!",
+      "أضف عنوانًا حتى نتمكن من توصيل الطلب إليك!",
+      "یک آدرس برای تحویل گرفتن کالا اضافه کنید "
+    ],
+    "addadress": [
+      "Add an address",
+      "إضافة عنوان جديد",
+      "افزودن آدرس"
+    ],
+    "setmap": [
+      "Set from map:",
+      "تعيين من الخريطة:",
+      "انتخاب از نقشه"
+    ],
+    "addnewadd": [
+      "Add a new addresses",
+      "إضافة عنوان جديد",
+      "افزودن آدرس جدید"
+    ],
+    "addi-address": [
+      "Additional address details",
+      "تفاصيل العنوان الإضافية",
+      " جزییات آدرس اضافه شده"
+    ],
+    "addi-address-placeholder": [
+      "Enter address details",
+      "أدخل تفاصيل العنوان الإضافية",
+      "جزییات آدرس را وارد کنید"
+    ],
+    "firstname": [
+      "First name",
+      "الاسم",
+      "نام"
+    ],
+    "firstname-placeholder": [
+      "Enter your first name",
+      "أدخل الاسم الأول",
+      "نام خود را وارد کنید"
+    ],
+    "mobile-number": [
+      "Mobile number",
+      "رقم الجواّل",
+      "شماره موبایل"
+    ],
+    "mobile-number-placeholder": [
+      "Enter mobile number",
+      "أدخل رقم الجواّل",
+      "شماره موبایل را وارد کنید"
+    ],
+    "add-label": [
+      "Address Label (Optional)",
+      "تسمية العنوان (اختياري)",
+      " توضیح آدرس (اختیاری)"
+    ],
+    "lastname": [
+      "Last name",
+      "العائلة",
+      "نام خانوادگی"
+    ],
+    "lastname-placeholder": [
+      "Enter your last name",
+      "أدخل اسم العائلة",
+      "نام خانوادگی خود را وارد کنید"
+    ],
+    "save": [
+      "Save address",
+      "حفظ العنوان",
+      "ذخیره آدرس"
+    ],
+    "verify": [
+      "Please verify your mobile number to continue",
+      "يرجى التحقق من رقم هاتفك المحمول للمتابعة",
+      "لطفاً شماره موبایل خود را تایید کنید"
+    ],
+    "verify-des": [
+      "To proceed to checkout, use the OTP & verify your mobile number. We’ve sent the OTP to",
+      "لمتابعة إتمام الشراء، استخدم كود OTP وقم بتأكيد رقم جوّالك. لقد قمنا بإرسال كود OTP إلى",
+      "برای ورود کد تایید ارسال شده به شماره موبایل خود را وارد کنید"
+    ],
+    "changephone": [
+      "Change Phone Number",
+      "تغيير الرقم",
+      "تغییر شماره موبایل"
+    ],
+    "changephone-btn": [
+      "Submit & verify phone",
+      "تحقق من رقم الهاتف",
+      "تایید شماره موبایل"
+    ],
+    "skip": [
+      "Skip",
+      "تخطى",
+      "رد شدن"
+    ],
+    "dontreceive": [
+      "Didn't receive OTP?",
+      "لم يصلك رمز OTP?",
+      "کد تایید ارسال نشد"
+    ],
+    "resendnow": [
+      "Resend now",
+      "إعادة إرسال الآن",
+      "ارسال مجدد"
+    ],
+    "cancel": [
+      "Cancel",
+      "إلغاء",
+      "لغو"
+    ],
+    "entermobile": [
+      "Please enter your new mobile number and we’ll send you a new OTP.",
+      "الرجاء إدخال رقم جوّالك وسنقوم بإرسال كود OTP جديد لك.",
+      "لطفاً شماره موبایل جدید خود را وارد کنید تا کد تایید برای شما ارسال شود"
+    ],
+    "send-new-code": [
+      "Send new code",
+      "إرسال رمز جديد",
+      "ارسال مجدد کد"
+    ],
+    "name": [
+      "Name",
+      "الاسم",
+      "نام"
+    ],
+    "phone": [
+      "Phone",
+      "رقم الهاتف",
+      "شماره موبایل"
+    ],
+    "default": [
+      "Set as default",
+      "تعيين كافتراضي",
+      "تعیین به عنوان پیش فرض"
+    ],
+    "delete": [
+      "Delete address",
+      "حذف العنوان",
+      "حذف آدرس"
+    ],
+    "edit": [
+      "Edit",
+      "تعدیل",
+      "ویرایش"
+    ],
+    "notvery": [
+      "not verified",
+      "لم يتم التحقق",
+      "تایید نشد"
+    ],
+    "pri-add": [
+      "Primary address",
+      "العنوان الرئيسي",
+      "آدرس اصلی"
+    ],
+    "confirm-loc": [
+      "Confirm Location",
+      "تأكيد الموقع",
+      "تایید مکان"
+    ],
+    "search-loc-placeholder": [
+      "Search for your location",
+      "بحث عن موقعك",
+      "جستجوی مکان شما"
+    ],
+    "set-default-add": [
+      "Set as default address",
+      "تعيين كعنوان افتراضي",
+      "انتخاب به عنوان آدرس اصلی"
+    ],
+    "select-map": [
+      "Select address from map",
+      "حدد العنوان من الخريطة",
+      "انتخاب آدرس از نقشه"
+    ]
+  },
+  "verify-sms": [
+    "Please verify your mobile number to continue",
+    "لازم تأكد رقم موبايلك عشان نكمّل",
+    "شماره موبایل خود را برای ادامه تایید کنید"
+  ],
+  "verify-sms-des": [
+    "To proceed to register, use the OTP & verify your mobile number. We’ve sent the OTP to",
+    " عشان نكمّل لإتمام الشراء، استخدم رمز OTP وأكد رقم موبايلك. بعتنا رمز OTP إلى",
+    "کد تایید به شماره موبایل شما ارسال شد، برای تکمیل ثبت نام کد تایید را وارد کنید"
+  ],
+  "changephone-btn": [
+    "Submit & verify phone",
+    "إرسال الرمز",
+    "تایید شماره موبایل"
+  ],
+  "dontreceive": [
+    "Didn't receive OTP?",
+    "لم يصلك رمز OTP?",
+    "کد تایید دریافت نشده است؟"
+  ],
+  "resendnow": [
+    "Resend now",
+    "إعادة إرسال الآن",
+    "ارسال مجدد"
+  ],
+  "changeRegisterData": [
+    "Change Register Data",
+    "تغيير بيانات التسجيل",
+    "تغییر اطلاعات"
+  ]
+}

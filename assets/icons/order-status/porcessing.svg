@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Group_2887" data-name="Group 2887" transform="translate(7948 5535)">
+    <rect id="Rectangle_260" data-name="Rectangle 260" width="16" height="16" transform="translate(-7948 -5519) rotate(-90)" fill="#fff" opacity="0"/>
+    <g id="Group_2886" data-name="Group 2886" transform="translate(-1.838 -2.838)">
+      <g id="trolley" transform="translate(-7944.985 -5530.834)">
+        <g id="Group_2885" data-name="Group 2885" transform="translate(0 0)">
+          <ellipse id="Ellipse_29" data-name="Ellipse 29" cx="1.864" cy="1.878" rx="1.864" ry="1.878" transform="translate(5.306 9.936)" fill="#0288d1"/>
+          <path id="Path_1060" data-name="Path 1060" d="M14.816,237.63a1.908,1.908,0,0,0-2.8-.333l-.774.693a.58.58,0,0,0-.048.813.565.565,0,0,0,.8.047l.774-.693c.338-.3.794-.21,1.193.24l1.83,2.065a6.138,6.138,0,0,1,.852-.766Z" transform="translate(-11.051 -230.516)" fill="#0288d1"/>
+          <path id="Path_1061" data-name="Path 1061" d="M338.622,222.87a.565.565,0,0,0-.8-.048l-3.717,3.326a6.025,6.025,0,0,1,.76.858l3.714-3.323A.583.583,0,0,0,338.622,222.87Z" transform="translate(-325.072 -216.762)" fill="#0288d1"/>
+          <path id="Subtraction_8" data-name="Subtraction 8" d="M4.755,8.855h0A2.93,2.93,0,0,0,3.776,8.8L.16,4.743a.63.63,0,0,1,.045-.885L1.8,2.412,3.52,4.134l.858-.858L2.7,1.595,4.275.161a.62.62,0,0,1,.88.047L8.824,4.316A.631.631,0,0,1,8.78,5.2L4.756,8.854Z" transform="translate(3.071)" fill="#0288d1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import '../../../../../../assets/scss/abstracts/mixins';
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .goodDetailAside {
+    &__offer-text {
+      margin-left: 0;
+      margin-right: 5px;
+    }
+    &__offer-text-cnt {
+      text-align: center !important;
+    }
+    &__btn {
+      text-align: center !important;
+      @include respond-bs(landscape-phones) {
+        font-size: 17px;
+        height: 47px;
+        margin-left: 0;
+        margin-right: 3rem;
+      }
+    }
+
+    &__text-icon {
+      left: initial;
+      right: 10px;
+    }
+    .cart-item {
+      &__quantity {
+        margin-right: 0px;
+        margin-left: 10px;
+      }
+    }
+    &__ {
+      margin-right: 0 !important;
+      margin-left: 10px !important;
+    }
+    .how-cal {
+      margin-right: 0px;
+    }
+    &__btm-box {
+      // padding: 10px 23px !important;
+    }
+    &__top-icon {
+      margin-right: 0 !important;
+      margin-left: 0px !important;
+    }
+    &__sellerscore-text {
+      margin-right: 0 !important;
+      margin-left: 10px !important;
+    }
+  }
+}

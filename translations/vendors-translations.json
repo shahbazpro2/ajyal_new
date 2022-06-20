@@ -1,0 +1,39 @@
+{
+  "@VendorTitle": [
+    "ajyal.bh | search vendors",
+    "ajyal.bh | البحث عن البائعين",
+    "ajyal.bh | جستجوی فروشنده"
+  ],
+  "sortby": ["Sort By", "ترتيب حسب", "مرتب سازی"],
+  "category2": ["Categories",
+     "الفئات"
+     , "دسته بندی ها"],
+  "visit-store": ["Visit Store",
+     "عرض المتجر"
+     , "نمایش فروشگاه"],
+  "search-placeholder": [
+    "search vendors",
+    "البحث عن بائع",
+    "جستجو فروشنده "
+  ],
+  "total-store": [
+    "Total store showing",
+    "عدد المتاجر",
+    "نمایش کل فروشگاه ها"
+  ],
+  "sort": {
+    "MostPopular": ["most popular", "الأكثر شعبية", "محبوبترین"],
+    "MostRecent": ["most recent", "الأحدث", "جدیدترین"],
+    "MostReviewed": ["most reviewed", 
+      "الأعلى تقييمًا"
+      , "بیشترین نظرات"]
+  },
+  "cats": {
+    "allCats": ["All Categories", "جميع الفئات", "همه ی دسته بندی ها"]
+  },
+  "empty-search": [
+    "Nothing found",
+    "لم يتم العثور على متاجر",
+    "موردی یافت نشد"
+  ]
+}

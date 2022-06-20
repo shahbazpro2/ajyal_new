@@ -1,0 +1,86 @@
+@import "./../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .provider-page {
+    &__left {
+      padding-right: 0;
+      padding-left: 1.3rem;
+    }
+  }
+  .provider {
+    .goodDetailAside {
+      &__top-icon {
+        margin-left: 10px;
+        margin-right: 0px;
+      }
+      &__reviews {
+        margin-right: 0 !important;
+      }
+    }
+
+    .search {
+      li,
+      span,
+      a {
+        text-align: right !important;
+      }
+
+      &__filter-header {
+        text-align: right;
+        &::before {
+          border: none;
+        }
+        &::after {
+          content: "";
+          border: 12px solid #f0b440;
+          position: absolute;
+          height: 114%;
+          border-radius: 9px;
+          right: -15px;
+          top: -4px;
+        }
+      }
+
+      $padding: 21px;
+      .seemore__link {
+        margin-left: 0;
+        margin-right: $padding;
+      }
+      .checklist__check {
+        margin-right: 0;
+        margin-left: 10px;
+      }
+      &__drop-list {
+        padding-left: 0;
+        padding-right: $padding;
+      }
+      &__top-link {
+        &::after {
+          content: "";
+          border: 12px solid #f0b440;
+          position: absolute;
+          height: 114%;
+          border-radius: 9px;
+          left: initial;
+          top: -4px;
+          right: -15px;
+        }
+        &::before {
+          border: none;
+        }
+      }
+    }
+  }
+  .review-text {
+    margin-right: 0 !important;
+    margin-left: 10px !important;
+  }
+  .how-calculate-wrapper {
+    text-align: right;
+  }
+  .phone-number {
+    direction: ltr;
+  }
+}

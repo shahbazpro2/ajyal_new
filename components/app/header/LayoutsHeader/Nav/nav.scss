@@ -1,0 +1,96 @@
+@import "../../../../../assets/scss/abstracts/variables";
+@import "../../../../../assets/scss/abstracts/mixins";
+@import "../../../../../assets/scss/abstracts/placeholders";
+
+.web-category-overlay {
+  height: 100%;
+  opacity: 0.6;
+  background-color: $color-primary;
+  position: fixed;
+  z-index: 90;
+  top: 0;
+  width: 100%;
+}
+
+.nav {
+  @include respond-bs(desktops) {
+    display: none;
+  }
+
+  &__item:hover {
+    background-color: #acb1b8;
+    box-shadow: -1px 0px 0px 0px #acb1b8;
+    @include respond-bs(desktops) {
+      background-color: initial;
+      box-shadow: none;
+    }
+  }
+
+  position: relative;
+  z-index: 99;
+  &__list {
+    @extend %horizental-list;
+    height: 4.1rem;
+    background-color: $color-nav-list-bg;
+  }
+  &__item--first {
+    width: 19%;
+  }
+
+  &__link {
+    color: $color-nav-list-font;
+    @extend %d-flex;
+    align-items: center;
+    height: 100%;
+    padding: 0px 2rem;
+    position: relative;
+    cursor: pointer;
+    span {
+      font-weight: 500;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: $size-nav-list-height - 3.5rem;
+      right: 0;
+      border-right: 0.1rem solid $color-nav-list-item-seperator;
+      @extend %vertical-center;
+    }
+
+    &--last::after {
+      border: none;
+    }
+
+    &--first {
+      background-color: $color-nav-clickable-bg;
+      padding: 0px 3rem;
+    }
+
+    &--first::after {
+      border: none;
+    }
+  }
+
+  // &__item--secound {
+  //     .nav__link {
+  //         &::after{
+  //             border: none;
+  //         }
+
+  //     }
+
+  // }
+
+  &__link-text {
+    font-size: 1.5rem;
+
+    &--margin {
+      margin: 0 1rem 0 1.5rem;
+    }
+  }
+
+  // &__item-svg{
+  //     margin-top: 2px;
+  // }
+}

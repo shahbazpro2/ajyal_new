@@ -1,0 +1,26 @@
+.SelectBox2 {
+  &__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    &--circleClick {
+      cursor: initial;
+    }
+  }
+
+  &__img {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+}
+
+.rtl {
+  .SelectBox2 {
+    &__img {
+      margin-right: 0;
+      margin-left: 15px;
+    }
+  }
+}

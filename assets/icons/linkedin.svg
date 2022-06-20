@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.921" height="17.92" viewBox="0 0 17.921 17.92">
+    <defs>
+        <style>
+            .cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="linkedin">
+        <path id="Path_289" d="M20.066 19.839v-6.573c0-3.215-.692-5.692-4.451-5.692A3.9 3.9 0 0 0 12.1 9.506h-.052V7.874H8.489v11.964H12.2v-5.924c0-1.56.3-3.068 2.227-3.068 1.9 0 1.932 1.78 1.932 3.168v5.825z" class="cls-3" data-name="Path 289" transform="translate(-2.151 -1.919)"/>
+        <path id="Path_290" d="M.4 7.977h3.712v11.964H.4z" class="cls-3" data-name="Path 290" transform="translate(-.101 -2.021)"/>
+        <path id="Path_291" d="M2.152 0A2.162 2.162 0 1 0 4.3 2.152 2.153 2.153 0 0 0 2.152 0z" class="cls-3" data-name="Path 291"/>
+    </g>
+</svg>

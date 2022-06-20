@@ -1,0 +1,25 @@
+%d-flex{
+    display: flex;
+}
+
+%vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+%horizental-list{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+%d-rtl{
+    direction: rtl;
+}
+
+%d-ltr{
+    direction: ltr;
+}

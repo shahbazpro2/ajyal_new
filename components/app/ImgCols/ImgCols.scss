@@ -1,0 +1,119 @@
+@import "../../../assets/scss/abstracts/variables";
+@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+// .images-container {
+ 
+//   margin-top: 2rem;
+//   @include respond-bs(tablets) {
+//     padding: 1rem 2rem;
+// }
+// @include respond-bs(portrait-phones) {
+//   padding: 0 2rem;
+// }
+//   &__art {
+//     overflow: hidden;
+//     &--md {
+//       height: 250px;
+//       @include respond-bs(portrait-phones) {
+//         height: 150px;
+//     }
+//     }
+//     &--sm {
+//       height: 150px;
+//       @include respond-bs(portrait-phones) {
+//         height: 105px;
+//     }
+
+//     }
+//     &--lg {
+//       height: 300px;
+//       @include respond-bs(portrait-phones) {
+//         height: 210px;
+//     }
+//     }
+
+//   }
+
+//   &__img {
+//     width: 100%;
+//     height: 100%;
+//   }
+// }
+
+
+
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+//   @include respond-bs(tablets) {
+//     padding: 1rem 2rem;
+// }
+//   @include respond-bs(portrait-phones) {
+//     padding: 0 2rem;
+//   }
+  &__img {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    }
+
+  // &__res{
+  //   &:not(:last-of-type) {
+  //     padding-right: 12px;
+  //   }
+  // }
+
+  &__art {
+    // overflow: hidden;
+    // height: 0;
+    // flex-grow: 1;
+    // position: relative;
+
+    // &--md {
+    //   // padding-top: 14.39%;
+    //   padding-top: 190px;
+    //   @include respond-bs(tablets) {
+    //     // padding-top: 30%;
+    //   }
+    // }
+
+    // &--sm {
+    //   // padding-top: 10.25%;
+    //   padding-top: 135px;
+      
+    //   @include respond-bs(tablets) {
+    //     // padding-top: 30%;
+    //   }
+    // }
+
+    // &--lg {
+    //   // padding-top: 18.18%;
+    //   padding-top: 240px;
+    //   @include respond-bs(tablets) {
+    //     // padding-top: 55%;
+    //   }
+    // }
+
+    &--shadow {
+      box-shadow: 0 3px 6px 0 $color-primary-black-16;
+    }
+  }
+}
+.img-col-placeholder{
+  width: 70px;
+}
+
+.img-col-placeholder-cnt{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

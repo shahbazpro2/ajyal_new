@@ -1,0 +1,15 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.rtl{
+    .dropdown{
+        &__arrow{
+            float: left;
+        }
+
+        &__arrow--close{
+            transform: rotate(180deg);
+        }
+    }
+}

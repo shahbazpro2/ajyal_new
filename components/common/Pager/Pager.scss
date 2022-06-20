@@ -1,0 +1,47 @@
+@import "../../../assets/scss/abstracts/variables";
+@import "../../../assets/scss/abstracts/mixins";
+@import "../../../assets/scss/abstracts/placeholders";
+
+.pager {
+  @extend %horizental-list;
+  justify-content: center;
+  margin: 30px 0px;
+  &__item {
+    width: 17px;
+    margin-right: 30px;
+    // color: $color-primary-gray;
+    @include respond-bs(landscape-phones) {
+      margin-right: 10px;
+      width: auto;
+    }
+  }
+  &__link {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: $color-primary-gray !important;
+    // transition: all 0.3s;
+    &:hover {
+      font-weight: bold;
+      color: $color-primary3 !important;
+      border-radius: 4px;
+      border: 1px solid $color-primary3;
+    }
+    font-size: 12px;
+
+    &.active {
+      // background-color: $color-gray6;
+      font-weight: bold;
+      color: $color-primary3 !important;
+      border-radius: 4px;
+      border: 1px solid $color-primary3;
+    }
+    @include respond-bs(landscape-phones) {
+      font-size: 12px;
+    }
+  }
+
+  &__next-icon {
+    transform: rotate(180deg);
+  }
+}

@@ -1,0 +1,152 @@
+@import "./../../../../assets/scss/abstracts/variables";
+@import "../../../../assets/scss/abstracts/mixins";
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+$contW: 900px;
+$imgW: 260px;
+$formW: $contW - $imgW;
+$switchAT: 1.2s;
+
+$inputW: 260px;
+$btnH: 36px;
+
+$diffRatio: ($contW - $imgW) / $contW;
+
+@mixin signUpActive {
+  .rtl .cont.s--signup & {
+    @content;
+  }
+}
+
+.sign-in {
+  @include signUpActive {
+    transition-timing-function: ease-in-out;
+    transition-duration: $switchAT;
+    transform: translate3d($formW, 0, 0);
+  }
+}
+
+.img {
+  @include signUpActive {
+    &:before {
+      transform: translate3d($formW, 0, 0);
+    }
+  }
+
+  &__text {
+    &.m--up {
+      @include signUpActive {
+        transform: translateX($imgW * -2);
+      }
+    }
+
+    &.m--in {
+      @include signUpActive {
+        transform: translateX(0);
+      }
+    }
+  }
+}
+
+.sign-up {
+  @include signUpActive {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.sub-cont {
+  @include signUpActive {
+    transform: translate3d($formW * -1, 0, 0);
+  }
+}
+
+.rtl {
+  .auth {
+    span,
+    input,
+    label {
+      text-align: right;
+    }
+
+    &__input {
+      // font-size: 1.6rem !important;
+    }
+
+    &__up-header {
+      font-size: 2.2rem;
+    }
+    &__mobile-number {
+
+      .react-select {
+        .css-yk16xz-control,.css-1pahdxg-control {
+          flex-direction: row-reverse;
+        }
+        .css-1wa3eu0-placeholder {
+          left: 5px;
+        }
+      }
+    }
+    &__input-mobile {
+      text-align:left  !important;
+      &:placeholder-shown{
+      text-align:right  !important;
+        
+      }
+    }
+    &__header-sub-mobile {
+      text-align: right;
+    }
+    &__lang-slt {
+      left: 20px;
+      right: unset;
+  }
+  }
+
+  .sub-cont {
+    left: $formW;
+    top: 0;
+    padding-left: $imgW;
+    transform: translate3d(0, 0, 0);
+    @include respond-bs(tablets) {
+      padding-left: 0;
+    }
+  }
+
+  .img {
+    &:before {
+      transform: translate3d(0, 0, 0);
+    }
+
+    &__text {
+      &.m--in {
+        transform: translateX($imgW * 2);
+      }
+    }
+
+    &__btn {
+      span {
+        transition: transform $switchAT;
+
+        &.m--in {
+          transform: translateY($btnH * -2);
+
+          @include signUpActive {
+            transform: translateY(0);
+          }
+        }
+
+        &.m--up {
+          @include signUpActive {
+            transform: translateY($btnH * 2);
+          }
+        }
+      }
+    }
+
+  
+  }
+
+  .sign-in {
+    transition-timing-function: ease-out;
+    transform: translate3d($imgW * -1, 0, 0);
+  }
+}

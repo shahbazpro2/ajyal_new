@@ -1,0 +1,72 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .goodItem-s1 {
+    &__fig-cap {
+      text-align: right;
+    }
+    a,li,span{
+      text-align: right;
+    }
+    &__footer {
+      @extend %d-rtl;
+    }
+
+    &__footer-left-div {
+      @extend %d-rtl;
+    }
+
+    &__exp {
+      margin-right: 0;
+      margin-left: 13px;
+    }
+
+    &__off-percentage-container {
+      @extend %d-ltr;
+    }
+
+    &__star-container {
+      text-align: right;
+    }
+
+    &___start-count {
+      @extend %d-rtl;
+    }
+
+    &__price-off {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+
+    &__currency {
+      font-size: 16px;
+      margin-right: 4px;
+    }
+    &__sticky {
+      right: 0;
+      left: initial;
+      border-radius: 6px 0px 0px 6px;
+    }
+    &__heart-icon {
+      left: 10px;
+      right: initial;
+    }
+    &__start-count {
+      margin-right: 5px;
+    }
+    &__wishlist-text{
+      margin-left: 0;
+      margin-right: 13px;
+    }
+    &__off-percentage-container{
+      margin-right: 10px;
+    }
+    &__star{
+      padding-right: 0px;
+      padding-left: 5px;
+      // width: 16px;
+  }
+  }
+}

@@ -1,0 +1,54 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .deliveryPanel {
+    &__panel{
+      left: 0;
+      right: initial;
+    }
+    &__search-input {
+      padding: 7px 32px 7px 10px;
+    }
+
+    &__search-icon {
+      left: initial;
+      right: 10px;
+      top: 13px;
+    }
+
+    .Dropdown-control {
+      padding: 8px 10px 8px 52px;
+    }
+    .Dropdown-arrow {
+      left: 10px;
+      right: initial;
+    }
+
+    &__scrol-view {
+      margin-left: -20px !important;
+      margin-right: 0px !important;
+    }
+
+    &__track-vertical {
+      right: initial;
+      left: 2px;
+    }
+
+    
+  &__location-country {
+    .Dropdown-control {
+      padding: 8px 5px 8px 10px;
+    }
+    .Dropdown-option {
+      padding: 8px 5px;
+    }
+  }
+  &__location-province {
+    margin: 0 10px 0 0px;  
+}
+
+    
+  }
+}

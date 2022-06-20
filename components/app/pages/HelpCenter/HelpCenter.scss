@@ -1,0 +1,158 @@
+@import "./../../../../assets/scss/abstracts/variables";
+@import "./../../../../assets/scss/abstracts/mixins";
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+@import "./helpCenterLayouts/helpCenterLayouts.scss";
+
+.helpcenter {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-bottom: 100px !important;
+  &__subheader {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    &--article {
+      margin-bottom: 0px;
+      font-size: 50px;
+      @include respond-bs(landscape-phones){
+        font-size: 33px;
+      }
+    }
+  }
+}
+
+.article {
+  &__count-cnt {
+    font-size: 18px;
+    color: $color-gray7;
+    font-weight: bold;
+  }
+  &__count {
+    margin-right: 5px;
+  }
+  &__des {
+    font-size: 15px;
+    font-style: italic;
+    color: $color-primary-gray;
+    margin-top: 30px;
+  }
+  &__topic {
+    padding: 55px 0px 85px 0px;
+    &:not(:last-child) {
+      border-bottom: 1px solid #eee;
+    }
+  }
+  &__list {
+    display: flex;
+    flex-direction: row;
+  }
+  &__list-header {
+    font-size: 35px;
+
+    color: $color-primary;
+  }
+  &__list-item {
+    margin-top: 50px;
+    @include respond-bs(landscape-phones){
+      margin-top: 35px;
+    }
+    display: flex;
+    &::before {
+      padding-top: 3px;
+      content: "•";
+      padding-right: 8px;
+      color: $color-primary-yellow;
+      font-size: 32px;
+      line-height: 16px;
+      vertical-align: middle;
+    }
+  }
+  &__list-link {
+    color: $color-primary;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+  }
+}
+
+.doc {
+  &__list-cnt {
+    padding-right: 35px;
+    @include respond-bs(tablets) {
+      padding: 0;
+    }
+  }
+  &__list-header {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+    @include respond-bs(tablets) {
+      padding-top: 10px;
+      border-top: 1px solid #eee;
+    }
+    padding-bottom: 10px;
+  }
+  &__content {
+    border-left: 1px solid #eee;
+    padding-left: 35px;
+    @include respond-bs(tablets) {
+      border-left: none;
+      margin-top: 20px;
+      padding-left: 0;
+    }
+  }
+  &__list-item {
+    margin-top: 30px;
+  }
+  &__list-link {
+    font-size: 15px;
+    color: $color-primary;
+  }
+  &__list {
+    padding: 0px 10px;
+  }
+  &__time {
+    font-size: 12px;
+    color: $color-gray7;
+  }
+  &__article-content {
+    margin: 70px 0px;
+  }
+  &__ques-content {
+    display: flex;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 40px;
+    align-items: center;
+  }
+  &__ques-btn,
+  &__ques-btn:focus {
+    color: $color-primary2;
+    border: 1px solid $color-primary2;
+    background-color: initial;
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    transition: all 0.25s;
+    &:hover {
+      background-color: $color-primary2;
+      color: white;
+    }
+    &.active {
+      background-color: $color-primary2;
+      color: white;
+    }
+  }
+  &__ques {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  &__close-icon {
+    position: absolute;
+    right: 10px;
+  }
+}

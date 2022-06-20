@@ -1,0 +1,88 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "./../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.orderaddress {
+  padding: 1px;
+  @include respond-bs(tablets) {
+    border-radius: 0;
+  }
+  &__cnt {
+    padding: 10px 30px;
+    @include respond-bs(tablets) {
+      padding: 10px 10px;
+    }
+  }
+
+
+  .no-address{
+    min-height: 250px;
+  }
+
+  .returns-add-single {
+    &__addresses {
+      margin: 0;
+      padding: 5px;
+
+      border-bottom: 1px solid #eee;
+    }
+  }
+
+  .SelectBox2 {
+    &__img {
+      align-self: flex-start;
+      margin-top: 20px;
+      @include respond-bs(landscape-phones) {
+        margin-right: 10px;
+      }
+    }
+
+    &__item {
+      &:last-of-type {
+        .returns-add-single {
+          &__addresses {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+
+  &__verify-phone {
+    .add-address-step2 {
+      min-height: auto;
+    }
+    .add-address-step2__p1 {
+      margin-top: 0;
+    }
+  }
+
+  &__change-phone {
+    .add-address-step3 {
+      min-height: auto;
+    }
+    .add-address-step3__p1 {
+      margin: 0;
+    }
+  }
+
+  &__full-with-btn {
+    box-shadow: 0 0 6px 0 $color-primary-black-16;
+    width: 100%;
+    background-color: white;
+    border: none;
+    height: 60px;
+    font-size: 15px;
+    margin: 5px 0px 5px 0px;
+    color: $color-primary2;
+  }
+
+  &__full-with-btn-icon {
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  .mobile-drop {
+    right: 15px;
+  }
+}

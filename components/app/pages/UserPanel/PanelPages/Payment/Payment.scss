@@ -1,0 +1,26 @@
+//@import "../../../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+@import "./../../../../../../assets/scss/abstracts/variables";
+
+.payment {
+  &__content {
+  }
+  &__data-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    .card-item-wrapper {
+      flex: 25%;
+      flex-grow: 0;
+      @include respond-bs(desktops) {
+        flex: 25%;
+      }
+      @include respond-bs(tablets) {
+        flex: 50%;
+      }
+      @include respond-bs(portrait-phones) {
+        flex: 50%;
+      }
+    }
+  }
+}

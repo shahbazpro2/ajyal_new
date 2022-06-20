@@ -1,0 +1,41 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+.mobile-drop {
+  position: relative;
+  z-index: 5;
+  width: 30px;
+  text-align: right;
+  &__content {
+    position: absolute;
+    width: 170px;
+    min-height: 80px;
+    padding: 10px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 $color-primary-black-16;
+    z-index: 10;
+    top: -2px;
+    border-radius: 5px;
+    display: none;
+  }
+
+  &__icon{
+
+  }
+
+  &:hover &__content {
+    display: inline-block;
+  }
+
+}
+
+.rtl {
+  .mobile-drop {
+    text-align: left;
+    &__content {
+      right: initial;
+      left: 0;
+    }
+  }
+}

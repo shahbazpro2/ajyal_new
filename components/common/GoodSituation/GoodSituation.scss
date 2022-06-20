@@ -1,0 +1,30 @@
+@import "../../../assets/scss/abstracts/variables";
+@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.goodsitua{
+    @extend %d-flex;
+    align-items: center;
+    flex-direction: row;
+    // align-content: center;
+    justify-content: center;
+
+    &__text{
+        margin-left: 5px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 1px;
+        @include respond-bs(portrait-phones){
+            font-size: 15px;
+        }
+    }
+}
+
+.rtl{
+    .goodsitua{
+        &__text{
+            margin-left: 0;
+            margin-right: 5px;
+        }
+    }
+}

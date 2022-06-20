@@ -1,0 +1,47 @@
+.rtl {
+  .searchBoxHeader {
+    &__right-container > * {
+      margin-right: 0;
+      margin-left: 12px;
+    }
+    &__left-container > * {
+      margin-left: 12px;
+      margin-right: 0px;
+    }
+
+    &__btm-container > * {
+      margin-left: 12px;
+      margin-right: 0px;
+    }
+
+    .Dropdown-arrow {
+      left: 10px;
+      right: initial;
+    }
+
+    .Dropdown-control {
+      padding: 2px 16px 3px 40px;
+    }
+  }
+
+
+  .searchBoxHeader-mobile {
+    
+    &__items {    
+        span {
+            padding-right: 1.5rem;
+            padding-left: 0;
+        }
+       
+    }
+    .searchBoxHeader-mobile-filter {
+      &::before {
+          left: 30px;
+          right: unset;
+          padding: 1rem 0.9rem;
+      }
+
+  }
+}
+
+}

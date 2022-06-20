@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Component_102" width="24" height="24" data-name="Component 102" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#172840}
+        </style>
+    </defs>
+    <g id="sticker" transform="translate(0 -15.172)">
+        <path id="Path_995" d="M20.906 16H3.094A3.1 3.1 0 0 0 0 19.094v16.312A3.1 3.1 0 0 0 3.094 38.5H18.75a3.443 3.443 0 0 0 2.45-1.015l1.785-1.785A3.443 3.443 0 0 0 24 33.25V19.094A3.1 3.1 0 0 0 20.906 16zM3.094 17.5h17.812a1.6 1.6 0 0 1 1.594 1.594v2.156h-21v-2.156A1.6 1.6 0 0 1 3.094 17.5zM1.5 35.406V22.75h21v9.75h-2.344A2.159 2.159 0 0 0 18 34.656V37H3.094A1.6 1.6 0 0 1 1.5 35.406zm20.424-.766l-1.784 1.784a1.963 1.963 0 0 1-.64.428v-2.2a.657.657 0 0 1 .656-.652h2.2a1.964 1.964 0 0 1-.432.64z" class="cls-2" data-name="Path 995"/>
+        <path id="Path_996" d="M125.5 208.75a.75.75 0 0 0-.75-.75h-12a.75.75 0 0 0 0 1.5h12a.75.75 0 0 0 .75-.75z" class="cls-2" data-name="Path 996" transform="translate(-106.75 -183)"/>
+        <path id="Path_997" d="M153.75 288h-9a.75.75 0 0 0 0 1.5h9a.75.75 0 1 0 0-1.5z" class="cls-2" data-name="Path 997" transform="translate(-137.25 -259.25)"/>
+    </g>
+</svg>

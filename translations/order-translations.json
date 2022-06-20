@@ -1,0 +1,211 @@
+{
+  "@orderTitle": ["ajyal.bh | order", "ajyal.bh | طلب", "ajyal.bh | سفارش"],
+  "order-nav": {
+    "shipping-address": ["Shipping Address", "عنوان الشحن", "آدرس ارسال"],
+    "payment": ["Payment", "الدفع", "پرداخت"],
+    "order-placed": ["Order Placed", "تم وضع الطلب", "ثبت سفارش"]
+  },
+  "shipping": {
+    "add-new-address": [
+      "Add new address",
+      "إضافة عنوان جديد",
+      "افزودن آدرس جدید"
+    ]
+  },
+
+  "payment": {
+    "payment": ["Payment", "الدفع", "پرداخت"],
+    "your-order": ["Your Order", "قائمتي المفضلة", "سفارش شما"],
+    "use-my-credits": [
+      "Use my credits for this order",
+      "استخدم رصیدي لشراء هذه الطلبیة",
+      "استفاده از اعتبار من برای سفارش"
+    ],
+    "ava-blc": ["Available balance:", "الرصید المتوفر", "موجودی کافی است"],
+    "pay-with-cash": ["Pay with cash", "الدفع نقدا", "پرداخت نقدی"],
+    "pay-with-card": [
+      "Pay with card",
+      "الدفع بالبطاقة",
+      "پرداخت با کارت اعتباری"
+    ],
+
+    "ship-to": ["Ship to", "الشحن الی", "ارسال به "]
+  },
+
+  "payment-method": {
+    "name-on-card": ["Name on card", 
+      "الاسم على البطاقة",
+       "نام کارت"],
+    "card-number": ["Card Number",
+       "رقم البطاقة",
+        "شماره کارت"],
+    "expiry-date": ["Expiry Date", 
+      "تاريخ الانتهاء "
+      , "تاریخ انقضا"],
+    "security-code": ["Security Code", 
+      "رمز الحماية",
+       "رمز عبور"],
+    "postal-code": ["Zip/Postal Code",
+       "الرمز البريدي",
+        "کد پستی"],
+    "complate-payment": ["Complate Payment", "دفع كامل", "تکمیل پرداخت "],
+    "redirectToPyamnetPage": [
+      "In order to complete your transaction, we will transfer you to payment page"
+      , "لإتمام معاملتك ، سنقوم بتحويلك إلى صفحة الدفع",
+       "برای تکمیل معامله شما ، شما را به صفحه پرداخت منتقل خواهیم کرد"]
+  },
+
+  "orderplaced": {
+    "go-to-order-detail": [
+      "Go to Order Detail",
+      "اذهب إلى تفاصيل الطلبية",
+      "جزئیات سفارش"
+    ]
+  },
+  "cart-cart": {
+    "mycart": ["My cart", "عربة التسوق", "سبد خرید من"],
+    "item": ["Item", "المنتج", "گزینه"],
+    "items": ["Items", "المنتجين", "گزینه ها"],
+    "quantity": ["Quantity", "الكمية", "تعداد"],
+    "removeFromList": ["Remove from list", "حذف", "حذف از لیست"],
+    "move-whishlist": [
+      "Move to Wishlist",
+      "إضافة إلى منتجاتك المفضلة",
+      "انتقال به علاقمندی ها"
+    ],
+    "model-num": ["Model number", ":رقم الموديل", "شماره مدل:"],
+    "doesnt-exist-city": [
+      "this item is not available in this city",
+      "هذا العنصر غير متوفر في هذه المدينة",
+      "این گزینه در این شهر موجود نمی باشد"
+    ],
+    "doesnt-exist-ava": [
+      "this item is not available",
+      "هذا العنصر غير متوفر",
+      "این گزینه موجود نمی باشد"
+    ]
+  },
+  "soldby": [
+    "Sold by :",
+    "البائع :",
+    "فروشنده : "
+  ],
+  "addresses": {
+    "addresses": ["Addresses", "العناوين", "آدرس ها"],
+    "empty-des": [
+      "Where are your saved addresses?",
+      "العناوين المحفوظة",
+      "آدرس تایید شده شما کجاست؟"
+    ],
+    "empty-des2": [
+      "Add an address so we can get cracking on the delivery!",
+      "أضف عنوانًا حتى نتمكن من توصيل الطلب إليك!",
+      "یک آدرس برای تحویل کالا اضافه کنید"
+    ],
+    "addadress": ["Add an address", "إضافة عنوان جديد", "اضافه کردن آدرس"],
+    "setmap": ["Set from map:",
+       "تعيين من الخريطة:"
+       , "انتخاب از نقشه"],
+    "addnewadd": [
+      "Add a new addresses",
+      "إضافة عنوان جديد",
+      "اضافه کردن آدرس جدید"
+    ],
+    "addi-address": [
+      "Additional address details",
+      "تفاصيل العنوان الإضافية",
+      "افزودن جزییات آدرس"
+    ],
+    "addi-address-placeholder": [
+      "Enter address details",
+      "أدخل تفاصيل العنوان الإضافية",
+      " جزییات آدرس را وارد کنید"
+    ],
+    "postal-code": ["Postal code", "الكود البريدى", "کد پستی"],
+    "postal-code-placeholder": [
+      "Enter Postal code",
+      "أدخل الرمز البريدي",
+      "کد پستی را وارد کنید"
+    ],
+    "firstname": ["First name",
+       "الاسم"
+       , "نام"],
+    "firstname-placeholder": [
+      "Enter your first name",
+      "أدخل الاسم الأول",
+      "نام را وارد کنید"
+    ],
+    "mobile-number": ["Mobile number", "رقم الجواّل", "شماره موبایل"],
+    "mobile-number-placeholder": [
+      "Enter mobile number",
+      "أدخل رقم الجواّل",
+      "شماره موبایل را وارد کنید"
+    ],
+    "add-label": [
+      "Address Label (Optional)",
+      "تسمية العنوان (اختياري)",
+      "برچسب آدرس (اختیاری)"
+    ],
+    "lastname": ["Last name", 
+      "العائلة",
+       "نام خانوادگی"],
+    "lastname-placeholder": [
+      "Enter your last name",
+      "أدخل الاسم العائلة",
+      "نام خانوادگی را وارد کنید"
+    ],
+    "save": ["Save address", "حفظ العنوان", "ذخیره آدرس"],
+    "verify": [
+      "Please verify your mobile number to continue",
+      "يرجى تأكيد رقم هاتفك المحمول للمتابعة",
+      "لطفاً شماره موبایل خود را برای ادامه تایید کنید"
+    ],
+    "verify-des": [
+      "To proceed to checkout, use the OTP & verify your mobile number. We’ve sent the OTP to",
+      "لمتابعة إتمام الشراء، استخدم كود OTP وقم بتأكيد رقم جوّالك. لقد قمنا بإرسال كود OTP إلى",
+      "کد تایید ارسال شد ، برای اتمام ثبت نام کد تایید ارسال شده به شماره موبایل خود را وارد کنید "
+    ],
+    "changephone": ["Change Phone Number", "تغيير الرقم", "تغییر شماره موبایل"],
+    "changephone-btn": [
+      "Submit & verify phone",
+      "تحقق من رقم الهاتف",
+      "ارسال و تایید شماره موبایل"
+    ],
+    "skip": ["Skip", "تخطى", "رد شدن"],
+    "dontreceive": [
+      "Didn't receive OTP?",
+      "لم يصلك رمز OTP?",
+      "کد تایید دریافت نشد؟"
+    ],
+    "resendnow": ["Resend now", "إعادة إرسال الآن", "ارسال مجدد"],
+    "cancel": ["Cancel", "إلغاء", "لغو"],
+    "entermobile": [
+      "Please enter your new mobile number and we’ll send you a new OTP.",
+      "الرجاء إدخال رقم جوّالك وسنقوم بإرسال كود OTP جديد لك.",
+      "لطفاً شماره موبایل جدید خود را برای ارسال کد تایید وارد کنید"
+    ],
+    "send-new-code": ["Send new code", 
+      "إرسال رمز جديد",
+       "ارسال کد جدید"],
+    "name": ["Name", "الاسم", "نام"],
+    "phone": ["Phone",
+       "رقم الهاتف"
+       , "شماره تماس"],
+    "default": ["Set as default", "تعيين كافتراضي", "تنظیم به عنوان پیش فرض"],
+    "delete": ["Delete address", "حذف العنوان", "حذف آدرس"],
+    "edit": ["Edit", "تعدیل", "ویرایش"],
+    "notvery": ["not verified", "لم يتم التحقق", "تایید نشد"],
+    "pri-add": ["Primary address", "العنوان الرئيسي", "آدرس منتخب"],
+    "confirm-loc": ["Confirm Location", "تأكيد الموقع", "تایید آدرس"],
+    "search-loc-placeholder": [
+      "Search for your location",
+      "بحث عن موقعك",
+      "جستجوی آدرس شما"
+    ],
+    "set-default-add": [
+      "Set as default address",
+      "تعيين كعنوان افتراضي",
+      " انتخاب آدرس اصلی"
+    ]
+  }
+}

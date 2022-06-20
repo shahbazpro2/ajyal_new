@@ -1,0 +1,9 @@
+@import "../../../assets/scss/abstracts/variables";
+@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.alert{
+    @include respond-bs(portrait-phones){
+        border-radius: 0;
+    }
+}

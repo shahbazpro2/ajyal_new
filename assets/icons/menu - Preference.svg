@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="menu_-_Preference" width="16" height="16" data-name="menu - Preference" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:#172840}
+        </style>
+    </defs>
+    <g id="Group_2074" data-name="Group 2074"/>
+    <g id="cancel" transform="translate(.035 1)">
+        <path id="Path_820" d="M7.483 3.742a3.742 3.742 0 1 0-5.55 3.275v7.015h14.032V3.742zm-6.548 0a2.806 2.806 0 1 1 2.807 2.806A2.81 2.81 0 0 1 .935 3.742zM15.029 13.1H2.869V7.38a3.743 3.743 0 0 0 4.5-2.7h7.664zm0 0" class="cls-2" data-name="Path 820"/>
+        <path id="Path_821" d="M306.677 180H302v2.806h4.677zm-3.742.935h.935v.935h-.935zm2.806.935h-.935v-.935h.935zm0 0" class="cls-2" data-name="Path 821" transform="translate(-292.583 -174.387)"/>
+        <path id="Path_822" d="M122 300h1.871v.935H122zm0 0" class="cls-2" data-name="Path 822" transform="translate(-118.196 -290.646)"/>
+        <path id="Path_823" d="M212 300h1.871v.935H212zm0 0" class="cls-2" data-name="Path 823" transform="translate(-205.39 -290.646)"/>
+        <path id="Path_824" d="M302 300h1.871v.935H302zm0 0" class="cls-2" data-name="Path 824" transform="translate(-292.583 -290.646)"/>
+        <path id="Path_825" d="M392 300h1.871v.935H392zm0 0" class="cls-2" data-name="Path 825" transform="translate(-379.777 -290.646)"/>
+        <path id="Path_826" d="M122 360h10.29v.935H122zm0 0" class="cls-2" data-name="Path 826" transform="translate(-118.196 -348.775)"/>
+        <path id="Path_827" d="M69.614 70.276l.661-.661-.992-.992.992-.992-.661-.661-.992.992-.992-.992-.661.661.992.992-.992.992.661.661.992-.992zm0 0" class="cls-2" data-name="Path 827" transform="translate(-64.88 -64.88)"/>
+    </g>
+</svg>

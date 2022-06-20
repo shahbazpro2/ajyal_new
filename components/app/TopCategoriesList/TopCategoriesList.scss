@@ -1,0 +1,28 @@
+@import '../../../assets/scss/abstracts/variables';
+@import '../../../assets/scss/abstracts/mixins';
+@import '../../../assets/scss/abstracts/placeholders';
+
+.topCategoriesList{
+    &__item-container {
+        @extend %d-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        @include respond-bs(desktops) {
+            flex-wrap: unset;
+            overflow-x: scroll;
+          } 
+    }
+
+    &__item-text {
+        z-index: 4;
+        color: white;
+        display: block;
+        text-align: center;
+    }
+
+    .owl-carousel {
+        .owl-item {
+            padding: 0.5rem;
+        }
+    }
+}

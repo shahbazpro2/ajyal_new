@@ -1,0 +1,61 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .v2 {
+    .goodDetailTabs {
+      &__general-title {
+        padding-left: 0px;
+        padding-right: 17px;
+        &::before {
+          left: initial;
+          right: 0;
+        }
+      }
+
+      &__specifi-item-cnt {
+        .title-cnt {
+          padding-right: 15px;
+          padding-left: 0;
+          @include respond-bs(landscape-phones) {
+            padding-left: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .goodDetailTabs {
+    &__speci-item:not(:last-child) {
+      padding-right: 0;
+      padding-left: 30px;
+      @include respond-bs(landscape-phones) {
+        padding-left: 0;
+      }
+    }
+
+    &__speci-name {
+      text-align: right;
+    }
+
+    &__review-item {
+      padding-left: 0;
+      padding-right: 20px;
+
+      &--pos::before {
+        left: initial;
+        right: 0;
+      }
+
+      &--cons::before {
+        left: initial;
+        right: 2px;
+      }
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+}

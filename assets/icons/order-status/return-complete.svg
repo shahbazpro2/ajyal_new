@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Group_3023" data-name="Group 3023" transform="translate(-18195 -695)">
+    <g id="تحویل_به_مشتری" data-name="تحویل به مشتری" transform="translate(18195 695)">
+      <rect id="Rectangle_260" data-name="Rectangle 260" width="16" height="16" transform="translate(0 16) rotate(-90)" fill="#fff" opacity="0"/>
+      <g id="Group_2401" data-name="Group 2401" transform="translate(-404.664 -376.615)">
+        <g id="Group_2435" data-name="Group 2435" transform="translate(405.494 377.535)">
+          <g id="Group_1557" data-name="Group 1557">
+            <path id="Path_637" data-name="Path 637" d="M118.847,111.722a7.125,7.125,0,1,0,7.125,7.125,7.125,7.125,0,0,0-7.125-7.125Zm0,12.761a5.636,5.636,0,1,1,5.636-5.636A5.636,5.636,0,0,1,118.847,124.483Z" transform="translate(-111.722 -111.722)" fill="#0288d1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="back" transform="translate(18200.219 644.461)">
+      <g id="Group_3021" data-name="Group 3021" transform="translate(-0.269 56.199)">
+        <path id="Path_1870" data-name="Path 1870" d="M5.724,58.2a.728.728,0,0,0-.519-.215H2.5l.33-.33A.733.733,0,1,0,1.8,56.623L.216,58.2a.733.733,0,0,0,0,1.039L1.8,60.823a.733.733,0,1,0,1.037-1.036l-.33-.33h2.7A.733.733,0,0,0,5.724,58.2Z" transform="translate(0 -56.408)" fill="#0288d1"/>
+      </g>
+    </g>
+  </g>
+</svg>

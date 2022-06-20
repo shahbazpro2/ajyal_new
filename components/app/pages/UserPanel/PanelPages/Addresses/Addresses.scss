@@ -1,0 +1,498 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "./../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.map {
+  &__loading-icon {
+    width: 20px;
+  }
+  &__add-cnt {
+    padding: 3px 11px;
+  }
+}
+
+$font-size: 16px;
+$sm-font-size: 14px;
+$lg-font-size: 15px;
+.addresses {
+  &__addnew {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 18px;
+    @include respond-bs(landscape-phones) {
+      top: 8px;
+    }
+    @include respond-bs(portrait-phones) {
+      // background-color: initial;
+      // color: $color-primary2;
+      // padding: 10px 0px;
+      // &:hover {
+      //   color: $color-primary2;
+      // }
+    }
+  }
+
+  // @extend %d-flex;
+  // justify-content: center;
+  // min-height: 450px;
+  // flex-direction: column;
+  margin-top: 30px;
+  @include respond-bs(landscape-phones) {
+    margin-top: 0px;
+  }
+  &__list {
+    margin: 0px 40px;
+    padding: 10px 0px;
+    @include respond-bs(landscape-phones) {
+      margin: 20px;
+      margin-top: 0;
+    }
+  }
+
+  &__row-item {
+    &--first {
+      width: 40%;
+      @include respond-bs(landscape-phones) {
+        max-width: none;
+      }
+    }
+  }
+  &__item-cnt {
+    @extend %d-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid #eaeaea;
+    padding: 12px 20px;
+    align-items: flex-start;
+    margin-top: 17px;
+    position: relative;
+    @include respond-bs(landscape-phones) {
+      margin-top: 5px;
+      padding-left: 0px;
+    }
+    @include respond-bs(tablets) {
+      padding: 10px 0px;
+    }
+
+    .mobile-drop {
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  &__ars-text {
+    color: $color-primary;
+    line-height: 1.63;
+    font-size: $font-size;
+    @include respond-bs(desktops) {
+      font-size: $lg-font-size;
+    }
+
+    @include respond-bs(portrait-phones) {
+      font-size: $sm-font-size;
+    }
+  }
+
+  &__ars-head {
+    color: $color-gray5;
+    font-size: $font-size - 0.3;
+    display: block;
+    margin-bottom: 5px;
+    @include respond-bs(desktops) {
+      font-size: $lg-font-size - 0.3;
+    }
+    @include respond-bs(portrait-phones) {
+      font-size: $sm-font-size - 0.3;
+    }
+  }
+
+  &__ars-value {
+    font-size: $font-size;
+    color: $color-primary;
+    @include respond-bs(desktops) {
+      font-size: $lg-font-size;
+    }
+    @include respond-bs(portrait-phones) {
+      font-size: $sm-font-size;
+    }
+  }
+
+  &__icon-cnt {
+    float: left;
+    margin-right: 10px;
+    height: 40px;
+  }
+
+  &__left-icon {
+    vertical-align: top;
+  }
+  &__alert-icon {
+    color: white;
+    background-color: $color-primary-pink-darker;
+    border-radius: 100%;
+    padding: 0px 5px;
+    margin-right: 4px;
+  }
+  &__ars-alert {
+    cursor: pointer;
+    color: $color-primary-pink-darker;
+    font-size: 10px;
+    &--disable {
+      color: #cac3c5;
+      cursor: wait;
+      .addresses__alert-icon {
+        background-color: #cac3c5;
+      }
+    }
+  }
+  &__right-item {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px !important;
+    &--iconi {
+      color: $color-nav-list-item-seperator;
+      font-size: 1rem;
+      @include respond-bs(landscape-phones) {
+        padding: 2px 12px;
+        margin-bottom: 0px;
+        text-align: left;
+        // margin: 0px 5px;
+        &:not(:last-child) {
+          border-right: 1px solid #eee;
+        }
+      }
+    }
+  }
+  &__right-item--gray-btn {
+    cursor: initial;
+    background-color: $color-gray6;
+    color: $color-primary;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 9px;
+    padding: 2px 10px;
+  }
+
+  &__right-item--primary-btn {
+    background-color: $color-primary2;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 9px;
+    padding: 2px 10px;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  &__right-item-icon {
+    margin-right: 8px;
+  }
+}
+
+.no-address {
+  @extend %d-flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 500px;
+  text-align: center;
+
+  &__topText {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  &__btmText {
+    font-size: 14px;
+  }
+
+  &__btn {
+    font-size: 12px;
+    padding: 10px 40px;
+    margin-top: 20px;
+  }
+}
+
+.add-address-step1 {
+  &__col {
+    width: 50%;
+  }
+
+  &__mapinput {
+    padding: 7px 7px;
+  }
+  &__mapinput-text {
+    color: $color-gray7;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  &__mapinput-value {
+    color: $color-primary-gray;
+    font-size: 14px;
+  }
+  &__mapinput-btn {
+    background-color: rgba(21, 21, 21, 0.53);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+
+  &__item {
+    width: 70%;
+    @include respond-bs(tablets) {
+      width: 90%;
+    }
+    @include respond-bs(landscape-phones) {
+      margin-top: 15px;
+    }
+  }
+
+  &__mobile-cnt {
+    @extend %d-flex;
+    flex-direction: row;
+    align-items: center;
+
+    & > * {
+      margin-right: 10px;
+    }
+  }
+
+  &__mobile-code {
+    font-size: 13px;
+    color: $color-gray5;
+  }
+
+  &__btn-cnt {
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 7.5%;
+    @include respond-bs(tablets) {
+      margin-right: 20px;
+    }
+    @include respond-bs(landscape-phones) {
+      text-align: center;
+      margin-bottom: 20px;
+      margin-right: 0;
+      margin-top: 25px;
+      position: fixed;
+      bottom: 40px;
+      width: 100%;
+      left: 0;
+      z-index: 9;
+      button {
+        width: 100%;
+      }
+    }
+  }
+
+  &__check {
+    margin-top: 25px;
+    margin-left: 3%;
+    input {
+      margin: 0px 10px;
+    }
+    label {
+      vertical-align: top;
+      font-size: 13px;
+    }
+
+    &--desktop {
+      position: absolute;
+      right: 40px;
+      top: 0px;
+    }
+  }
+}
+
+.add-address-step2 {
+  @extend %d-flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  min-height: 457px;
+  & > * {
+    text-align: center;
+  }
+  &__p1,
+  &__p2,
+  &__phone,
+  &__opt {
+    font-size: 15px;
+  }
+  &__p1 {
+    font-weight: bold;
+    margin-top: 45px;
+  }
+  &__phone {
+    margin-top: 14px;
+    @include respond-bs(landscape-phones) {
+      margin-top: 30px;
+    }
+  }
+  &__p2 {
+    margin-top: 15px;
+  }
+  &__phone {
+    font-weight: bold;
+  }
+  &__btn {
+    margin-top: 20px;
+  }
+  .verification-input {
+    &__container {
+      max-width: 240px;
+      margin: 20px auto;
+    }
+
+    &__characters {
+      height: 35px;
+    }
+
+    &__character {
+      line-height: 34px;
+      font-size: 2rem;
+      background-color: $color-gray-lighter;
+      border: 1px solid $color-gray4;
+      border-radius: 5px;
+      // color: white;
+      margin-left: 10px;
+    }
+    &__character--selected--default {
+      border: 1px solid rgb(86, 86, 247);
+    }
+  }
+}
+
+.add-address-step3 {
+  @extend %d-flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  min-height: 457px;
+  & > * {
+    text-align: center;
+  }
+  &__p1,
+  &__p2 {
+    font-size: 15px;
+  }
+  &__p1 {
+    font-weight: bold;
+    margin-top: 45px;
+  }
+
+  &__p2 {
+    margin-top: 15px;
+  }
+
+  &__phone-container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @include respond-bs(portrait-phones) {
+      width: 100%;
+      padding: 0 10px;
+    }
+    @include respond-bs(landscape-phones) {
+      margin-top: 40px;
+    }
+  }
+  &__btn {
+    margin-top: 20px;
+    @include respond-bs(landscape-phones) {
+      margin-top: 50px;
+    }
+  }
+}
+
+.mapAddress {
+  min-height: 494px;
+  &__back-icon {
+    margin-right: 20px;
+    margin-top: -3px;
+    margin-left: 10px;
+    cursor: pointer;
+    @include respond-bs(landscape-phones) {
+      margin-left: 0px;
+    }
+  }
+  &__btn-cnt {
+    text-align: right;
+    margin: 30px 0px;
+    @include respond-bs(landscape-phones) {
+      position: fixed;
+      bottom: 30px;
+      text-align: center !important;
+      width: 100%;
+      left: 0;
+      z-index: 9;
+      button {
+        width: 100%;
+        font-size: 17px;
+      }
+    }
+  }
+  &__map-cnt {
+    height: 394px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    @include respond-bs(landscape-phones) {
+      border-radius: 0;
+      position: absolute;
+      width: 100%;
+      left: 0;
+    }
+  }
+  &__header-text {
+    font-size: 18px;
+    // font-weight: bold;
+  }
+
+  &__header {
+    &--order {
+      text-align: left;
+    }
+  }
+
+  .boxStyle2 {
+    padding: 20px;
+  }
+
+  .gm-fullscreen-control {
+    top: initial !important;
+    bottom: 110px;
+  }
+
+  &__curr-btn {
+    background-color: #f0b440;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 13px;
+    @include respond-bs(landscape-phones) {
+      top: initial !important;
+      bottom: 25px;
+    }
+  }
+  &__searchInput {
+    background-color: white;
+    width: 80%;
+    margin-top: 10px;
+    box-shadow: 0 3px 6px 0 $color-primary-black-16;
+    padding: 10px 15px;
+    direction: ltr;
+  }
+}
+
+.custom-error {
+  font-size: 1.5rem;
+  color: #ee3f3f;
+  width: 100%;
+  text-align: center;
+  display: block;
+}

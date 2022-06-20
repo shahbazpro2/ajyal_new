@@ -1,0 +1,35 @@
+.rtl {
+    .web-category {
+        &__items {
+             li {
+                 text-align: right;
+                 font-size: 1.6rem;
+                 img {
+                    margin-left:10px;
+                  }
+             }
+
+         }
+         .right-side-title {
+            text-align: right;
+        }
+    
+        .right-side-items {
+            
+            ul {
+                li {
+                    text-align: right;
+                    font-size: 1.6rem;
+
+                }
+            }
+        }
+        .right-side-brands {
+           
+            a {
+                margin: 2rem 0 1rem 2rem;
+            }
+        }
+    }
+  }
+  

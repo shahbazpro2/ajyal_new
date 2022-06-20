@@ -1,0 +1,61 @@
+@import "../../../assets/scss/abstracts/variables";
+@import "../../../assets/scss/abstracts/mixins";
+@import "../../../assets/scss/abstracts/placeholders";
+
+.mobile.user-panel-nav {
+  @include respond-bs(desktops) {
+    box-shadow: none !important;
+    margin-top: 20px;
+    min-height: auto !important;
+    .user-panel-nav {
+      &__link-text {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.mobile-panel {
+  &__back-header {
+    padding: 0 15px;
+  }
+
+  &__header-text {
+    font-size: 13px !important;
+  }
+}
+
+.mainMenu {
+  transition: transform 0.3s;
+  &--inactive {
+    position: absolute;
+    transform: translateX(-100%);
+    background-color: white;
+    width: 100%;
+  }
+
+  &--active {
+    transform: translateX(0) !important;
+  }
+}
+
+.panelMenu {
+  transition: transform 0.3s;
+  &--inactive {
+    transform: translateX(-100%);
+  }
+}
+
+.rtl {
+  .mainMenu {
+    &--inactive {
+      transform: translateX(100%);
+    }
+  }
+
+  .panelMenu {
+    &--inactive {
+      transform: translateX(100%);
+    }
+  }
+}

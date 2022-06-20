@@ -1,0 +1,146 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.credit {
+  @include respond-bs(portrait-phones) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .no-address__topText {
+    text-align: center !important;
+  }
+  &__text {
+    font-size: 14px;
+    text-align: left;
+    color: $color-primary;
+    &--bold {
+      font-weight: bold;
+    }
+  }
+
+  &__header-div {
+    text-align: right;
+
+    &--top {
+      @include respond-bs(portrait-phones) {
+        padding: 0px 15px !important;
+      }
+    }
+
+    &--back {
+      display: inline-block;
+      background-color: $color-gray-lighter;
+      padding: 6px 20px !important;
+      @include respond-bs(landscape-phones) {
+        margin-top: 15px;
+        padding: 15px 15px !important;
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  &__text-s2 {
+    font-size: 16px;
+    color: $color-primary;
+    margin-right: 50px;
+  }
+  &__input {
+    margin-top: 0;
+    margin-left: 20px;
+    flex-grow: 1;
+    span {
+      top: 4px;
+      @include respond-bs(portrait-phones) {
+        top: 5px;
+        padding: 9px 10px;
+      }
+    }
+    input {
+      margin-top: 0;
+    }
+
+    @include respond-bs(portrait-phones) {
+      margin-left: 0;
+      margin-top: 4px;
+    }
+  }
+
+  .no-address > div {
+    margin-top: -30px;
+  }
+  &__content {
+    margin-top: 10px;
+  }
+  &__table-cnt {
+    margin-top: 40px;
+    @include respond-bs(landscape-phones) {
+      margin-top: 10px;
+    }
+  }
+  &__table {
+    width: 100%;
+    overflow: auto;
+    th,
+    td {
+      font-size: 14px;
+      font-weight: normal;
+      padding: 10px 30px;
+    }
+  }
+  &__table-header {
+    background-color: $color-gray-lighter;
+    border: 1px solid $color-gray4;
+    border-radius: 5px;
+    padding: 10px 30px;
+  }
+  &__table-body {
+    tr {
+      border-bottom: 1px solid #eee;
+    }
+  }
+  &__tbl-text {
+    font-size: 14px;
+
+    &--gray {
+      color: $color-gray5;
+    }
+    &--green {
+      color:$color-green;
+    }
+    &--orange {
+      color: $color-orange;
+      @include respond-bs(landscape-phones){
+          text-align: right!important;
+      }
+    }
+    &--primary {
+      color: $color-primary;
+    }
+
+    &--margin-right {
+      margin-right: 10px;
+    }
+  }
+
+  &__landScape-item {
+    padding: 20px 0px;
+    &:not(:last-child) {
+      border-bottom: 1px solid #eee;
+    }
+    margin: 0px 15px;
+    @extend %d-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  &__div {
+    &--basis {
+      flex-basis: 100%;
+      margin-top: 20px;
+    }
+  }
+}

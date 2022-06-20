@@ -1,0 +1,44 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .footer {
+    p,
+    span,
+    li,
+    a,
+    h3 {
+      text-align: right;
+    }
+    &__top-left-text,
+    &__btn-left-text {
+      text-align: right;
+    }
+    &__icon-container {
+      float: right;
+    }
+    &__b-text {
+      margin-left: initial;
+      margin-right: 5px;
+    }
+    &__t-text {
+      margin-left: initial;
+      margin-right: 5px;
+    }
+    &__top-item {
+      text-align: right;
+    }
+    &__btm2-link--chat {
+      @extend %d-ltr;
+    }
+
+
+    &__chat {
+      
+      left: 0;
+      right: unset;
+  }
+
+  }
+}

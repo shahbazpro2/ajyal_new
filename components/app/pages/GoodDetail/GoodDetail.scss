@@ -1,0 +1,65 @@
+@import "./../../../../assets/scss/abstracts/variables";
+@import "../../../../assets/scss/abstracts/mixins";
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+@import "./GoodDetailLayouts/DeliveryPanel/DeliveryPanel.scss";
+
+@import "./GoodDetailLayouts/GoodDetailAside/GoodDetailAside.scss";
+
+@import "./GoodDetailLayouts/GoodDetailTabs/GoodDetailTabs.scss";
+
+@import "./GoodDetailLayouts/ItemDetail/ItemDetail.scss";
+
+.goodDetail {
+  @include respond-bs(desktops) {
+    padding-top: 6.5rem;
+    &__row {
+      margin: 0;
+    }
+  }
+
+  @include respond-bs(landscape-phones) {
+    padding-top: 4.5rem;
+    &__row-p-0 {
+      padding: 0;
+    }
+  }
+  &__aside {
+    padding-left: 0 !important;
+    @include respond-bs(landscape-phones){
+      padding: 0;
+    }
+  }
+
+  &__panel--anim-enter {
+    transform: translateX(300px);
+  }
+  &__panel--anim-enter-active {
+    transform: translateX(0);
+    transition: all 300ms;
+    + .deliveryPanel {
+      &__cover {
+        opacity: 1 !important;
+      }
+    }
+  }
+  &__panel--anim-enter-done {
+    + .deliveryPanel {
+      &__cover {
+        opacity: 1 !important;
+      }
+    }
+  }
+
+  &__panel--anim-exit-active {
+    transform: translateX(300px);
+    transition: all 300ms;
+  }
+}
+
+.deliveryPanel {
+  &__cover {
+    transition: all 300ms;
+    opacity: 0;
+  }
+}

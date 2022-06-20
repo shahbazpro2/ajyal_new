@@ -1,0 +1,15 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .boxStyle2 {
+    span,
+    h2,
+    h4,
+    h1,
+    p {
+      text-align: right;
+    }
+  }
+}

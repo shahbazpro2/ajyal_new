@@ -1,0 +1,22 @@
+<svg id="Component_82" data-name="Component 82" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .filter-cls-1 {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .filter-cls-2 {
+        fill: #acb1b8;
+        stroke: #acb1b8;
+        stroke-width: 0.5px;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_260" data-name="Rectangle 260" class="filter-cls-1" width="16" height="16" transform="translate(0 16) rotate(-90)"/>
+  <g id="filter" transform="translate(0.514 0.514)">
+    <g id="Group_2388" data-name="Group 2388">
+      <path id="Path_907" data-name="Path 907" class="filter-cls-2" d="M14.451,0H.539A.535.535,0,0,0,0,.535V3.21a.535.535,0,0,0,.177.4L5.355,8.264v6.183a.535.535,0,0,0,.774.479l3.21-1.605a.535.535,0,0,0,.3-.479V8.264l5.173-4.655a.535.535,0,0,0,.177-.4V.535A.535.535,0,0,0,14.451,0Zm-.535,2.972L8.742,7.627a.535.535,0,0,0-.177.4v4.485l-2.14,1.07V8.026a.535.535,0,0,0-.177-.4L1.074,2.972V1.07H13.915Z" transform="translate(-0.004)"/>
+    </g>
+  </g>
+</svg>

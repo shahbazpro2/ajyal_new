@@ -1,0 +1,118 @@
+@import "./../../../../assets/scss/abstracts/variables";
+@import "./../../../../assets/scss/abstracts/mixins";
+@import "./../../../../assets/scss/abstracts/placeholders";
+
+
+@import "./OrderLayouts/OrderPlaced/OrderPlaced.scss";
+
+@import "./OrderLayouts/Payment/Payment.scss";
+
+@import "./OrderLayouts/ShippingAddress/ShippingAddress.scss";
+
+.order-re {
+  padding: 12px;
+  @include respond-bs(desktops) {
+    display: inline-block;
+    width: 100%;
+    margin-top: 70px !important;
+  }
+
+  @include respond-bs(tablets) {
+    margin-top: 64px !important;
+  }
+
+  @include respond-bs(portrait-phones) {
+    margin-top: 57px !important;
+  }
+}
+
+.ordernav {
+  position: relative;
+  &__state-box {
+    padding: 25px 10px;
+    margin-top: 0;
+  }
+
+  &__item-cnt {
+    &--have-line {
+      &::before {
+        content: "";
+        border: 2px solid rgb(228, 228, 228);
+        // position: absolute;
+        display: block;
+        width: 300px;
+        border-radius: 10px;
+        // height: 1px;
+        margin-right: 10px;
+      }
+    }
+
+    &.active {
+      &::before {
+        border-color: $color-primary-yellow-darker;
+      }
+
+      .ordernav__text {
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__text {
+    font-size: 15px;
+    margin: 0 10px;
+    //   font-weight: bold;
+  }
+
+  &__icon-cnt {
+    position: relative;
+  }
+
+  &__back-cnt {
+    position: absolute;
+    left: 20px;
+    top: 27px;
+  }
+}
+
+.ordernav-mobile {
+  min-height: 70px;
+  position: relative;
+  box-shadow: 0 0 6px 0 $color-primary-black-16;
+  &__list {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    @extend %horizental-list;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ordernav {
+    &__text {
+      font-weight: bold;
+    }
+  }
+  &__dot {
+    background-color: #f7d594;
+    width: 10px;
+    height: 10px;
+    &.active {
+      width: 12px;
+      height: 12px;
+      background-color: #f0b440;
+    }
+    border-radius: 100%;
+    margin-left: 10px;
+  }
+
+  &__back-cnt {
+    position: absolute;
+    left: 20px;
+    top: 21px;
+  }
+}
+
+.shipto__header {
+  font-size: 14px;
+}

@@ -1,0 +1,227 @@
+{
+  "@cartTitle": [
+    "ajyal.bh | Your Shopping Cart",
+    "ajyal.bh | عربة التسوق الخاصة بك",
+    "ajyal.bh | سبد خرید شما"
+  ],
+  "panel": {
+    "del-lo": [
+      "Delivery Location",
+      "مكان التوصيل",
+      "آدرس ارسال"
+    ],
+    "src-city": [
+      "Search City",
+      "بحث عن مدينة",
+      "جستجو شهر"
+    ]
+  },
+  "deliver": {
+    "deliverTo": [
+      "Deliver to",
+      "توصيل إلى",
+      "تحویل به"
+    ],   
+    "deliverCurrect": [
+      "( Please select the area according to your address ) ",
+      "( الرجاء تحديد المدينة وفقا لعنوانك. )",
+      "( لطفا شهر را مطابق آدرس خود انتخاب کنید. )"
+    ],
+    "changeAre": [
+      "Change Area",
+      "تغيير المنطقة",
+      "تغییر محل"
+    ]
+  },
+  "cart-cart": {
+    "mycart": [
+      "My cart",
+      "عربة التسوق",
+      "سبد خرید من"
+    ],
+    "item": [
+      "Item",
+      "منتج",
+      "آیتم"
+    ],
+    "items": [
+      "Items",
+      "منتج",
+      "آیتم ها"
+    ],
+    "quantity": [
+      "Quantity",
+      "الكمية",
+      "تعداد"
+    ],
+    "removeFromList": [
+      "Remove",
+      "حذف",
+      "حذف"
+    ],
+    "move-whishlist": [
+      "Move to Wishlist",
+      "أضف إلى منتجاتك المفضلة",
+      "اضافه به علاقه مندی ها"
+    ],
+    "model-num": [
+      "Model number",
+      ":رقم الموديل",
+      "نام مدل"
+    ],
+    "doesnt-exist-city": [
+      "This item cannot be shipped to your selected delivery location. Please choose a different delivery location.",
+      "لا يمكن شحن هذا المنتج إلى موقع التسليم المحدد، الرجاء اختيار موقع آخر.",
+      "امکان ارسال این گزینه به مقصد انتخاب شده وجود ندارد . لطفا یک مقصد دیگر انتخاب کنید ."
+    ],
+    "doesnt-exist-ava": [
+      "this item is not available",
+      "هذا العنصر غير متوفر",
+      "این کالا در دسترس نیست"
+    ]
+  },
+  "cart-wishlist": {
+    "mywishlist": [
+      "My Wishlist",
+      "قائمتي المفضلة",
+      "علاقه مندی ها من"
+    ],
+    "item": [
+      "Item",
+      "منتج",
+      "آیتم"
+    ],
+    "removeFromList": [
+      "Remove",
+      "إزالة",
+      "حذف از لیست"
+    ],
+    "move-cart": [
+      "Move to Cart",
+      "نقل إلى عربة التسوق",
+      "اضافه کردن به سبد خرید"
+    ]
+  },
+  "aside": {
+    "order-sum": [
+      "Order Summary",
+      "ملخص الطلبية",
+      "خلاصه سفارش"
+    ],
+    "subtotal": [
+      "Subtotal",
+      "المجموع الفرعي",
+      "جمع کل"
+    ],
+    "shipping": [
+      "Shipping",
+      "الشحن",
+      "ارسال"
+    ],
+    "total": [
+      "Total",
+      "المجموع",
+      "مجموع"
+    ],
+    "free": [
+      "Free",
+      "مجاناً",
+      "رایگان"
+    ],
+    "inciusive": [
+      "(Inclusive of VAT)",
+      "(شامل ضريبة القيمة المضافة VAT)",
+      "شامل مالیات بر ارزش افزوده"
+    ],
+    "apply": [
+      "Apply",
+      "تطبيق",
+      "تایید"
+    ],
+    "coupon": [
+      "Coupon Code or Gift Card",
+      "أدخل الكود أو الكوبون",
+      "کد تخفیف یا کارت هدیه"
+    ],
+    "con-shop": [
+      "Continue Shopping",
+      "متابعة التسوق",
+      "ادامه ی خرید"
+    ],
+    "checkout": [
+      "Checkout Now",
+      "إتمام الشراء",
+      "پرداخت "
+    ],
+    "items": [
+      "ITEMS FOR",
+      "عناصر لـ",
+      "موارد برای"
+    ],
+    "buy": [
+      "BUY",
+      "يشترى",
+      "خرید"
+    ],
+    "discount": [
+      "Discount",
+      "خصم",
+      "تخفیف"
+    ],
+    "coupon2": [
+      "Coupon",
+      "قسيمة",
+      "کد تخفیف"
+    ],
+    "vat": [
+      "VAT",
+      "VAT",
+      "ارزش افزوده"
+    ]
+  },
+  "emptyshop": [
+    "Your shopping cart looks empty",
+    "عربة التسوق فارغة!",
+    "سبد خرید شما خالی است"
+  ],
+  "emptyWish": [
+    "Your wishlist looks empty",
+    "قائمة أمنياتك فارغة!",
+    "لیست علاقه مندی های شما خالی است"
+  ],
+  "login-wish": [
+    "For adding Items in the wishlist, you must first log in",
+    "لإضافة منتجات في قائمة الرغبات، يجب عليك أولاً تسجيل الدخول",
+    "برای اضافه کردن این کالا به لیست علاقه مندی ها ، ابتدا وارد حساب کاربری خود شوید"
+  ],
+  "startshopping": [
+    "What are you waiting for? Start shopping!",
+    "قم باختيار المنتجات التي تعجبك",
+    "منتظر چی هستید ! خرید خود را شروع کنید"
+  ],
+  "con-shopping": [
+    "Continue Shopping",
+    "ابدأ التسوق",
+    "ادامه خرید"
+  ],
+  "have-wish": [
+    "You have items in your wishlist. To buy items from your wishlist, move them to your cart.",
+    "لديك بعض المنتجات في قائمتك المفضلة. لشراء هذه المنتجات، يجب عليك نقلها إلى عربة التسوق الخاصة بك.",
+    "شما کالاهایی در لیست علاقه مندی ها دارید ، برای خرید ، آنها را به سبد خرید خود اضافه کنید"
+],
+"soldby": [
+  "Sold by :",
+  "البائع :",
+  "فروشنده : "
+],
+"month-war": [
+  "month warranty",
+  "ضمان لمدة شهر",
+  "ضمانت ماهانه"
+],
+"free-return": [
+  "Get free returns on eligible items",
+  "لا يمكن استبدال أو إرجاع هذا المنتج",
+  "کالاهای واجد شرایط بیشتری را دریافت کنید "
+]
+}

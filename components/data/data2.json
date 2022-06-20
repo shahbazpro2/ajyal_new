@@ -1,0 +1,210 @@
+{
+  "en": {
+    "search": {
+      "cats": [
+        {
+          "headerText": "Featured Categories",
+          "listItem": [
+            {
+              "headerText": "Home & Kitchen",
+              "listItem": [
+                "Coffee machines",
+                "Espresso machines",
+                "Coffee grinders"
+              ]
+            },
+            {
+              "headerText": "Home & Kitchen",
+              "listItem": [
+                "Coffee machines",
+                "Espresso machines",
+                "Coffee grinders"
+              ]
+            },
+            {
+              "headerText": "Home & Kitchen",
+              "listItem": [
+                "Coffee machines",
+                "Espresso machines",
+                "Coffee grinders"
+              ]
+            },
+            {
+              "headerText": "Home & Kitchen",
+              "listItem": [
+                "Coffee machines",
+                "Espresso machines",
+                "Coffee grinders"
+              ]
+            }
+          ]
+        }
+      ],
+      "Fulfillment": {
+        "text": "Fulfillment",
+        "items": ["sdfs"]
+      },
+      "NewArrivals": {
+        "text": "New Arrivals",
+        "items": ["Last 30 Days", "Last 60 Days"]
+      },
+      "Installation": {
+        "text": "Installation",
+        "items": [
+          "Handheld",
+          "Freestanding",
+          "Countertop",
+          "Built-In",
+          "Floor Standing",
+          "Handheld",
+          "Freestanding",
+          "Countertop",
+          "Built-In",
+          "Floor Standing"
+        ]
+      },
+      "Price": {
+        "text": "Price",
+        "values": { "min": 123, "max": 200 }
+      },
+      "Brand": {
+        "text": "Brand",
+        "items": [
+          "Bosch",
+          "Braun",
+          "Arion",
+          "Tornado",
+          "Bosch",
+          "Braun",
+          "Arion",
+          "Tornado",
+          "Bosch",
+          "Braun",
+          "Arion",
+          "Tornado",
+          "Bosch",
+          "Braun",
+          "Arion",
+          "Tornado"
+        ]
+      },
+      "headerBox":{
+        "cat": "Kitchen & Home Appliances",
+        "sort": ["Popularity","Popularity","Popularity"],
+        "display":["50 per page"],
+        "filters":[
+          {
+            "name": "installation",
+            "value": "Handheld"
+          },{
+            "name": "Price",
+            "value": "51 - 57"
+          }
+        ]
+      }
+    }
+  },
+
+  "ar": {
+    "search": {
+      "headerBox":{
+        "cat": "المطبخ والأجهزة المنزلية",
+        "sort": ["جدینا","جدینا","جدینا"],
+        "display":["50 فی الصفحه"],
+        "filters":[
+          {
+            "name": "الماركة",
+            "value": "سامسونج"
+          },{
+            "name": "السعر",
+            "value": "51 - 57"
+          }
+        ]
+      },
+      "cats": [
+        {
+          "headerText": "الفئة",
+          "listItem": [
+            {
+              "headerText": "المنزل والمطبخ",
+              "listItem": [
+                "ماكينات القهوة",
+                "ماكينات اسبريسو",
+                "مطاحن البن"
+              ]
+            },{
+              "headerText": "المنزل والمطبخ",
+              "listItem": [
+                "ماكينات القهوة",
+                "ماكينات اسبريسو",
+                "مطاحن البن"
+              ]
+            },{
+              "headerText": "المنزل والمطبخ",
+              "listItem": [
+                "ماكينات القهوة",
+                "ماكينات اسبريسو",
+                "مطاحن البن"
+              ]
+            },{
+              "headerText": "المنزل والمطبخ",
+              "listItem": [
+                "ماكينات القهوة",
+                "ماكينات اسبريسو",
+                "مطاحن البن"
+              ]
+            }
+          ]
+        }
+      ],
+      "Fulfillment": {
+        "text": "الشحن بواسطة",
+        "items": ["sdfs"]
+      },
+      "NewArrivals": {
+        "text": "وصل حديثاً",
+        "items": ["آخر 7 أيام", "آخر 15 أيام"]
+      },
+      "Installation": {
+        "text": "القسم",
+        "items": [
+          "محمول باليد",
+          "قائم بذاته",
+          "كونترتوب",
+          "مدمج",
+          "يقف الكلمة",
+          "محمول باليد",
+          "قائم بذاته",
+          "كونترتوب",
+          "مدمج",
+          "يقف الكلمة"
+        ]
+      },
+      "Price": {
+        "text": "السعر",
+        "values": { "min": 123, "max": 200 }
+      },
+      "Brand": {
+        "text": "الماركة",
+        "items": [
+          "بوش",
+          "براون",
+          "أريون",
+          "تورنيدو",
+          "بوش",
+          "براون",
+          "أريون",
+          "تورنيدو",
+          "بوش",
+          "براون",
+          "أريون",
+          "تورنيدو",
+          "بوش",
+          "براون",
+          "أريون",
+          "تورنيدو"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import "../../../../../../assets/scss/abstracts/mixins";
+.rtl {
+  .profile {
+    text-align: right;
+    @include respond-bs(portrait-phones) {
+      text-align: center;
+    }
+    &__item-container {
+      text-align: right;
+    }
+    &__item {
+    }
+  }
+
+  .profile-edit {
+    label,
+    h2,
+    h1,
+    p,
+    span {
+      text-align: right !important;
+    }
+    .Dropdown-control {
+      padding: 10px 10px;
+    }
+    .Dropdown-arrow {
+      top: 19px;
+    }
+
+    &__header-container {
+      padding-left: 0px;
+      padding-right: 40px;
+      p,
+      h2 {
+        text-align: right;
+      }
+      h2 {
+        padding-right: 0;
+      }
+    }
+  }
+}

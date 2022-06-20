@@ -1,0 +1,16 @@
+/*
+ *
+ * importing bootstrap reboot file 
+ */
+@import "node_modules/bootstrap/dist/css/bootstrap-reboot.min.css";
+/** 
+  * importing bootstrap grid
+ */
+@import "node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
+
+@import "./assets/scss/base/base";
+
+// .ssc-head-line,
+// .ssc-square {
+//   background-color: #f5f5f5ee !important;
+// }

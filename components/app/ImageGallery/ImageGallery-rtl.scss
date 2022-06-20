@@ -1,0 +1,18 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+    .imagegallery{
+        direction: ltr;
+        .image-gallery-thumbnails .image-gallery-thumbnails-container{
+            text-align: right;
+        }
+
+        .image-gallery-slide{
+            & > div{
+                text-align: center;
+            }
+        }
+    }
+}

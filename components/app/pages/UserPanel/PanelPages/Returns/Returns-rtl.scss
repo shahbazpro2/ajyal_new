@@ -1,0 +1,27 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "./../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .returns {
+    &__add-btn {
+      right: initial;
+      left: 10px;
+    }
+  }
+
+  .returns-add-single {
+    &__select-box {
+      &--addresses {
+        .SelectBox2 {
+          @include respond-bs(landscape-phones) {
+            &__img {
+              margin-right: 0px;
+              margin-left: 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

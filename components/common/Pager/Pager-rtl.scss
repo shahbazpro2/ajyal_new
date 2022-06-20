@@ -1,0 +1,10 @@
+.rtl{
+    .pager{
+        &__prev-icon{
+            transform: rotate(180deg);
+        }
+        &__next-icon{
+            transform: rotate(0deg);
+        }
+    }
+}

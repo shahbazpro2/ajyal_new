@@ -1,0 +1,69 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.breadcrump {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin: 10px 0px;
+    // padding: 10px 0px;
+  }
+
+  &__item {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    &:last-child {
+      .breadcrump {
+        &__link {
+          color: $color-gray5 !important;
+        }
+        &__img-cnt {
+          display: none !important;
+        }
+      }
+    }
+  }
+
+  &__link {
+    color: $color-primary;
+    font-size: 14px;
+  }
+
+  &__img-cnt {
+    margin-left: 10px;
+    img {
+      width: 5px;
+    }
+  }
+}
+
+.rtl {
+  .breadcrump {
+    &__item {
+      margin-right: 0px;
+      margin-left: 10px;
+    }
+    &__img-cnt {
+      margin-left: 0;
+      margin-right: 10px;
+
+      img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.goods-details-Bread-crump {
+  .breadcrump__list {
+    margin: 15px 0px 0 0;
+
+  }
+  .breadcrump__link {
+    font-size: 13px;
+  }
+}

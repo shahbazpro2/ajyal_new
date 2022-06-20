@@ -1,0 +1,37 @@
+@import "../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .boxStyle3 {
+    &__header {
+      // &::after {
+      //   content: "";
+      //   border: 12px solid #f0b440;
+      //   position: absolute;
+      //   height: 100%;
+      //   border-radius: 20px;
+      //   left: initial;
+      //   top: -8px;
+      //   right: -13px;
+      // }
+      // &::before{
+      //     border: none;
+      // }
+      span,
+      h2,
+      h4,
+      h1,
+      p {
+        text-align: right;
+      }
+    }
+    &__border {
+      right: -13px;
+      left: initial;
+    }
+    &__header-text {
+      text-align: right;
+    }
+  }
+}

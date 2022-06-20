@@ -1,0 +1,12 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "inline-react-svg",
+      {
+        "ignorePattern": "img"
+      }
+    ],
+    "@babel/plugin-proposal-optional-chaining"
+  ]
+}

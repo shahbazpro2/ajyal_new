@@ -1,0 +1,39 @@
+@import "./../../../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.rtl {
+  .cart-item {
+    &__text-icon {
+      margin-left: 10px;
+      margin-right: 0px;
+      &--remove {
+        margin-right: 3px;
+      }
+    }
+
+    &__varietyList {
+      & > li {
+        margin-left: 0px;
+        margin-right: 15px;
+        &:first-of-type {
+          margin: 0;
+        }
+      }
+    }
+
+    &__right {
+      flex-basis: 20%;
+    }
+    &__model-container {
+      text-align: right;
+    }
+    &__model {
+      margin-right: 0;
+      margin-left: 20px;
+      &--less-margin {
+        margin-left: 5px;
+      }
+    }
+  }
+}

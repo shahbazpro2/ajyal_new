@@ -1,0 +1,134 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+@import "../../../../../../assets/scss/abstracts/mixins";
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+
+.mobile-profile {
+  &__cnt {
+    background: rgb(247, 249, 254);
+    width: 100%;
+    height: auto;
+    padding: 1px 0px;
+    padding-bottom: 20px;
+  }
+  &__menu-top-nav {
+    background-color: white;
+    min-height: 105px;
+    // margin: 100px 0px;
+  }
+
+  &--shadow {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=0, Color=#edf0fb)"; /*IE 8*/
+    -moz-box-shadow: 0 3px 7px -1px #edf0fb; /*FF 3.5+*/
+    -webkit-box-shadow: 0 3px 7px -1px #edf0fb; /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: 0 3px 7px -1px #edf0fb; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=135, Color=#edf0fb); /*IE 5.5-7*/
+  }
+
+  &__top-item {
+    p {
+      text-align: center;
+      font-size: 14px;
+      color: $color-primary;
+      margin-bottom: 0px;
+    }
+    & > a {
+      text-align: center;
+    }
+  }
+
+  &__head {
+    margin: 21px 14px;
+    img {
+      width: 100px;
+      height: auto;
+    }
+    h3,
+    p {
+      color: $color-primary;
+    }
+
+    p {
+      font-size: 13px;
+    }
+    h3 {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__nav-title {
+    margin: 17px 0px;
+    position: relative;
+    h4 {
+      font-size: 15px;
+      margin: 0px 16px;
+      color: #9393cc;
+    }
+    &--border {
+      border: 12px solid #f0b440;
+      position: absolute;
+      height: 28px;
+      border-radius: 6px;
+      left: -18px;
+      top: -3px;
+    }
+  }
+
+  &__nav-list {
+    background-color: white;
+    padding: 0px 12px;
+  }
+
+  &__nav-item {
+    &:not(:last-child) {
+      border-bottom: 1px solid #eeee;
+    }
+  }
+  &__nav-link {
+    padding: 15px 0px;
+    display: block;
+  }
+
+  &__nav-item-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      color: $color-primary;
+      font-size: 13px;
+      margin-left: 10px;
+      font-weight: bold;
+    }
+
+    svg {
+      width: 23px;
+      height: 24px;
+    }
+  }
+
+  &__nav-item-value {
+    font-weight: bold;
+    margin: 0px 10px !important;
+  }
+
+  &__signout-btn {
+    border: none;
+    background-color: initial;
+    margin: 10px 10px;
+    svg {
+      width: 21px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+
+  &__badge {
+    background-color: blue;
+    font-weight: normal !important;
+    font-size: 11px !important;
+    padding: 2px 5px;
+    color: white !important;
+    border-radius: 100%;
+  }
+}

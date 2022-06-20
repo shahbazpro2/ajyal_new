@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "HaniArb";
+  src: url("./hanimation-regular.eot"); /* IE9 Compat Modes */
+  src: url("./hanimation-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./hanimation-regular.otf") format("opentype"), /* Open Type Font */
+    url("./hanimation-regular.svg") format("svg"), /* Legacy iOS */
+    url("./hanimation-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./hanimation-regular.woff") format("woff"), /* Modern Browsers */
+    url("./hanimation-regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

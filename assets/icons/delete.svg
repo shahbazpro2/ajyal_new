@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9.832" height="14.555" viewBox="0 0 9.832 14.555">
+    <defs>
+        <style>
+            .del-1{fill:#acb1b8}
+        </style>
+    </defs>
+    <g id="delete" transform="translate(-83.057)">
+        <path id="XMLID_1089_" d="M92.872 91.8l-.317-.951a.469.469 0 0 0-.445-.321h-8.273a.469.469 0 0 0-.445.321l-.317.951a.333.333 0 0 0 .316.438h9.166a.333.333 0 0 0 .315-.438z" class="del-1" transform="translate(0 -87.957)"/>
+        <path id="XMLID_835_" d="M102.033 189.533a.647.647 0 0 0 .643.575h5.507a.647.647 0 0 0 .643-.575l.983-8.843h-8.759z" class="del-1" transform="translate(-17.481 -175.554)"/>
+        <path id="XMLID_831_" d="M196.743 1.222a.37.37 0 0 1 .369-.369h1.256a.37.37 0 0 1 .37.369v.5h.853v-.5A1.224 1.224 0 0 0 198.368 0h-1.256a1.224 1.224 0 0 0-1.222 1.222v.5h.853z" class="del-1" transform="translate(-109.625)"/>
+    </g>
+</svg>

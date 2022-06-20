@@ -1,0 +1,58 @@
+@import "./../../../../assets/scss/abstracts/variables";
+@import "./../../../../assets/scss/abstracts/mixins";
+@import "./../../../../assets/scss/abstracts/placeholders";
+.rtl {
+  .helpcenter {
+    &__subheader {
+      text-align: right;
+    }
+  }
+
+  .article {
+    &__count-cnt,
+    &__des,
+    &__list-header,
+    &__list-item {
+      text-align: right;
+    }
+
+    &__count {
+      margin-right: 0px;
+      margin-left: 5px;
+    }
+    &__list-item {
+      &::before {
+        padding-right: 0px;
+        padding-left: 8px;
+      }
+    }
+  }
+
+  .doc {
+    &__time,
+    &__list-item,
+    &__list-header {
+      text-align: right;
+    }
+    &__list-cnt {
+      padding-right: 0;
+   
+      padding-left: 35px;
+    }
+    &__content {
+      padding-left: 0px;
+      padding-right: 35px;
+      @include respond-bs(tablets) {
+        padding-right: 0;
+      }
+    }
+    &__ques-btn {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+    &__close-icon {
+      left: 10px;
+      right: initial;
+    }
+  }
+}

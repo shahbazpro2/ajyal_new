@@ -1,0 +1,86 @@
+@import "../../../../../../assets/scss/abstracts/variables";
+//@import '../../../assets/scss/abstracts/mixins';
+@import "./../../../../../../assets/scss/abstracts/placeholders";
+.rangeBox {
+  padding: 25px 0;
+  margin: 0px;
+  margin-bottom: 0;
+  padding-bottom: 13px;
+  .input-range__track {
+    height: 10px;
+  }
+  .input-range__track--active {
+    background-color: $color-primary-yellow-darker;
+  }
+  .input-range__slider-container {
+    top: -14px;
+    margin-left: -5px;
+  }
+  .input-range__slider {
+    padding: 8px 12px;
+    border: none;
+    background-color: none;
+    z-index: 2;
+    opacity: 0;
+    width: 20px;
+  }
+  .input-range__label--value {
+    top: -7px;
+    color: #4d5a6c;
+    z-index: 2;
+    margin-left: -6px;
+  }
+  .input-range__label-container {
+    background-color: #eaeaea;
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 2px;
+    font-family: ProximaNova;
+    margin-left: 16px;
+  }
+  .input-range__label--min,
+  .input-range__label--max {
+    display: none;
+  }
+
+  &__input-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 9px;
+    & > * {
+      margin-right: 10px;
+    }
+  }
+
+  &__input {
+    background-color: #fbfbfb;
+    border: 1px solid #d5d5d5 !important;
+    color: #4d5a6c;
+    width: 70px;
+    padding: 7px 1px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 13px;
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    /* Firefox */
+    & {
+      -moz-appearance: textfield;
+    }
+  }
+
+  &__to {
+    align-self: center;
+    font-size: 15px;
+  }
+
+  &__set {
+    align-self: center;
+    color: $color-primary2;
+    font-size: 13px;
+  }
+}
