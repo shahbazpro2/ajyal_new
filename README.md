@@ -1,2 +1,0 @@
-# ajyal.bh
-Front end
