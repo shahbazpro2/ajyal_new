@@ -419,10 +419,10 @@ class GoodDetailAside extends React.Component {
                                       if (n <= 10) {
                                         this.context.changeSelectedItemCount(n);
                                         document
-                                        .getElementById("quantityMobile")
-                                        .classList.remove(
-                                          "quantity-mobile-slide-active"
-                                        );
+                                          .getElementById("quantityMobile")
+                                          .classList.remove(
+                                            "quantity-mobile-slide-active"
+                                          );
                                       }
                                     }}
                                   >
@@ -512,7 +512,6 @@ class GoodDetailAside extends React.Component {
             </>
           ) : (
             <div
-              className="goodDetailAside__sellWithCall-cnt"
               className={classnames("goodDetailAside__sellWithCall-cnt", {
                 "itemDetail__sellWithCall-cnt--styled": this.state
                   .providerHaveContent,

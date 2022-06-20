@@ -279,9 +279,10 @@ class Addresses extends React.Component {
                               <Translate id="addresses.phone" />
                             </span>
                             <span className="addresses__ars-value">
-                              {this.phoneUtil.format(
-                                this.phoneUtil.parseAndKeepRawInput(
-                                  item.phoneCode + item.transfereeMobile,
+                              {console.log('phoneutl', item.phoneCode, item.transfereeMobile, item.iso)}
+                              {this.phoneUtil?.format(
+                                this.phoneUtil?.parseAndKeepRawInput(
+                                  item.transfereeMobile.includes('+') ? item.transfereeMobile : `${item.phoneCode} ${item.transfereeMobile}`,
                                   item.iso
                                 ),
                                 this.PNF.INTERNATIONAL
