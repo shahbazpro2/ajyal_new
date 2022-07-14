@@ -56,7 +56,7 @@ export const TabContent = ({
   closeHomeMenu,
 }) => {
   const Brand_Pre = process.env.NEXT_PUBLIC_BrandImages_PREFIX;
-  const Category_pre = process.env.NEXT_PUBLIC_CategoryImages_PREFIX;
+  const Category_pre = process.env.NEXT_PUBLIC_SubCategoryImages_PREFIX;
 
   const lang = useSelector(selectLang);
   const curr = useSelector(selectCurr);
@@ -129,7 +129,6 @@ export const TabContent = ({
                   >
 
                     <a onClick={closeHomeMenu}>
-                      {console.log('brtanglogo', brand)}
                       <img
                         className="header-brand-images"
                         title={brand.brandTitle}
@@ -142,7 +141,6 @@ export const TabContent = ({
               })}
           </div>
         </div>
-
         <div className="right-side-image">
           {categories.imageUrl && (
             <img
