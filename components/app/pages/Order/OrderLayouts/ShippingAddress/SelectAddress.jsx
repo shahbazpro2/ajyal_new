@@ -17,6 +17,7 @@ const SelectAddress = ({ handleSituation, setData, lat, lng }) => {
   };
 
   const handleSubmit = ({ address, lat, lng, phoneCode, iso }) => {
+
     setData({
       address,
       lat,
@@ -28,6 +29,7 @@ const SelectAddress = ({ handleSituation, setData, lat, lng }) => {
   };
 
   const handleAreaError = (err) => {
+    toast.dismiss();
     if (err?.response?.data?.message) {
       toast.error(err.response.data.message, getToastConfig());
     } else {
