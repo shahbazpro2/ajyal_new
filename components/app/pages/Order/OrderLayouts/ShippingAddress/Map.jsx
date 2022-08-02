@@ -267,6 +267,10 @@ export default class extends React.Component {
                 this.selectedMarker = this.markers[0];
                 this.infowindow.setContent(this.addressWindowContent());
                 this.infowindow.open(map, this.selectedMarker);
+
+                setTimeout(() => {
+                    this.infowindow.close();
+                }, 500)
                 /*   this.getAddress(
                       this.selectedMarker.position.lat(),
                       this.selectedMarker.position.lng(),
