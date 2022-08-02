@@ -127,11 +127,11 @@ export default class extends React.Component {
                     this.selectedMarker = this.markers[0];
                     this.infowindow.setContent(this.addressWindowContent());
                     this.infowindow.open(this.map, this.selectedMarker);
-                    this.getAddress(
+                    /* this.getAddress(
                         this.selectedMarker.position.lat(),
                         this.selectedMarker.position.lng(),
                         this.setAddressInWindowContent
-                    );
+                    ); */
                 },
                 function () {
                     // handleLocationError(true, infoWindow, map.getCenter());
@@ -267,11 +267,11 @@ export default class extends React.Component {
                 this.selectedMarker = this.markers[0];
                 this.infowindow.setContent(this.addressWindowContent());
                 this.infowindow.open(map, this.selectedMarker);
-                this.getAddress(
-                    this.selectedMarker.position.lat(),
-                    this.selectedMarker.position.lng(),
-                    this.setAddressInWindowContent
-                );
+                /*   this.getAddress(
+                      this.selectedMarker.position.lat(),
+                      this.selectedMarker.position.lng(),
+                      this.setAddressInWindowContent
+                  ); */
             });
 
 
@@ -318,11 +318,11 @@ export default class extends React.Component {
             this.selectedMarker = this.markers[0];
             this.infowindow.setContent(this.addressWindowContent());
             this.infowindow.open(map, this.selectedMarker);
-            this.getAddress(
+            /* this.getAddress(
                 this.selectedMarker.position.lat(),
                 this.selectedMarker.position.lng(),
                 this.setAddressInWindowContent
-            );
+            ); */
         });
     };
 
