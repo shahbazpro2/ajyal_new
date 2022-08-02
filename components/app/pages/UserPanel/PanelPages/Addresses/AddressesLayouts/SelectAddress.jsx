@@ -41,14 +41,14 @@ class SelectAddress extends React.Component {
 
     this.zoom = this.props.zoom ? this.props.zoom : 11;
 
-      this.setCurLocation.bind(this);
-    
+    this.setCurLocation.bind(this);
+
 
 
 
   }
 
-  componentDidMount() {}
+  componentDidMount() { }
 
   addressWindowContent = () => {
     return `<div class="map__add-cnt">
@@ -77,14 +77,13 @@ class SelectAddress extends React.Component {
   getAddress = (lat, lng, cb) => {
     Geocode.setApiKey(this.API_KEY);
 
-    Geocode.fromLatLng(lat, lng , null , this.props.lang).then(
+    Geocode.fromLatLng(lat, lng, null, this.props.lang).then(
       (response) => {
         const address = response.results[0].formatted_address;
-               
-        if(this.props.selectedCountry !== undefined && this.props.selectedCountry !== null)
-        {
-        const currentCountry = response.results[1].address_components.find(x=>x.types[0] == "country").long_name;
-          if(currentCountry !== this.props.selectedCountry) {
+
+        if (this.props.selectedCountry !== undefined && this.props.selectedCountry !== null) {
+          const currentCountry = response.results[1].address_components.find(x => x.types[0] == "country").long_name;
+          if (currentCountry !== this.props.selectedCountry) {
             this.markers.forEach((marker) => {
               marker.setMap(null);
             });
@@ -186,16 +185,21 @@ class SelectAddress extends React.Component {
           anchor: new maps.Point(17, 34),
           scaledSize: new maps.Size(25, 25),
         };
+        const newMarker = new maps.Marker({
+          map,
+          icon,
+          title: place.name,
+          position: place.geometry.location,
+        })
         // Create a marker for each place.
         this.markers.push(
-          new maps.Marker({
-            map,
-            icon,
-            title: place.name,
-            position: place.geometry.location,
-          })
+          newMarker
         );
-
+        this.selectedMarker = newMarker
+        newMarker.addListener("click", (e) => {
+          this.selectedMarker = newMarker
+          console.log('marker click', e)
+        })
         if (place.geometry.viewport) {
           // Only geocodes have viewport.
           bounds.union(place.geometry.viewport);
@@ -206,6 +210,68 @@ class SelectAddress extends React.Component {
       map.fitBounds(bounds);
     });
   };
+
+  componentDidUpdate(prevProps, prevState) {
+    const { map, maps } = this.state
+    console.log('pokemons state has changed.', map, this.selectedMarker)
+    if (prevState.map !== this.state.map) {
+      if (map && maps) {
+
+        console.log('pokemons state has changed.')
+        this.handleSearchBox(map, maps);
+
+        this.infowindow = new maps.InfoWindow({
+          content: this.addressWindowContent(),
+        });
+
+        if (this.props.lat && this.props.lng) {
+          this.markers = [];
+          this.markers.push(
+            new maps.Marker({
+              position: { lat: this.props.lat, lng: this.props.lng },
+              map,
+              icon: PlaceHolderIcon,
+            })
+          );
+
+          this.selectedMarker = this.markers[0];
+        }
+
+
+      }
+    }
+    console.log('didupdatemarkers', this.markers)
+    if (map) {
+      map.addListener("click", (e) => {
+        console.log('click map')
+        this.markers.forEach((marker) => {
+
+          marker.setMap(null);
+        });
+
+        this.markers = [];
+
+        this.markers.push(
+          new maps.Marker({
+            position: e.latLng,
+            map,
+            icon: PlaceHolderIcon,
+          })
+        );
+
+        this.selectedMarker = this.markers[0];
+        this.infowindow.setContent(this.addressWindowContent());
+        this.infowindow.open(map, this.selectedMarker);
+        this.getAddress(
+          this.selectedMarker.position.lat(),
+          this.selectedMarker.position.lng(),
+          this.setAddressInWindowContent
+        );
+      });
+
+
+    }
+  }
 
   handleApiLoaded = (map, maps) => {
     this.map = map;
@@ -327,6 +393,7 @@ class SelectAddress extends React.Component {
                     className="gray__input mapAddress__searchInput"
                     ref={this.searchInput}
                   />
+
                   <GoogleMapReact
                     yesIWantToUseGoogleMapApiInternals
                     onGoogleApiLoaded={({ map, maps }) =>
@@ -338,7 +405,7 @@ class SelectAddress extends React.Component {
                     }}
                     defaultCenter={this.center}
                     defaultZoom={this.zoom}
-                    
+
                   ></GoogleMapReact>
                   <button
                     onClick={($event) => this.setCurLocation($event)}

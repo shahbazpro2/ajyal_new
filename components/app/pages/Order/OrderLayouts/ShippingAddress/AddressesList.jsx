@@ -36,7 +36,7 @@ import classnames from "classnames";
 import {
   client_changeMobileNumber,
   client_setDefaultAddress,
-  
+
 } from "../../../../../../lib/api/client/clientCommon";
 import { PhoneNumberFormat, PhoneNumberUtil } from "google-libphonenumber";
 import { orderContext } from "../../OrderContext";
@@ -47,8 +47,8 @@ const AddressesList = ({ handleSituation, setData, handleOrderStep }) => {
   const [selectedAddress, setSelectedAddress] = useState(null);
   const [continueLoading, setContinueLoading] = useState(false);
   const [verifyLoading, setVerifyLoading] = useState(false);
-const [deliverymode,setdeliveryMode] = useState([])
-const [selectd,setselectd]=useState(1);
+  const [deliverymode, setdeliveryMode] = useState([])
+  const [selectd, setselectd] = useState(1);
   const lang = useSelector(selectLang);
   const PNF = PhoneNumberFormat;
   const phoneUtil = PhoneNumberUtil.getInstance();
@@ -69,21 +69,21 @@ const [selectd,setselectd]=useState(1);
 
   useEffect(() => {
     getAddresses();
-    
-    const getdilivery=async()=>{
- const  result= await client_getAllShipMethod()
-  console.log(result);
-  setdeliveryMode(result.data.result)
-  //  .then((res)=>{
-  //   console.log("sejfsfsdfmsdfmsdmfsdmf",deliverymode,res);
-  //   setdeliveryMode(res?.result)
-  //   }).catch((err)=>{
-  //     console.log(err)
-  //   })
-     }
+
+    const getdilivery = async () => {
+      const result = await client_getAllShipMethod()
+      console.log(result);
+      setdeliveryMode(result.data.result)
+      //  .then((res)=>{
+      //   console.log("sejfsfsdfmsdfmsdmfsdmf",deliverymode,res);
+      //   setdeliveryMode(res?.result)
+      //   }).catch((err)=>{
+      //     console.log(err)
+      //   })
+    }
     getdilivery()
-  
-    return () => {};
+
+    return () => { };
   }, []);
 
   const handleDelete = async (addressId) => {
@@ -121,7 +121,7 @@ const [selectd,setselectd]=useState(1);
         lat: adr.locationX,
         lng: adr.locationY,
         isUpdate: true,
-        shipingproviderid:selectd
+        shipingproviderid: selectd
       },
       () => {
         handleSituation(SELECT_ADDRESS);
@@ -141,7 +141,7 @@ const [selectd,setselectd]=useState(1);
         lat: null,
         lng: null,
         isUpdate: false,
-        shipingproviderid:1
+        shipingproviderid: 1
       },
       () => {
         handleSituation(SELECT_ADDRESS);
@@ -159,20 +159,20 @@ const [selectd,setselectd]=useState(1);
     console.log(selectd)
     if (continueLoading) return;
 
-    if (!selectedAddress || selectedAddress.id === null ) {
+    if (!selectedAddress || selectedAddress.id === null) {
       toast.error(getErrorMsg(lang, "select-address"), getToastConfig());
       return;
     }
 
-    if (selectd===null) {
+    if (selectd === null) {
       toast.error(getErrorMsg(lang, "select-address"), getToastConfig());
       return;
     }
 
-    if (!selectedAddress.verified) {
-      toast.error(getErrorMsg(lang, "verify-mobile"), getToastConfig());
-      return;
-    }
+    /*   if (!selectedAddress.verified) {
+        toast.error(getErrorMsg(lang, "verify-mobile"), getToastConfig());
+        return;
+      } */
 
     setContinueLoading(true);
 
@@ -259,9 +259,9 @@ const [selectd,setselectd]=useState(1);
                         value={adr.mobileVerifed}
                       >
                         <div className="addresses__item-cnt no-gutters justify-content-between flex-wrap returns-add-single__addresses"
-                        
+
                         >
-                         
+
                           {/* display on langscape phones and smaller */}
                           {/* <LandScapePhones>
                             <a
@@ -316,9 +316,10 @@ const [selectd,setselectd]=useState(1);
                               <Translate id="common.phone" />
                             </span>
                             <span className="addresses__ars-value">
-                            {phoneUtil.format(
-                                phoneUtil.parseAndKeepRawInput(
-                                  adr.phoneCode + adr.transfereeMobile,
+                              {console.log('phoneutl', adr.phoneCode, adr.transfereeMobile, adr.iso)}
+                              {phoneUtil?.format(
+                                phoneUtil?.parseAndKeepRawInput(
+                                  adr.transfereeMobile.includes('+') ? adr.transfereeMobile : `${adr.phoneCode} ${adr.transfereeMobile}`,
                                   adr.iso
                                 ),
                                 PNF.INTERNATIONAL
@@ -391,7 +392,7 @@ const [selectd,setselectd]=useState(1);
                               </a>
                             </div>
                           </LandScapePhonesAndBigger>
-                      
+
 
                         </div>
                       </SelectBox.SelectItem>
@@ -403,10 +404,10 @@ const [selectd,setselectd]=useState(1);
           </section>
         )}
       </BoxStyle2>
-  
-                
+
+
       <section className="order-re__btn-cnt d-flex justify-content-end mt-4 mb-4 mr-xl-0 mr-3" >
-      
+
         <ProtraitPhonesAndBigger>
           <button className="primary-btn" onClick={handleAddNew}>
             <Translate id="shipping.add-new-address" />

@@ -83,12 +83,12 @@ class GoodDetail extends React.Component {
       providerProvinceId: this.goodData?.shopProvinceId,
       providerCityText: this.goodData?.shopCityTitle,
       providerCityDeliveryType: this.goodData?.goodsProviderVarity[0]
-        .shippingPossibilities,      
-    providerCityDeliveryTypeImage: this.goodData?.goodsProviderVarity[0]
-        .shippingImage,        
-    providerCityDeliveryTypeDesc: this.goodData?.goodsProviderVarity[0]
-        .shippingDesc,        
-    providerCityDeliveryPostTimeoutDay: this.goodData?.goodsProviderVarity[0]
+        .shippingPossibilities,
+      providerCityDeliveryTypeImage: this.goodData?.goodsProviderVarity[0]
+        .shippingImage,
+      providerCityDeliveryTypeDesc: this.goodData?.goodsProviderVarity[0]
+        .shippingDesc,
+      providerCityDeliveryPostTimeoutDay: this.goodData?.goodsProviderVarity[0]
         .postTimeoutDay,
       deliveryBoxLoading: false,
       handleCityClick: this.handleCityClick,
@@ -286,8 +286,8 @@ class GoodDetail extends React.Component {
                 goodsName={this.goodData?.title}
               />
             ) : (
-                <div style={{ height: "10px", width: "100%" }}></div>
-              )}
+              <div style={{ height: "10px", width: "100%" }}></div>
+            )}
           </DesktopsAndBigger>
           <div className="goodDetail">
             <CSSTransition
